@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="F68E55793E61E9FD5E8BF7B2C46172D4819E6A65BCDA0182B7D555081FC20835935B4130023524BBD6495E87538D21050BE2005CDA3286C937CF070111B6C045" Timestamp="1DCE1CD0C6D3C70" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.5.0.49854" Name="G Web Development Software" Version="22.3.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@137d952dad824d9b9ea76103edc01623" Id="e2ff298833644b6ba174cb5443b94230" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="d1c67383de0b487eaf9f39b9b9eef9b6" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="be54e16eacd046749e3cf29a17ff2319" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="6dcfe0ebc30f49fc96701c6bd11d4f0a" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@137d952dad824d9b9ea76103edc01623" Id="4a61b6e245514a5eb856bec5b341d8a5" Name="State">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="f4a801cfbca499eac11a79ab022bbeb" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="111cf31f8e3440e8e86a23caa5e93e9" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="e71d42e7a24b412cb5e61e1a31f9193c" Name="State.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="46325ce722be4bc88bb1f798dfc9209f" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="c8b6ff34341f41baa23c33b9c162d685" xmlns="http://www.ni.com/MocCommon">
+					<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]24" Id="2b82a16e48bd4cf9b5b4f4bc125be31e" IsTypeAheadEnabled="[bool]True" Label="[UIModel]8f38e8d5d97d45e1925d8de9e847ba7c" Left="[float]219" TabIndex="[int]0" Top="[float]188" Value="{DataItemBinding Id=4a61b6e245514a5eb856bec5b341d8a5}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]184" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+						<EnumSelectorInfo DisplayValue="[string]Init" DisplayValueOverride="[string]" Id="26" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Read Ini File" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Read XML File" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]2" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Wait For Interaction" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]3" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Common Information" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]4" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Basic Settings" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]5" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Diagnostic RT Data Sensors" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]6" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]DIagnostic RT Calibration" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]7" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Diagnostic Water iCS Switch" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]8" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Change Page" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]9" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Diagnostic Service History" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]10" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Diagnostic Running Times Comp" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]11" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Diagnostic Running Times Modes" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]12" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]System Logger" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]13" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Histogram temperature CPU" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]14" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Histogram temperature IO" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]15" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Histogram temperature LED hinge" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]16" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Histogram temperature LED handle" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]17" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Histogram temperature pump pcb" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]18" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Histogram temperature Gas Box" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]19" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Histogram Fan 1 RPM" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]20" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Histogram Fan 1 Power" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]21" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Histogram Fan 1 Temperature" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]22" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Histogram Fan 1 Voltage min" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]23" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Histogram Fan 1 Voltage max" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]24" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Histogram Fan 2 RPM" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]25" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Histogram Fan 2 Power" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]26" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Histogram Fan 2 Temperature" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]27" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Histogram Fan 2 Voltage min" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]28" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Histogram Fan 2 Voltage max" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]29" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Histogram Fan 3 RPM" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]30" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Histogram Fan 3 Power" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]31" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Histogram Fan 3 Temperature" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]32" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Histogram Fan 3 Voltage min" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]33" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Histogram Fan 3 Voltage max" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]34" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Histogram MMI CPU Load" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]35" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Histogram MMI RAM Load" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]36" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Histogram Basis CPU Load" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]37" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Histogram Basis RAM Load" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]38" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Histogram Magnetron Top Temperature" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]39" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Histogram Magnetron bottomTemperature" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]40" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Histogram Power Supply Top Temperature" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]41" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Histogram Power Supply bottom Temperature" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]42" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Change Device" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]43" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Common Information iVario" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]44" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Basic Settings iVario" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]45" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Diagnostic RT Data Sensors Heating iVario" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]46" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Diagnostic RT Data Sensors Movement iVario" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]47" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Diagnostic RT Data Sensors Pressure" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]48" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Diagnostic Service History iVario" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]49" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Diagnostic Running Times Modes iVario " DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]50" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Diagnostic Running Times Component iVario " DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]51" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Reset all" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]52" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Reset after wrong unit type" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]53" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Software Version History" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]54" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Software Version History iVario" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]55" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Component Replacement History iCombi" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]56" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Update Tab View" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]57" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]System OnOff History" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]58" ValueType="[Type]UInt16" />
+					</EnumSelector>
+					<Label Height="[float]16" Id="8f38e8d5d97d45e1925d8de9e847ba7c" LabelOwner="[UIModel]2b82a16e48bd4cf9b5b4f4bc125be31e" Left="[float]219" Text="[string]State" Top="[float]168" Width="[float]27" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="137d952dad824d9b9ea76103edc01623">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="Init" />
+					<EnumerationMember Value="1" Name="Read Ini File" />
+					<EnumerationMember Value="2" Name="Read XML File" />
+					<EnumerationMember Value="3" Name="Wait For Interaction" />
+					<EnumerationMember Value="4" Name="Common Information" />
+					<EnumerationMember Value="5" Name="Basic Settings" />
+					<EnumerationMember Value="6" Name="Diagnostic RT Data Sensors" />
+					<EnumerationMember Value="7" Name="DIagnostic RT Calibration" />
+					<EnumerationMember Value="8" Name="Diagnostic Water iCS Switch" />
+					<EnumerationMember Value="9" Name="Change Page" />
+					<EnumerationMember Value="10" Name="Diagnostic Service History" />
+					<EnumerationMember Value="11" Name="Diagnostic Running Times Comp" />
+					<EnumerationMember Value="12" Name="Diagnostic Running Times Modes" />
+					<EnumerationMember Value="13" Name="System Logger" />
+					<EnumerationMember Value="14" Name="Histogram temperature CPU" />
+					<EnumerationMember Value="15" Name="Histogram temperature IO" />
+					<EnumerationMember Value="16" Name="Histogram temperature LED hinge" />
+					<EnumerationMember Value="17" Name="Histogram temperature LED handle" />
+					<EnumerationMember Value="18" Name="Histogram temperature pump pcb" />
+					<EnumerationMember Value="19" Name="Histogram temperature Gas Box" />
+					<EnumerationMember Value="20" Name="Histogram Fan 1 RPM" />
+					<EnumerationMember Value="21" Name="Histogram Fan 1 Power" />
+					<EnumerationMember Value="22" Name="Histogram Fan 1 Temperature" />
+					<EnumerationMember Value="23" Name="Histogram Fan 1 Voltage min" />
+					<EnumerationMember Value="24" Name="Histogram Fan 1 Voltage max" />
+					<EnumerationMember Value="25" Name="Histogram Fan 2 RPM" />
+					<EnumerationMember Value="26" Name="Histogram Fan 2 Power" />
+					<EnumerationMember Value="27" Name="Histogram Fan 2 Temperature" />
+					<EnumerationMember Value="28" Name="Histogram Fan 2 Voltage min" />
+					<EnumerationMember Value="29" Name="Histogram Fan 2 Voltage max" />
+					<EnumerationMember Value="30" Name="Histogram Fan 3 RPM" />
+					<EnumerationMember Value="31" Name="Histogram Fan 3 Power" />
+					<EnumerationMember Value="32" Name="Histogram Fan 3 Temperature" />
+					<EnumerationMember Value="33" Name="Histogram Fan 3 Voltage min" />
+					<EnumerationMember Value="34" Name="Histogram Fan 3 Voltage max" />
+					<EnumerationMember Value="35" Name="Histogram MMI CPU Load" />
+					<EnumerationMember Value="36" Name="Histogram MMI RAM Load" />
+					<EnumerationMember Value="37" Name="Histogram Basis CPU Load" />
+					<EnumerationMember Value="38" Name="Histogram Basis RAM Load" />
+					<EnumerationMember Value="39" Name="Histogram Magnetron Top Temperature" />
+					<EnumerationMember Value="40" Name="Histogram Magnetron bottomTemperature" />
+					<EnumerationMember Value="41" Name="Histogram Power Supply Top Temperature" />
+					<EnumerationMember Value="42" Name="Histogram Power Supply bottom Temperature" />
+					<EnumerationMember Value="43" Name="Change Device" />
+					<EnumerationMember Value="44" Name="Common Information iVario" />
+					<EnumerationMember Value="45" Name="Basic Settings iVario" />
+					<EnumerationMember Value="46" Name="Diagnostic RT Data Sensors Heating iVario" />
+					<EnumerationMember Value="47" Name="Diagnostic RT Data Sensors Movement iVario" />
+					<EnumerationMember Value="48" Name="Diagnostic RT Data Sensors Pressure" />
+					<EnumerationMember Value="49" Name="Diagnostic Service History iVario" />
+					<EnumerationMember Value="50" Name="Diagnostic Running Times Modes iVario " />
+					<EnumerationMember Value="51" Name="Diagnostic Running Times Component iVario " />
+					<EnumerationMember Value="52" Name="Reset all" />
+					<EnumerationMember Value="53" Name="Reset after wrong unit type" />
+					<EnumerationMember Value="54" Name="Software Version History" />
+					<EnumerationMember Value="55" Name="Software Version History iVario" />
+					<EnumerationMember Value="56" Name="Component Replacement History iCombi" />
+					<EnumerationMember Value="57" Name="Update Tab View" />
+					<EnumerationMember Value="58" Name="System OnOff History" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

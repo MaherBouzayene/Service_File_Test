@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="9417E076621CAF36B565DAA652913C9853489BF086259DF3E71A684ABFF45115B25951511D4212AE178FF07A83541710C347C93C2FB4C7DB7F43AC84C455A6FE" Timestamp="1DB2EEC64E36D76" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.5.0.49854" Name="G Web Development Software" Version="22.3.0" />
+	</SourceModelFeatureSet>
+	<DistributionDefinition Product="WebApp" ShortDescription="XML Datainterpreter" TargetedProduct="LabVIEW" xmlns="http://www.ni.com/GComponent.xsd">
+		<DistributionDependencyContent DisplayName="ni-certificates" Id="7af2eae2acc9437081d299b60f9377d3" Included="False" Name="ni-certificates" RequirementType="Recommended" VersionRequirement="None" />
+		<DistributionOutput CachedDisplayName="Package Installer" Id="48dbe5004d39475999324fcc7213a9dd" p3:CustomNipmPackageName="xmldatainterpreter" p3:DistributionCategory="Application" p3:PackageDisplayName="WebApp" xmlns:p3="http://www.ni.com/GComponent.xsd" />
+		<DistributionBuildTarget Id="401a0c55a1af431b9f3cf658ea4bad53" Target="::VireoDevSystem" />
+		<DistributionMemberDependencySource Id="522c416aacf143498e48a7695f15c158" MemberContentType="{http://www.ni.com/GComponent.xsd}Component_Rebuild" RelativeLocation="&quot;Web Server\\htdocs\\WebApp&quot;" RootLocation="NISharedDirectory64" Target="::VireoDevSystem::Interactive::WebApp.gcomp" />
+		<DistributionDependencyContent DisplayName="NI-Webserver" Id="6c104d29d494892b81a12a4bcf6bbe4" Included="False" MaintainerName="National Instruments" Name="ni-webserver" Version="21.3.0.49152-0+f0" />
+	</DistributionDefinition>
+</SourceFile>

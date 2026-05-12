@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="615D2142A009FEDD326EACDBBF8A1B2671A57B0EC927661DDBEAB3371DA351009F23C6AC1E0052CE2DCD92D2778B92D652048B5846673652093CB87398B8F635" Timestamp="1DCE1D958EF2559" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.5.0.49854" Name="G Web Development Software" Version="22.3.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="1" RootNamespaceId="14" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="4" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="5" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration ComponentSubtypeIdentifier="WebApplication" Id="10" Name="Configuration1">
+			<CompilerSymbolTable Id="11" xmlns="http://www.ni.com/PlatformFramework" />
+			<WebApplicationOutputTypeProperties Id="12" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" />
+			<ComponentItemProperties AssociatedEnvoyId="1db31be8bcbf4caa8119cfd6192b1d43" Id="c6378a1f66ce478f823e8199a8cbf311" TopLevel="True" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="d524a2efd98494a85d24e1e6d9c0d04" Id="61d7e228ab134d00ac80ccc2412c4f62" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="491f4c11a4246a6b0a70a5ec7f71e2e" Id="32c40d9b798a4e93aba56205adccf545" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="768f0b40136e4c829652f2c38d6e2f08" Id="34553c8471264101ba9a0f60b2d3fc46" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="598d936703ca426bb83f80b75b892fb8" Id="fa7d152ba71147d3b25d02803c6f2675" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="1e8974db2c724f94bf671c871f69d283" Id="65c59e5033074354988d20a78ba9892f" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="51e27e7abba844d3a1749fd24f197352" Id="a7a7f13dac8748deba3ac4425d2bd633" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="982910e441c94950a1c8c953f5b86c20" Id="6a5813ca2cdb4a5d9f44d1280c0468b3" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="32eb2516690d4cb68feb2d88c5713263" Id="6c8d2de93ca54a848c444fc3dd4e112d" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="d75eb73870914943b184a806646c5f96" Id="3500ed407316447899a2e5cf6d34ed00" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="d972b657f2af4b6b97137df44f17fdd9" Id="dd0e4372117c4004bd8a77ceb8f455c2" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="45e23d505c2a4ecd9747bbf61e9707a6" Id="c02ab4d900fb49f18a1732e0e01dbf6b" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="ca143d67657147fc989cf6556a9edbe5" Id="162fc8ee51ff4f32873d9fc0b96f25b9" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="7815c5128ab74a0caff25d9da098fa0a" Id="9112daa074ca420380e2510cf6f00c18" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="d569c4888d24976b35242ffb6a398a8" Id="5d71e989e6304c33a4af1685fe0b81fc" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="d35c62c406de4b399c029f70c8de7f20" Id="9f8dc855cd374b8bab6c78e632c17207" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="d5d1252b338b410a819f0f7cfbb15277" Id="c0c2fec476bc443b9b1e0b26338497e1" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="4dc6d742c0f9499cab92dbc3feba1a73" Id="51550c65cd4b4822a6c543df286672fc" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="8d60f11bb76941e9900a68de6dab0661" Id="bce5724c92e04dc98ab2bf8a95790061" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="76046b120f324adfb25640411fdb4dd1" Id="707c76dbaed24b9a89646b11d5e058a8" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="7e5f89faa3bb474289584686f9f10a46" Id="e8f31e9644ca45bd98e3ef08f15444b1" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="c99e76aa24c447ab8b149107c06be005" Id="9620c96a9f04af0adee4b4e42f22f63" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="3f27cead71b44afdb29e6e8fe0e4fa37" Id="37d287f5e6c477e87723762a2db4dcc" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="2c770557e4c348e6ab98321e133c6d3a" Id="1374b8f7e50a4f9394c1ac874af267c1" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="604ca7e74e1e4566be19e367f616aa80" Id="49793085be5642f8aa495593fb2778ab" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="45ba423c90c9487dbe836fcd7066ca48" Id="35a65e65817440769a51fe57c0677326" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="9ac1a0a2e06e44978317649cd8158e80" Id="530136c201924d26a7a66b2b2b382c78" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="6f799d31b6cf4f32adef65f95c678c5a" Id="cff0882616764e0a96298d8de0deec22" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="cb32ebcb9984ed8b0badd0fbaade016" Id="1f8c530c2a0443bfb0a60a4e7dbccfa9" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="7d8d60f628e647cb9acb74da055e53ac" Id="6b19831920504655a7b29fc4b268b0a8" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="9c6f55d794f147529c2e80b8906e4d84" Id="5c144d4e37bc4262949fae1e0aa07a4c" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="9778247e50b140f28fa60c86d7ddd7ae" Id="104f8217bb604c6186d2f08de90c27f8" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="82d6dabba6a04d3f97265a97eab18a03" Id="bc58d2dee60f4bcbbdaf0ead3ee782a9" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="f35f7b7ca0944d42ab37595b0fefa156" Id="bef64e7fc041c08c0d27448fb3bd87" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="3197352574e34edba5ee7685df77647e" Id="268bc0bc05454913a5c4f9d0a7d9eab8" TopLevel="True" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="6" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="7" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="8" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="14" Name="WebApp">
+				<SourceFileReference Id="1db31be8bcbf4caa8119cfd6192b1d43" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="index.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="index.gviweb" />
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="13ee135fa4824253b8695005b8a1b38b" Name="Support">
+					<SourceFileReference Id="3042c87a252c4ecb986944b78ec3cc29" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Show Error Dialog.gvi" StoragePath="Support\Show Error Dialog.gvi" />
+				</NameScopingEnvoy>
+				<FileReference Bindings=".ini" Id="d524a2efd98494a85d24e1e6d9c0d04" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Config_XML_Datainterpreter.ini" StoragePath="Config_XML_Datainterpreter.ini" />
+				<SourceFileReference Bindings="EnvoyManager" Id="97ebc7cfd47b417fa7f696408a7ff946" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="State.gtype" StoragePath="State.gtype\State.gtype" />
+				<SourceFileReference Id="95d2702db96f4304bfd4eb35e31bbd5c" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Read_XML_Part.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Read_XML_Part.gviweb" />
+				<SourceFileReference Id="9be737531a8d48e9a9cf8e8b09891a03" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Interpret_Common_Information.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Interpret_Common_Information.gviweb" />
+				<FileReference Bindings=".jpg" Id="491f4c11a4246a6b0a70a5ec7f71e2e" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="2-S P.jpg" StoragePath="2-S P.jpg" />
+				<FileReference Bindings=".jpg" Id="768f0b40136e4c829652f2c38d6e2f08" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="2-S.jpg" StoragePath="2-S.jpg" />
+				<FileReference Bindings=".jpg" Id="598d936703ca426bb83f80b75b892fb8" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="2-XS P.jpg" StoragePath="2-XS P.jpg" />
+				<FileReference Bindings=".jpg" Id="1e8974db2c724f94bf671c871f69d283" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="2-XS.jpg" StoragePath="2-XS.jpg" />
+				<FileReference Bindings=".jpg" Id="51e27e7abba844d3a1749fd24f197352" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="623.jpg" StoragePath="623.jpg" />
+				<FileReference Bindings=".jpg" Id="982910e441c94950a1c8c953f5b86c20" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="E61.jpg" StoragePath="E61.jpg" />
+				<FileReference Bindings=".jpg" Id="32eb2516690d4cb68feb2d88c5713263" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="E61T.jpg" StoragePath="E61T.jpg" />
+				<FileReference Bindings=".jpg" Id="d75eb73870914943b184a806646c5f96" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="E62.jpg" StoragePath="E62.jpg" />
+				<FileReference Bindings=".jpg" Id="d972b657f2af4b6b97137df44f17fdd9" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="E101.jpg" StoragePath="E101.jpg" />
+				<FileReference Bindings=".jpg" Id="45e23d505c2a4ecd9747bbf61e9707a6" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="E102.jpg" StoragePath="E102.jpg" />
+				<FileReference Bindings=".jpg" Id="ca143d67657147fc989cf6556a9edbe5" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="E201.jpg" StoragePath="E201.jpg" />
+				<FileReference Bindings=".jpg" Id="7815c5128ab74a0caff25d9da098fa0a" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="E202.jpg" StoragePath="E202.jpg" />
+				<FileReference Bindings=".jpg" Id="d569c4888d24976b35242ffb6a398a8" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="E523.jpg" StoragePath="E523.jpg" />
+				<FileReference Bindings=".jpg" Id="d35c62c406de4b399c029f70c8de7f20" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="G61.jpg" StoragePath="G61.jpg" />
+				<FileReference Bindings=".jpg" Id="d5d1252b338b410a819f0f7cfbb15277" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="G62.jpg" StoragePath="G62.jpg" />
+				<FileReference Bindings=".jpg" Id="4dc6d742c0f9499cab92dbc3feba1a73" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="G101.jpg" StoragePath="G101.jpg" />
+				<FileReference Bindings=".jpg" Id="8d60f11bb76941e9900a68de6dab0661" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="G102.jpg" StoragePath="G102.jpg" />
+				<FileReference Bindings=".jpg" Id="76046b120f324adfb25640411fdb4dd1" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="G201.jpg" StoragePath="G201.jpg" />
+				<FileReference Bindings=".jpg" Id="7e5f89faa3bb474289584686f9f10a46" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="G202.jpg" StoragePath="G202.jpg" />
+				<FileReference Bindings=".jpg" Id="c99e76aa24c447ab8b149107c06be005" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="L P.jpg" StoragePath="L P.jpg" />
+				<FileReference Bindings=".jpg" Id="3f27cead71b44afdb29e6e8fe0e4fa37" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="L.jpg" StoragePath="L.jpg" />
+				<FileReference Bindings=".jpg" Id="2c770557e4c348e6ab98321e133c6d3a" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="No_Picture.jpg" StoragePath="No_Picture.jpg" />
+				<FileReference Bindings=".jpg" Id="604ca7e74e1e4566be19e367f616aa80" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="XL P.jpg" StoragePath="XL P.jpg" />
+				<FileReference Bindings=".jpg" Id="45ba423c90c9487dbe836fcd7066ca48" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="XL.jpg" StoragePath="XL.jpg" />
+				<SourceFileReference Id="95529894bc0a483b828ef9f72c70eca2" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Exlude_WA_Entrys.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Exlude_WA_Entrys.gviweb" />
+				<SourceFileReference Id="fc2db59dc2d44f16a1cfe7896d48ed9c" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get_Config_ini_Part.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Get_Config_ini_Part.gviweb" />
+				<SourceFileReference Id="cd12cef2c543492e88860c4a9975b5d9" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Interpret_Basic_Settings.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Interpret_Basic_Settings.gviweb" />
+				<SourceFileReference Id="f1b61435a4564f2883956250e7bb6fe7" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Set_Eco_State.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Set_Eco_State.gviweb" />
+				<SourceFileReference Id="4dcb3525f39348c1bd38d5c89c6c8ef3" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Interpret_Diagnostic_RT_Data_Sensors.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Interpret_Diagnostic_RT_Data_Sensors.gviweb" />
+				<SourceFileReference Id="289dc46b04e7411a9ce53bd2d367f338" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Interpret_Diagnostic_RT_Calibration.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Interpret_Diagnostic_RT_Calibration.gviweb" />
+				<SourceFileReference Id="e6fef3f95bc9429c9f942c0cf4fa7f99" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Interpret_Diagnostic_Water_iCS_Switch.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Interpret_Diagnostic_Water_iCS_Switch.gviweb" />
+				<SourceFileReference Id="b8d457b701234623b95f1f372a46e85e" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Diagnostic_Service_History.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Diagnostic_Service_History.gviweb" />
+				<SourceFileReference Id="d0ef31c0a2534cc8a81c57d9631cb982" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Interpret_Diagnostic_RunningTimes_Comp.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Interpret_Diagnostic_RunningTimes_Comp.gviweb" />
+				<SourceFileReference Id="f4b50a11f50540c2be726c48955877af" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Interpret_Diagnostic_RunningTimes_Modes.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Interpret_Diagnostic_RunningTimes_Modes.gviweb" />
+				<SourceFileReference Id="9a6c164ee87c4e09bbf6008cdc626145" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Interpret_SystemLogger.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Interpret_SystemLogger.gviweb" />
+				<SourceFileReference Id="ab9d9ff140f04af282b811bb64cb7990" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Change_to_validate_Date.gvi" StoragePath="Change_to_validate_Date.gvi" />
+				<SourceFileReference Id="bbe0fb7efb5c4146a135b460a8d1ae2d" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Interpret_Histogram_CPU_IO_Temperature.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Interpret_Histogram_CPU_IO_Temperature.gviweb" />
+				<FileReference Bindings=".jpg" Id="9ac1a0a2e06e44978317649cd8158e80" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="skala_120.jpg" StoragePath="skala_120.jpg" />
+				<FileReference Bindings=".jpg" Id="6f799d31b6cf4f32adef65f95c678c5a" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="skala_fan_RPM.jpg" StoragePath="skala_fan_RPM.jpg" />
+				<FileReference Bindings=".jpg" Id="cb32ebcb9984ed8b0badd0fbaade016" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="skala_fan_Puis.jpg" StoragePath="skala_fan_Puis.jpg" />
+				<FileReference Bindings=".jpg" Id="7d8d60f628e647cb9acb74da055e53ac" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="skala_fan_voltage.jpg" StoragePath="skala_fan_voltage.jpg" />
+				<FileReference Bindings=".jpg" Id="9c6f55d794f147529c2e80b8906e4d84" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="skala_fan_temp.jpg" StoragePath="skala_fan_temp.jpg" />
+				<FileReference Bindings=".jpg" Id="9778247e50b140f28fa60c86d7ddd7ae" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="skala_MMI.jpg" StoragePath="skala_MMI.jpg" />
+				<FileReference Bindings=".png" Id="82d6dabba6a04d3f97265a97eab18a03" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Rational_Logo.png" StoragePath="Rational_Logo.png" />
+				<SourceFileReference Id="b1f0e2ca896b4d82a4efb32e0d180dd4" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Interpret_Common_Information_iVario.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Interpret_Common_Information_iVario.gviweb" />
+				<FileReference Bindings=".png" Id="f35f7b7ca0944d42ab37595b0fefa156" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="No_Analyse.png" StoragePath="No_Analyse.png" />
+				<SourceFileReference Id="2c8da99d173144839cb417421f100e82" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Interpret_Basic_Settings_iVario.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Interpret_Basic_Settings_iVario.gviweb" />
+				<SourceFileReference Id="fd9616a589b4831b3b147bdf431ccb2" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Interpret_Diagnostic_RT_Data_Sensors_Heating.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Interpret_Diagnostic_RT_Data_Sensors_Heating.gviweb" />
+				<SourceFileReference Id="53ee42bbfffa41b19ec0cc0ceb74e87c" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Interpret_Diagnostic_RT_Data_Sensors_Movement.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Interpret_Diagnostic_RT_Data_Sensors_Movement.gviweb" />
+				<SourceFileReference Id="43b2ae2b6f5344608852a19d607da5a7" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Interpret_Diagnostic_RT_Data_Sensors_Pressure.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Interpret_Diagnostic_RT_Data_Sensors_Pressure.gviweb" />
+				<SourceFileReference Id="ae72018cdcc948d0968bbc6fc5a63fb7" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Sort_Service_History_MSGs_Default.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Sort_Service_History_MSGs_Default.gviweb" />
+				<SourceFileReference Id="c2e9596bae514552a8f00cd5a26b0e94" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Sort_Service_History_event.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Sort_Service_History_event.gviweb" />
+				<SourceFileReference Id="fcd7a555ff4e408d8079db88ae3aff2e" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Exclude_iVario_Entry.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Exclude_iVario_Entry.gviweb" />
+				<SourceFileReference Id="84f2ea3df4824f3d9a60e7456c7672d2" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Interpret_Software_Version_History.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Interpret_Software_Version_History.gviweb" />
+				<SourceFileReference Id="e1bd46806e2b45ccbd84eafd15089250" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Interpret_Component_Replacement_History.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Interpret_Component_Replacement_History.gviweb" />
+				<SourceFileReference Id="e7fa3a1f2e26496ca09619597afb0469" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Find_Service_Error_Name.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Find_Service_Error_Name.gviweb" />
+				<SourceFileReference Id="9c1220614f3a482588b075a29da179a1" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Delete_Duplikate_from_Array.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Delete_Duplikate_from_Array.gviweb" />
+				<SourceFileReference Id="d1dfc80c1f3d4b8cae27df35b106520e" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Add_BMK_to_Comment.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Add_BMK_to_Comment.gviweb" />
+				<SourceFileReference Id="3197352574e34edba5ee7685df77647e" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="service_Msg_History.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="service_Msg_History.gviweb" />
+				<SourceFileReference Id="7e71d61afc954667bfc0161f72627e8b" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Display_Service_MSG_History_In_Part.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Display_Service_MSG_History_In_Part.gviweb" />
+				<SourceFileReference Id="d3e75c56ac7e4c0092c9c90f0c9798ca" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Display_Information_In_Tabular_Form.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Display_Information_In_Tabular_Form.gviweb" />
+				<SourceFileReference Id="b25e553c0314489282f1bebc83f0549b" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Sort_Common_Infomation.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Sort_Common_Infomation.gviweb" />
+				<SourceFileReference Id="94a91b311d364a38ab9bfb6b6b0cebc3" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Sort_Basic_Settings.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Sort_Basic_Settings.gviweb" />
+				<SourceFileReference Id="8d76f63281084ef883ef77c5ba53b4b4" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Sort_Diagnostic_Real_Time_Data_Sensors.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Sort_Diagnostic_Real_Time_Data_Sensors.gviweb" />
+				<SourceFileReference Id="d29911bfcfa44a9ca71674b4bde72bbf" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Sort_Diagnostic_RT_Calibration.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Sort_Diagnostic_RT_Calibration.gviweb" />
+				<SourceFileReference Id="86444824bfa7454dbbe77bf0c0aed6b5" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Sort_Diagnostic_Water_iCs_Switch.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Sort_Diagnostic_Water_iCs_Switch.gviweb" />
+				<SourceFileReference Id="bc48d1fa97754292bfa7a8bd5e34a272" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Sort_Diagnostic_Service_History.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Sort_Diagnostic_Service_History.gviweb" />
+				<SourceFileReference Id="2d4eb3371cac4cd29c4af80c0dbbe62d" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Sort_RunningTimes_Components.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Sort_RunningTimes_Components.gviweb" />
+				<SourceFileReference Id="d3d91a0c714d4d91980a162082c72156" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Sort_System_Logger.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Sort_System_Logger.gviweb" />
+				<SourceFileReference Id="6bab3955a4a845f1a9a3f7ce77f97918" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Sort_Diagnostic_RunningTimes_Modes.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Sort_Diagnostic_RunningTimes_Modes.gviweb" />
+				<SourceFileReference Id="a04be645a21044fb920b52b4a5fdac20" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Sort_Total_Running_Time.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Sort_Total_Running_Time.gviweb" />
+				<SourceFileReference Id="2f9a9731d9c4ea0b03c4e7eeb6ec4a7" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Function.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Function.gviweb" />
+				<SourceFileReference Id="5c032dce79d74d33b90db82e5a2e7c08" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Function_2.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Function_2.gviweb" />
+				<SourceFileReference Id="e956a1dea9834f1db49181f99fec9bbe" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Update_Type_Component_History.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Update_Type_Component_History.gviweb" />
+				<SourceFileReference Id="b3bf04fdfbf74fa4b7bc2eeb04280f5a" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Interpret_System_OnOff_History.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Interpret_System_OnOff_History.gviweb" />
+				<SourceFileReference Id="e9f78d31c31c42b498408be0f9d1cbd1" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Reason_OnOffEvent.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Reason_OnOffEvent.gviweb" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="9" Name="WebApp.gcomp" NameTracksFileName="True">
+			<ContentReference ContentIdentifier="10" Id="13" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="3B1A3287EC2926A0EC67D103778ED0BB9338F398444554E8E1C6485CFEA3FB85C41A3361A54C7FF0BB6C7B5D8E37374D9462E7D718029F567B8E68C90D41BF37" Timestamp="1DB43D570AB8F67" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.5.0.49854" Name="G Web Development Software" Version="22.3.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="e40521de292e486c95ce62c7589a1625" RootNamespaceId="e50795886cc04fed80dbaf93400b33f7" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="98ef9c1fe9be4f6bab67070bc8d2a552" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="beaea2b5c9a94edf8755f75c8615f4fa" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="47ced5c57d9b40bbb6c65612dc4856b0" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="638e69449cb746a7874d1f75926e955d" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration ComponentSubtypeIdentifier="G Library" Id="c3b9d1d9ef049d0b1b400be8e0d2589" Name="Configuration1">
+			<CompilerSymbolTable Id="25d5f4e399384b22a7a416dfbe7f2da5" xmlns="http://www.ni.com/PlatformFramework" />
+			<GLibraryProperties Id="2df8ce04e1a24c34a3fdac1047d741fe" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="cbef635eed2045e89315dee46e42d8d6" Id="667a09db86fd4e1b839017d811ced9c5" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="7d679deecb02468cad2c615f736beb1a" Id="95b98d98688e4990ade8ad6e9df7364e" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="f90d2eb1caae4672b0a815c58f58b52c" Id="a03a1d075f5145caa313b3579f82aaf9" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="bc649dd1e9864e98b9c586d4a8c021ed" Id="cdc584a3d3724163abfa0afae5df3d15" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="15454c563742471abed7bae08e338477" Id="fe632975da784895a24205609afe93c6" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="cd96d819312149e09fb2a6334896db88" Id="ae19efa23142436f91db5998f705d726" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="f4e390332e0443dea4096a17ab98c4f9" Id="ea7a9ae55dc426faabebf5ad74d52c2" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="6c40d629ba648baa29f4400f6f8d1a9" Id="ca0c2caffb65404b911fa76d794bb271" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="ea11418ae6cb4fcba0662b5d739d6700" Id="6229e7a54eed4eb2acb3d14b77e5a8d3" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="a0d6862c14984f06b6880bbcf1c7f1cb" Id="d2033656fa9d4a85a3e4605524afde0c" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="e08b38cd54504589a05c43664b0e4716" Id="add635df558440ca86cafd9a354b662" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="9979068311ee46f9972f33b0d169052a" Id="2f8521239d1c42759ef2d627292db8fa" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="49d71e2d9e8b4c029463df2a388e8b29" Id="c831736e0fbd48c0b39cce8cf3ab8ae7" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="8acdd17ffbbf47c2a1d74716847e95f5" Id="20e82bdb4756436688a16241be486d90" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="7cf9fe6b13c948d79f3225249c635329" Id="249bd47c57ce4a80b85c0cfe25aa07f3" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="4b87b3b10664de4b0e78a5d1c629db8" Id="c09db8ad00da4c7492fe0316f2699c5a" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="5a545ede889f4080b591934582b1ac85" Id="9772071806ee400783501287f9f01052" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="cb6bc211bc5c4a72a8809e13965e3de4" Id="66001610ace045998e4d3aa308b4db40" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="4d4d87abaacc436bbf75e2fdb1e003df" Id="51aa3afef52a4fe899962b378864b186" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="f0baedca5d314128a133871cbceca77c" Id="55c61388a154a61a261918c060cf39b" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="e4b4115fc1be4470b6b64f54f88a298d" Id="5da4f3697c6b4260830f8bf4611f5788" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="758ae153bc8f4fff8580a0b5228020e5" Id="5831937974f14976b5b7d0f4a1abbbb0" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="68a002a864f24bfead66fd5c2d73759d" Id="2715cf3868494b1283fd615101b38b4e" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="28d105d5488846fcba016189839188d7" Id="af2c8fa14c694722976f091dd105bc71" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="a13bf4f98524539a1e9575d6bdd03cc" Id="3a8e659a32ef4ddf93dd62616cf0d55d" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="509ca18abad341a5bbc180704d88aeac" Id="2530dcfd412146a9b9fb3fe4d2c2ade9" />
+			<ComponentItemProperties AssociatedEnvoyId="be41534abc2f4b7f9010aaa8b72bebc8" Exported="True" Id="1f6e5c0f017149b6a18355cd05330f71" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="9bd2ede994fa47c2b5b94c1353cbcd5c" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="2241e5c1e247e9bdf0a59b8e53af20" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="e9785f2bf5cf410f9d73e787e1a5b7a9" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="e50795886cc04fed80dbaf93400b33f7" Name="Library">
+				<FileReference Bindings=".jpg" Id="cbef635eed2045e89315dee46e42d8d6" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="2-S P.jpg" StoragePath="2-S P.jpg" />
+				<FileReference Bindings=".jpg" Id="7d679deecb02468cad2c615f736beb1a" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="2-S.jpg" StoragePath="2-S.jpg" />
+				<FileReference Bindings=".jpg" Id="f90d2eb1caae4672b0a815c58f58b52c" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="2-XS P.jpg" StoragePath="2-XS P.jpg" />
+				<FileReference Bindings=".jpg" Id="bc649dd1e9864e98b9c586d4a8c021ed" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="2-XS.jpg" StoragePath="2-XS.jpg" />
+				<FileReference Bindings=".jpg" Id="15454c563742471abed7bae08e338477" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="623.jpg" StoragePath="623.jpg" />
+				<FileReference Bindings=".jpg" Id="cd96d819312149e09fb2a6334896db88" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="E61.jpg" StoragePath="E61.jpg" />
+				<FileReference Bindings=".jpg" Id="f4e390332e0443dea4096a17ab98c4f9" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="E61T.jpg" StoragePath="E61T.jpg" />
+				<FileReference Bindings=".jpg" Id="6c40d629ba648baa29f4400f6f8d1a9" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="E62.jpg" StoragePath="E62.jpg" />
+				<FileReference Bindings=".jpg" Id="ea11418ae6cb4fcba0662b5d739d6700" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="E101.jpg" StoragePath="E101.jpg" />
+				<FileReference Bindings=".jpg" Id="a0d6862c14984f06b6880bbcf1c7f1cb" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="E102.jpg" StoragePath="E102.jpg" />
+				<FileReference Bindings=".jpg" Id="e08b38cd54504589a05c43664b0e4716" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="E201.jpg" StoragePath="E201.jpg" />
+				<FileReference Bindings=".jpg" Id="9979068311ee46f9972f33b0d169052a" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="E202.jpg" StoragePath="E202.jpg" />
+				<FileReference Bindings=".jpg" Id="49d71e2d9e8b4c029463df2a388e8b29" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="E523.jpg" StoragePath="E523.jpg" />
+				<FileReference Bindings=".jpg" Id="8acdd17ffbbf47c2a1d74716847e95f5" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="G61.jpg" StoragePath="G61.jpg" />
+				<FileReference Bindings=".jpg" Id="7cf9fe6b13c948d79f3225249c635329" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="G62.jpg" StoragePath="G62.jpg" />
+				<FileReference Bindings=".jpg" Id="4b87b3b10664de4b0e78a5d1c629db8" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="G101.jpg" StoragePath="G101.jpg" />
+				<FileReference Bindings=".jpg" Id="5a545ede889f4080b591934582b1ac85" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="G102.jpg" StoragePath="G102.jpg" />
+				<FileReference Bindings=".jpg" Id="cb6bc211bc5c4a72a8809e13965e3de4" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="G201.jpg" StoragePath="G201.jpg" />
+				<FileReference Bindings=".jpg" Id="4d4d87abaacc436bbf75e2fdb1e003df" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="G202.jpg" StoragePath="G202.jpg" />
+				<FileReference Bindings=".jpg" Id="f0baedca5d314128a133871cbceca77c" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="L P.jpg" StoragePath="L P.jpg" />
+				<FileReference Bindings=".jpg" Id="e4b4115fc1be4470b6b64f54f88a298d" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="L.jpg" StoragePath="L.jpg" />
+				<FileReference Bindings=".jpg" Id="758ae153bc8f4fff8580a0b5228020e5" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="No_Picture.jpg" StoragePath="No_Picture.jpg" />
+				<FileReference Bindings=".jpg" Id="68a002a864f24bfead66fd5c2d73759d" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="rat.JPG" StoragePath="rat.JPG" />
+				<FileReference Bindings=".jpg" Id="28d105d5488846fcba016189839188d7" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="XL P.jpg" StoragePath="XL P.jpg" />
+				<FileReference Bindings=".jpg" Id="a13bf4f98524539a1e9575d6bdd03cc" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="XL.jpg" StoragePath="XL.jpg" />
+				<FileReference Bindings=".jpg" Id="509ca18abad341a5bbc180704d88aeac" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="skala_fan_temp.jpg" StoragePath="skala_fan_temp.jpg" />
+				<SourceFileReference Id="be41534abc2f4b7f9010aaa8b72bebc8" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Check_XML_Device.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Check_XML_Device.gviweb" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="2214fadaed3042ff8b72598c2642f214" Name="data.gcomp" NameTracksFileName="True">
+			<ContentReference ContentIdentifier="c3b9d1d9ef049d0b1b400be8e0d2589" Id="d6ad63340b0046fba086f41ca8e829eb" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

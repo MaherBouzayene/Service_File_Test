@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LocalizedStringsDictionary source_language="de-DE">
+  <entry key="Diagram_Error_2000Cluster_2000Constant_NodeLabel_Text">
+    <loc>Error Cluster Constant</loc>
+  </entry>
+  <entry key="Diagram_Output_2_NodeLabel_Text">
+    <loc>Output_2</loc>
+  </entry>
+  <entry key="Diagram_Output_NodeLabel_Text">
+    <loc>Output</loc>
+  </entry>
+  <entry key="Diagram_pattern_NodeLabel_Text">
+    <loc>pattern</loc>
+  </entry>
+  <entry key="Diagram_regular_2000expression_NodeLabel_Text">
+    <loc>regular expression</loc>
+  </entry>
+  <entry key="Diagram_replace_2000string_NodeLabel_Text">
+    <loc>replace string</loc>
+  </entry>
+  <entry key="Diagram_search_2000string_2F00char_2000_2800_2D00_2900_NodeLabel_Text">
+    <loc>search string/char (-)</loc>
+  </entry>
+  <entry key="Diagram_string_NodeLabel_Text">
+    <loc>string</loc>
+  </entry>
+  <entry key="Error_2000Cluster_2000Constant_DataItem_Name">
+    <loc>Error Cluster Constant</loc>
+  </entry>
+  <entry key="Output_2_DataItem_Name">
+    <loc>Output_2</loc>
+  </entry>
+  <entry key="Output_DataItem_Name">
+    <loc>Output</loc>
+  </entry>
+  <entry key="Panel_Error_2000Cluster_2000Constant_code_Label_Text">
+    <loc>code</loc>
+  </entry>
+  <entry key="Panel_Error_2000Cluster_2000Constant_source_Label_Text">
+    <loc>source</loc>
+  </entry>
+  <entry key="Panel_Error_2000Cluster_2000Constant_status_Label_Text">
+    <loc>status</loc>
+  </entry>
+  <entry key="Panel_Output_2_code_Label_Text">
+    <loc>code</loc>
+  </entry>
+  <entry key="Panel_Output_2_source_Label_Text">
+    <loc>source</loc>
+  </entry>
+  <entry key="Panel_Output_2_status_Label_Text">
+    <loc>status</loc>
+  </entry>
+  <entry key="Panel_Output_Label_Text">
+    <loc>Output</loc>
+  </entry>
+  <entry key="string_DataItem_Name">
+    <loc>string</loc>
+  </entry>
+  <entry key="VirtualInstrument_CustomTitle">
+    <loc>Function</loc>
+  </entry>
+</LocalizedStringsDictionary>
