@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="F68E55793E61E9FD5E8BF7B2C46172D4819E6A65BCDA0182B7D555081FC20835935B4130023524BBD6495E87538D21050BE2005CDA3286C937CF070111B6C045" Timestamp="1DCE1CD0C6D3C70" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="9593C2AAF8D8B63D356F9B480517BB020D09FC5192326DB19B6C755AD922B1BFDD36739646A6CEA7A3F7D3A4E499B0271C382487C91E7BFE400D293C1C23A3C9" Timestamp="1DCE69BC18E6949" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -7,13 +7,13 @@
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="9.5.0.49854" Name="G Web Development Software" Version="22.3.0" />
 	</SourceModelFeatureSet>
-	<TypeDefinition DataType="@137d952dad824d9b9ea76103edc01623" Id="e2ff298833644b6ba174cb5443b94230" xmlns="http://www.ni.com/MocCommon">
+	<TypeDefinition DataType="@7f90e805e7434f5c83ddd933fd9d4d51" Id="e2ff298833644b6ba174cb5443b94230" xmlns="http://www.ni.com/MocCommon">
 		<Icon Id="d1c67383de0b487eaf9f39b9b9eef9b6" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
 			<IconPanel Height="[float]40" Id="be54e16eacd046749e3cf29a17ff2319" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
 				<IconTemplate Height="[float]40" Id="6dcfe0ebc30f49fc96701c6bd11d4f0a" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
 			</IconPanel>
 		</Icon>
-		<DataItem DataType="@137d952dad824d9b9ea76103edc01623" Id="4a61b6e245514a5eb856bec5b341d8a5" Name="State">
+		<DataItem DataType="@7f90e805e7434f5c83ddd933fd9d4d51" Id="4a61b6e245514a5eb856bec5b341d8a5" Name="State">
 			<p.DefaultValue>0</p.DefaultValue>
 		</DataItem>
 	</TypeDefinition>
@@ -82,6 +82,9 @@
 						<EnumSelectorInfo DisplayValue="[string]Component Replacement History iCombi" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]56" ValueType="[Type]UInt16" />
 						<EnumSelectorInfo DisplayValue="[string]Update Tab View" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]57" ValueType="[Type]UInt16" />
 						<EnumSelectorInfo DisplayValue="[string]System OnOff History" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]58" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]System OnOff History iVario" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]59" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Component Replacement History iVario" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]60" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Change Page iVario" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]61" ValueType="[Type]UInt16" />
 					</EnumSelector>
 					<Label Height="[float]16" Id="8f38e8d5d97d45e1925d8de9e847ba7c" LabelOwner="[UIModel]2b82a16e48bd4cf9b5b4f4bc125be31e" Left="[float]219" Text="[string]State" Top="[float]168" Width="[float]27" xmlns="http://www.ni.com/PanelCommon" />
 				</ControlDefinition>
@@ -89,7 +92,7 @@
 		</NameScopingEnvoy>
 	</EnvoyManagerFile>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="137d952dad824d9b9ea76103edc01623">
+		<p.TypeReference TypeId="7f90e805e7434f5c83ddd933fd9d4d51">
 			<Enumeration>
 				<Members>
 					<EnumerationMember Value="0" Name="Init" />
@@ -151,6 +154,9 @@
 					<EnumerationMember Value="56" Name="Component Replacement History iCombi" />
 					<EnumerationMember Value="57" Name="Update Tab View" />
 					<EnumerationMember Value="58" Name="System OnOff History" />
+					<EnumerationMember Value="59" Name="System OnOff History iVario" />
+					<EnumerationMember Value="60" Name="Component Replacement History iVario" />
+					<EnumerationMember Value="61" Name="Change Page iVario" />
 				</Members>
 				<DataType>UInt16</DataType>
 			</Enumeration>
