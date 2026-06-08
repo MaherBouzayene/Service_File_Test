@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="8F3CB62217851CAA0194123DB9F90ADF84C419F248A0C1CF441E7C4B898A3D5402C2ABA8637F54D1C156ED4F942ECCF82D0D67D54B3DBC09D7A73F4084ECBCC4" Timestamp="1DCF4C6FC2A01A8" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="A314F50EA87AD4F62AF73D49966E98CDC9808D7D7CEE1F8FFC74B0B57ADBC2174426AAB0E9EC710C80F48DF633E5F7508CED803178F5E8B1EFD185C9E5D21E5D" Timestamp="1DCF74D0708F503" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="JavaScript Library" Name="http://www.ni.com/JavaScriptLibrary" OldestCompatibleVersion="6.4.0.49152" Version="6.4.0.49152" />
@@ -53,7 +53,7 @@
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="f35f7b7ca0944d42ab37595b0fefa156" Id="bef64e7fc041c08c0d27448fb3bd87" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="fd4072dfc5014c3b89ef5826b85556c0" Id="b23512240b9f4fc0abd964aed3985299" />
 			<ComponentItemProperties AssociatedEnvoyId="4c482b5450254a258240df7f2733d297" Id="240d65c7ad6041e78e84373882854dfc" TopLevel="True" />
-			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="5dc1f3a040ba46dfaf3a156026f05620" Id="9acb5730ed5645a69973770def6e1bf7" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="8a33c8ae9a6d4682a01b557fcc153d59" Id="f44ff2247bdf409296bb0b3f759d9cdf" />
 		</ComponentConfiguration>
 	</ComponentDefinition>
 	<EnvoyManagerFile Id="6" xmlns="http://www.ni.com/PlatformFramework">
@@ -157,7 +157,7 @@
 				<SourceFileReference Bindings="EnvoyManager" Id="bde2d7c028704a51a4c5b1b5d3abd618" ModelDefinitionType="{http://www.ni.com/JavaScriptLibrary}JavaScriptLibrary" Name="Library.jsli" StoragePath="Library.jsli" />
 				<FileReference Bindings=".js" Id="fd4072dfc5014c3b89ef5826b85556c0" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="iframe.js" StoragePath="iframe.js" />
 				<SourceFileReference Id="4c482b5450254a258240df7f2733d297" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="How to use it.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="How to use it.gviweb" />
-				<FileReference Bindings=".pdf" Id="5dc1f3a040ba46dfaf3a156026f05620" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="How to use the Service File Visualizer.pdf" StoragePath="How to use the Service File Visualizer.pdf" />
+				<FileReference Bindings=".pdf" Id="8a33c8ae9a6d4682a01b557fcc153d59" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="How to use the Service File Visualizer.pdf" StoragePath="How to use the Service File Visualizer.pdf" />
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Id="9" Name="WebApp.gcomp" NameTracksFileName="True">
