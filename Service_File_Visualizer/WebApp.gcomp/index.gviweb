@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="9EABB733B31AEA831A0D869A6607D4DD56767389C78CF24901056C4A0ACA755674C165224685AA9FCCFD936066C4710238A7DA3CDAE9A897CC56C7E4B31F8D2F" Timestamp="1DCF25D67F6E2BA" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="6B4B504B174A632303499EC21644912C48EC723208A6A3BBFD686E9FFE50B00FBDB3B54716765B48BE417BAEE0511C973EA2792684F05F37C5270D7E4A3E1D37" Timestamp="1DCF7377884BFFD" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -134,12 +134,15 @@
 			<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="4f9372e33fc243c5bdd37e75d3091d85" IsReadOnly="[bool]True" Left="[float]0" Name="[string]Diagnostic Service History Error iVario" TabIndex="[int]18" Text="{DataItemBinding Id=eeea51ece91746fd87ab0ac2c46a4b48}" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="c555b00a199a47068679b9e46a3b5a60" IsReadOnly="[bool]True" Left="[float]0" Name="[string]Diagnostic RT Data sensors movement" TabIndex="[int]19" Text="{DataItemBinding Id=84e53f6affe646c6b4d317990205a77c}" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="ebab7581834b483a9b487e71008e02a2" IsReadOnly="[bool]True" Left="[float]0" Name="[string]Diagnostic Running Time Components_iVario" TabIndex="[int]20" Text="{DataItemBinding Id=72d6fc81ee2843f0b7bb0cd596e9e710}" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<LED BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]24" Id="310d403e74342b6a91db223056eaba9" IsReadOnly="[bool]True" Label="[UIModel]4a52bc1c009b4da6ab335be0e28248ee" Left="[float]628" Shape="[LEDShape]Square" TabIndex="[int]21" Top="[float]33" TrueContent="[string]On" Value="{DataItemBinding Id=52512676bb7d47809832bbad5a18a322}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<Label Height="[float]16" Id="4a52bc1c009b4da6ab335be0e28248ee" IsVisualChild="[bool]False" LabelOwner="[UIModel]310d403e74342b6a91db223056eaba9" Left="[float]628" Text="[string]iCombi Pro device" Top="[float]13" Width="[float]179" xmlns="http://www.ni.com/PanelCommon" />
+			</LED>
 		</FrontPanelUnplacedItems>
 		<BlockDiagram Id="12">
 			<WhileLoop Bounds="5 -385 3940 790" DiagramId="1b06a07013ba4ba78bd3539a471e5044" Id="3e61359b0c854a4b972a7478425d4b53">
 				<LoopIteration Bounds="5 760 15 15" Id="ba6f04ced708444ead64859f82dae710" />
 				<LoopCondition Bounds="3905 760 15 15" Id="86d5561613d14e04affdbe402272183f" />
-				<CaseStructure Bounds="20 25 3285 690" DataType="@e100ad25e3e94a7eb77ac9c3e45cae82" Default="77c27037ca104e8aaeab17cd27fe6afc" Id="fc9ec6d9386640829683793edc8c9179" Selected="5db5ff2ad2a041128490b7349bca292a" UserSelectorBounds="1481 0 323 17">
+				<CaseStructure Bounds="20 25 3285 690" DataType="@e100ad25e3e94a7eb77ac9c3e45cae82" Default="77c27037ca104e8aaeab17cd27fe6afc" Id="fc9ec6d9386640829683793edc8c9179" Selected="7f9c2a4a527749f08fdf99084a7e1cd5" UserSelectorBounds="1481 0 323 17">
 					<CaseStructure.Case Bounds="5 5 3275 680" Id="77c27037ca104e8aaeab17cd27fe6afc" Pattern="&quot;Init&quot;, Default">
 						<Wire Id="a7a67ab7a81842fdaf57cdf5be605571" Joints="N(1c0f2ce9139b4fc2a1e1aea875419d52:Out)|(2655,195) h(55) v(35) h(40) v(5) h(516) v(30) N(eb69679a2764b7b98b41dc239959702:77c27037ca104e8aaeab17cd27fe6afc)|(3271,265)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="d63dff466a35424b8a4defe1fe113d36" Joints="N(610e558f5204429cab395cec15c0e148:77c27037ca104e8aaeab17cd27fe6afc)|(4,435) h(-4) v(-10) h(335) v(-5) h(280) v(-5) h(60) v(-35) h(1525) v(35) h(550) v(10) h(520) v(10) N(f12e61ad6d1046e39095a45e584fe4b6:77c27037ca104e8aaeab17cd27fe6afc)|(3271,435)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -3540,7 +3543,7 @@
 									<CaseStructure.Tunnel Bounds="-4 155 13 10" Docking="Left" Id="c41547ac80fe4bdcb50adb8bdaa8e54d" Terminals="52cb86a59d2a407785987e35f5a9bb51=66975293a23746fc8ccec107ad6075a5, d99e041ddf4740a2b4256c2aceb416b6=144b9469d247239e7093d5bff14a82, d7822781a66743008be3abc559e1f002=605a793253ff47ada3d33ee40f9e958a" />
 									<CaseStructure.Tunnel Bounds="-4 175 13 10" Docking="Left" Id="7df5b3701724f4cbc00d35556629739" Terminals="52cb86a59d2a407785987e35f5a9bb51=bdf463ef92a3477fb563596d22ae97d0, d99e041ddf4740a2b4256c2aceb416b6=79e0bd14a7234bc8be563f3d429daaec, d7822781a66743008be3abc559e1f002=ad3f4251277f4f549d5cbfeb845c81b8" />
 								</CaseStructure>
-								<Wire Id="2e984ef1f1f14a2e8b152fe87ad36dd2" Joints="N(8d494e92049247eb8f0a4604fb051daf:697e856e96fc42bfa40f5ccbfe7600e3)|(4,120) h(-4) v(-10) h(25) v(10) N(325a4ccf03464f7d948eec3510e9e18e:52cb86a59d2a407785987e35f5a9bb51)|(26,120)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="2e984ef1f1f14a2e8b152fe87ad36dd2" Joints="N(8d494e92049247eb8f0a4604fb051daf:697e856e96fc42bfa40f5ccbfe7600e3)|(4,120) N(325a4ccf03464f7d948eec3510e9e18e:52cb86a59d2a407785987e35f5a9bb51)|(26,120)" xmlns="http://www.ni.com/PlatformFramework" />
 								<Wire Id="66975293a23746fc8ccec107ad6075a5" Joints="N(4b20f20dca6e4d658100d1a9959761dd:697e856e96fc42bfa40f5ccbfe7600e3)|(4,315) h(-4) v(-10) h(395) B(3) v(-10) B(4) h(325) v(-105) h(10) v(10) N(c98bdfc973a2471987b6cde8a8c42eb9:697e856e96fc42bfa40f5ccbfe7600e3)|(731,200) B(4) v(-35) B(10) N(f9e3d2cbc6764e8c86ca0b3b739cee9c:Value)|(408,260) B(10) v(-45) h(-375) v(-25) B(14) h(5) v(-30) N(8a392f3a0bee40cdacdab813aa979cc0:52cb86a59d2a407785987e35f5a9bb51)|(26,160) B(14) v(-20) h(5) v(10) N(c41547ac80fe4bdcb50adb8bdaa8e54d:52cb86a59d2a407785987e35f5a9bb51)|(26,180) B(3) v(35) N(20a7bb17cd8f440bb910608c55a86ce8:Value)|(403,340)" xmlns="http://www.ni.com/PlatformFramework" />
 								<Wire Id="5b8bac16110c42d5b36033da9409921a" Joints="N(52e96c8d805141639b45d6d23505f273:R0)|(55,325) h(10) v(-100) h(-50) v(-65) h(10) v(10) N(d6d9d64024e9423898d4f13cafec5583:52cb86a59d2a407785987e35f5a9bb51)|(26,170)" xmlns="http://www.ni.com/PlatformFramework" />
 								<Wire Id="3dce1a66853d447296ee70eadcf7b29c" Joints="N(2f5fe6d23fb41a08805b8baf4df86db:52cb86a59d2a407785987e35f5a9bb51)|(714,200) h(11) v(125) h(5) v(10) N(7f9b63ea326344258cf30aa80cdf6baa:697e856e96fc42bfa40f5ccbfe7600e3)|(731,335)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -3574,19 +3577,19 @@
 						<Wire Id="616f8d8f2d8f4e0bbbccf3e128b95b81" Joints="N(43657c72bf9d4f229732ce6d23ee769c:6ad6ba1098dd40eaae1c881ccd1c2aae)|(4,410) h(-4) v(-10) h(365) v(-205) h(2040) v(205) h(865) v(10) N(8f6179759858408d8775e01d6a3ad644:6ad6ba1098dd40eaae1c881ccd1c2aae)|(3271,410)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="8a2f7fac0c4bcb8f8fe11a1733652e" Joints="N(7aed47b610a04c2d9cc94fce2ef3177f:6ad6ba1098dd40eaae1c881ccd1c2aae)|(4,550) h(-4) v(-10) h(335) v(-5) h(355) v(85) h(1695) v(-85) h(365) v(5) h(520) v(10) N(5cfc81e09df7422e815c7d8eb869a66e:6ad6ba1098dd40eaae1c881ccd1c2aae)|(3271,550)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="e9222d3dcb2e40dfa5d2414c50b227c0" Joints="N(4be31bf3983f47b293a82b18c17e9585:6ad6ba1098dd40eaae1c881ccd1c2aae)|(4,585) h(-4) v(-10) h(335) v(-5) h(1195) v(45) h(815) v(-45) h(405) v(5) h(520) v(10) N(bb0df0ea4a76462faf2f56ec4ff30785:6ad6ba1098dd40eaae1c881ccd1c2aae)|(3271,585)" xmlns="http://www.ni.com/PlatformFramework" />
-						<DataAccessor Bounds="870 260 40 15" DataItem="8786c3f1ec534fc9af1c7140bbea8fc6" Id="7c30a62f7ec54ae09dc153a4ea6228d4" Label="e948a0a0e7da47818c342a4d20ed1340" xmlns="http://www.ni.com/MocCommon">
+						<DataAccessor Bounds="860 280 40 15" DataItem="8786c3f1ec534fc9af1c7140bbea8fc6" Id="7c30a62f7ec54ae09dc153a4ea6228d4" Label="e948a0a0e7da47818c342a4d20ed1340" xmlns="http://www.ni.com/MocCommon">
 							<Terminal DataType="@e35b2b85aa7a4dc4b8d067671e7b3f95" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 						</DataAccessor>
-						<NodeLabel AttachedTo="7c30a62f7ec54ae09dc153a4ea6228d4" Bounds="828 260 37 14" Id="e948a0a0e7da47818c342a4d20ed1340" xmlns="http://www.ni.com/PlatformFramework">
+						<NodeLabel AttachedTo="7c30a62f7ec54ae09dc153a4ea6228d4" Bounds="818 280 37 14" Id="e948a0a0e7da47818c342a4d20ed1340" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>Device</p.Text>
 						</NodeLabel>
-						<Wire Id="fbf73e2437c24368a7c05d3e865345e7" Joints="N(7c30a62f7ec54ae09dc153a4ea6228d4:Value)|(910,265) h(5) v(10) h(5) v(10) N(8d494e92049247eb8f0a4604fb051daf:a1e844a484d145448bfb2dad461a43cc)|(921,285)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="fbf73e2437c24368a7c05d3e865345e7" Joints="N(7c30a62f7ec54ae09dc153a4ea6228d4:Value)|(900,285) N(8d494e92049247eb8f0a4604fb051daf:a1e844a484d145448bfb2dad461a43cc)|(921,285)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="3cb00d72f0644a2a93ece2246e1cd5a2" Joints="N(30eb44ba4b63463eaad676dc0df412ab:R1)|(865,485) h(10) v(-50) h(45) v(-10) N(6da9c1c2198447cf9a59537edbd9b00f:a1e844a484d145448bfb2dad461a43cc)|(921,425)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="fcd2eb3813aa446c9399a5260572cf66" Joints="N(4813aa3a42394381879897fc1d87f33f:6ad6ba1098dd40eaae1c881ccd1c2aae)|(4,75) h(1) v(-5) h(330) v(-5) h(280) v(-5) h(2135) v(5) h(520) v(10) N(a2900b0fdc6e4a658484e0c765e66968:6ad6ba1098dd40eaae1c881ccd1c2aae)|(3271,75)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="fca03d9e2fdc41ec9d218cb3e9bf634c" Joints="N(95332cef07bb432a84cb0f61c6dcc293:6ad6ba1098dd40eaae1c881ccd1c2aae)|(4,315) h(-4) v(-10) h(335) v(-170) h(2405) v(170) N(6d064f41e84e48ec9aa1ff35c79d50e3:6ad6ba1098dd40eaae1c881ccd1c2aae)|(3271,305)" xmlns="http://www.ni.com/PlatformFramework" />
 					</CaseStructure.Case>
 					<CaseStructure.Case Bounds="5 5 3275 680" Id="6d13214207d743c2ab535880a225c383" Pattern="&quot;Wait For Interaction&quot;">
-						<EventStructure Bounds="619 32 1015 505" Id="29cb3047dc8249469258c40b836cfbc5" Selected="b3d6e1fe2380484cb5187542d2b4c0a3" UserSelectorBounds="20 0 975 17">
+						<EventStructure Bounds="619 32 1015 505" Id="29cb3047dc8249469258c40b836cfbc5" Selected="8c9d8c99e81c43d4acfc4e3002a7bf16" UserSelectorBounds="20 0 975 17">
 							<EventStructure.EventCase Bounds="21 18 973 479" Id="822a773c5c7b43878432bfe1d570abe7">
 								<EventStructure.EventData Bounds="0 275 92 50" Id="d78d65b346c642d4a6a7a9c2276dc2ad" InstanceDataType="@b908925083b044bfa2ebedcd63a09603" PropertyPathsInSemanticOrder="Time,Index,Control Reference,Old Value,New Value">
 									<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
@@ -3624,7 +3627,7 @@
 									<EventPropertyItemTerminal DataType="@4bbf13c97e5a4812bf143f8321c5247f" Hotspot="92 15" Id="c0t0v" Path="Old Value" PathElementMemberKinds="Field" Usage="Optional" />
 									<EventPropertyItemTerminal DataType="@4bbf13c97e5a4812bf143f8321c5247f" Hotspot="92 30" Id="c1t0v" Path="New Value" PathElementMemberKinds="Field" Usage="Optional" />
 								</EventStructure.EventData>
-								<Wire Id="4b96d11f9356436ca418f5ae59ee1bbf" Joints="N(3a6fe72b49684ab8afe4d5cb248a5abf:58c2cc2b73724dba9e2cc4709a43870d)|(949,110) h(-2) v(-5) h(23) v(20) N(5c0fb7c2e3ac4d32a28a29e8ed9e233c:8c9d8c99e81c43d4acfc4e3002a7bf16)|(971,125)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="4b96d11f9356436ca418f5ae59ee1bbf" Joints="N(3a6fe72b49684ab8afe4d5cb248a5abf:58c2cc2b73724dba9e2cc4709a43870d)|(944,125) N(5c0fb7c2e3ac4d32a28a29e8ed9e233c:8c9d8c99e81c43d4acfc4e3002a7bf16)|(971,125)" xmlns="http://www.ni.com/PlatformFramework" />
 								<EventStructure.AttachedEvent EventId="{F3226E31-E688-4C58-AE1E-7ED6718409A1}" EventIndex="2" EventSourceType="Content" EventType="@c010ca66eff64886bc64de81ed6bc854" SourceContent="3588a91028ca483b9e8f8088101c6a51" SourceName="Error_Selektor" />
 								<DataAccessor Bounds="140 55 40 15" DataItem="a9f9165ed2c04aee8a4c6e8404c30707" Id="6ae751fe7d744dcab5781c1e80331d16" Label="32fe8da02fda418092be8d031723ee71" xmlns="http://www.ni.com/MocCommon">
 									<Terminal DataType="@4bbf13c97e5a4812bf143f8321c5247f" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
@@ -3632,43 +3635,89 @@
 								<NodeLabel AttachedTo="6ae751fe7d744dcab5781c1e80331d16" Bounds="54 55 81 14" Id="32fe8da02fda418092be8d031723ee71" xmlns="http://www.ni.com/PlatformFramework">
 									<p.Text>Error_Selektor</p.Text>
 								</NodeLabel>
-								<Wire Id="d23264a805e74c198bcdbe2fd7b6871b" Joints="N(763028281db04164ab6c58e7d55ec1dc:8c9d8c99e81c43d4acfc4e3002a7bf16)|(2,440) h(-3) v(-15) h(-4) v(-15) h(15) v(-40) h(960) v(30) N(3726c45a003c40a886b81f79df30a1c0:8c9d8c99e81c43d4acfc4e3002a7bf16)|(971,400)" xmlns="http://www.ni.com/PlatformFramework" />
-								<CaseStructure Bounds="700 65 245 85" DataType="@e35b2b85aa7a4dc4b8d067671e7b3f95" Default="c13a22af781f45c7ba42aa6c5aab2248" Id="58c2cc2b73724dba9e2cc4709a43870d" Selected="3b687aa35d0c4677b4ed1f03f859f660" UserSelectorBounds="6 0 234 17">
-									<CaseStructure.Case Bounds="5 5 235 75" Id="3b687aa35d0c4677b4ed1f03f859f660" Pattern="&quot;iVario&quot;">
-										<Literal Bounds="10 30 190 15" DataType="@e100ad25e3e94a7eb77ac9c3e45cae82" Id="b9ff212deac74bbd987f3b0d393b1e04" p11:ControlDefinitionChecksum="Ri30CzSgq05VtZe0dMUObPHC4BIYJlOI8VoSrVrSGTY=_v1" xmlns:p11="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
-											<p.Data>44</p.Data>
-											<p11:p.TypeDefinitionTargets>
-												<p11:TypeDefinitionTarget TargetName="WebApp::State.gtype" />
-												<p11:TypeDefinitionTarget TargetName="WebApp::State.gtype::ControlDefinition" />
-											</p11:p.TypeDefinitionTargets>
-											<EnumBehavior />
-										</Literal>
-										<Wire Id="97321136afe943ed96226d1d2302f885" Joints="N(b9ff212deac74bbd987f3b0d393b1e04:Out)|(200,35) h(30) v(5) N(3a6fe72b49684ab8afe4d5cb248a5abf:3b687aa35d0c4677b4ed1f03f859f660)|(231,40)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="d23264a805e74c198bcdbe2fd7b6871b" Joints="N(763028281db04164ab6c58e7d55ec1dc:8c9d8c99e81c43d4acfc4e3002a7bf16)|(2,440) h(543) v(-40) N(3726c45a003c40a886b81f79df30a1c0:8c9d8c99e81c43d4acfc4e3002a7bf16)|(971,400)" xmlns="http://www.ni.com/PlatformFramework" />
+								<CaseStructure Bounds="395 50 545 220" DataType="@e35b2b85aa7a4dc4b8d067671e7b3f95" Default="c13a22af781f45c7ba42aa6c5aab2248" Id="58c2cc2b73724dba9e2cc4709a43870d" Selected="3b687aa35d0c4677b4ed1f03f859f660" UserSelectorBounds="156 0 234 17">
+									<CaseStructure.Case Bounds="5 5 535 210" Id="3b687aa35d0c4677b4ed1f03f859f660" Pattern="&quot;iVario&quot;">
+										<Wire Id="97321136afe943ed96226d1d2302f885" Joints="N(cf94aced888b445691e0ef34d28536ba:f7474e98bdf6419aa2019a0458fe44ad)|(519,65) h(11) v(5) N(3a6fe72b49684ab8afe4d5cb248a5abf:3b687aa35d0c4677b4ed1f03f859f660)|(531,70)" xmlns="http://www.ni.com/PlatformFramework" />
+										<CaseStructure Bounds="110 35 405 145" Id="f7474e98bdf6419aa2019a0458fe44ad" Selected="f5402e8f39214c018e3483df3d82a3a9" UserSelectorBounds="158 0 88 17">
+											<CaseStructure.Case Bounds="5 5 395 135" Id="f5402e8f39214c018e3483df3d82a3a9" Pattern="True">
+												<Literal Bounds="211 20 150 15" DataType="@e100ad25e3e94a7eb77ac9c3e45cae82" Id="d220b3fcf9c845789013d53722abe021" p13:ControlDefinitionChecksum="Ri30CzSgq05VtZe0dMUObPHC4BIYJlOI8VoSrVrSGTY=_v1" xmlns:p13="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+													<p.Data>3</p.Data>
+													<p13:p.TypeDefinitionTargets>
+														<p13:TypeDefinitionTarget TargetName="WebApp::State.gtype" />
+														<p13:TypeDefinitionTarget TargetName="WebApp::State.gtype::ControlDefinition" />
+													</p13:p.TypeDefinitionTargets>
+													<EnumBehavior />
+												</Literal>
+												<Wire Id="7707bd3794e945fc9f30713b85de57f4" Joints="N(d220b3fcf9c845789013d53722abe021:Out)|(361,25) N(cf94aced888b445691e0ef34d28536ba:f5402e8f39214c018e3483df3d82a3a9)|(391,25)" xmlns="http://www.ni.com/PlatformFramework" />
+											</CaseStructure.Case>
+											<CaseStructure.Case Bounds="5 5 395 135" Id="cdb3ae8293c840d6bcf0750c8a1bd542" Pattern="False">
+												<Literal Bounds="195 20 190 15" DataType="@e100ad25e3e94a7eb77ac9c3e45cae82" Id="b9ff212deac74bbd987f3b0d393b1e04" p13:ControlDefinitionChecksum="Ri30CzSgq05VtZe0dMUObPHC4BIYJlOI8VoSrVrSGTY=_v1" xmlns:p13="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+													<p.Data>44</p.Data>
+													<p13:p.TypeDefinitionTargets>
+														<p13:TypeDefinitionTarget TargetName="WebApp::State.gtype" />
+														<p13:TypeDefinitionTarget TargetName="WebApp::State.gtype::ControlDefinition" />
+													</p13:p.TypeDefinitionTargets>
+													<EnumBehavior />
+												</Literal>
+												<Wire Id="660559a58d834a94af7551cc29cd5e68" Joints="N(b9ff212deac74bbd987f3b0d393b1e04:Out)|(385,25) N(cf94aced888b445691e0ef34d28536ba:cdb3ae8293c840d6bcf0750c8a1bd542)|(391,25)" xmlns="http://www.ni.com/PlatformFramework" />
+											</CaseStructure.Case>
+											<CaseStructure.Selector Bounds="-4 40 13 10" Docking="Left" Id="848509e99c3d4bb1ba108188e0da738c" Terminals="f7474e98bdf6419aa2019a0458fe44ad=1d9619737b344753a9da9700ebaec91d, f5402e8f39214c018e3483df3d82a3a9, cdb3ae8293c840d6bcf0750c8a1bd542" />
+											<CaseStructure.Tunnel Bounds="396 25 13 10" Docking="Right" Id="cf94aced888b445691e0ef34d28536ba" Terminals="f7474e98bdf6419aa2019a0458fe44ad=97321136afe943ed96226d1d2302f885, f5402e8f39214c018e3483df3d82a3a9=7707bd3794e945fc9f30713b85de57f4, cdb3ae8293c840d6bcf0750c8a1bd542=660559a58d834a94af7551cc29cd5e68" />
+										</CaseStructure>
+										<Wire Id="1d9619737b344753a9da9700ebaec91d" Joints="N(bb70bc73a18a4a979d06cd25f0291e91:3b687aa35d0c4677b4ed1f03f859f660)|(4,130) h(56) v(-50) N(848509e99c3d4bb1ba108188e0da738c:f7474e98bdf6419aa2019a0458fe44ad)|(106,80)" xmlns="http://www.ni.com/PlatformFramework" />
 									</CaseStructure.Case>
-									<CaseStructure.Case Bounds="5 5 235 75" Id="c13a22af781f45c7ba42aa6c5aab2248" Pattern="&quot;iCombi Pro/iHexagon&quot;, Default">
-										<Literal Bounds="55 30 155 15" DataType="@e100ad25e3e94a7eb77ac9c3e45cae82" Id="b9d5f7ba053247a7ad195f1b8fca77f8" Label="238e64dd465141878965d6a788c342a3" p11:ControlDefinitionChecksum="Ri30CzSgq05VtZe0dMUObPHC4BIYJlOI8VoSrVrSGTY=_v1" xmlns:p11="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
-											<p.Data>4</p.Data>
-											<p11:p.TypeDefinitionTargets>
-												<p11:TypeDefinitionTarget TargetName="WebApp::State.gtype" />
-												<p11:TypeDefinitionTarget TargetName="WebApp::State.gtype::ControlDefinition" />
-											</p11:p.TypeDefinitionTargets>
-											<EnumBehavior />
-										</Literal>
-										<NodeLabel AttachedTo="b9d5f7ba053247a7ad195f1b8fca77f8" Bounds="55 13 30 14" Id="238e64dd465141878965d6a788c342a3" xmlns="http://www.ni.com/PlatformFramework">
-											<p.Text>State</p.Text>
-										</NodeLabel>
-										<Wire Id="e64c5b4f00314d7c84a5d15ca92373c6" Joints="N(b9d5f7ba053247a7ad195f1b8fca77f8:Out)|(210,35) h(20) v(5) N(3a6fe72b49684ab8afe4d5cb248a5abf:c13a22af781f45c7ba42aa6c5aab2248)|(231,40)" xmlns="http://www.ni.com/PlatformFramework" />
+									<CaseStructure.Case Bounds="5 5 535 210" Id="c13a22af781f45c7ba42aa6c5aab2248" Pattern="&quot;iCombi Pro/iHexagon&quot;, Default">
+										<Wire Id="e64c5b4f00314d7c84a5d15ca92373c6" Joints="N(b85e062aa045461fabc1114dc6bb1355:c0252fabd0704689ba571da414eda0af)|(524,70) N(3a6fe72b49684ab8afe4d5cb248a5abf:c13a22af781f45c7ba42aa6c5aab2248)|(531,70)" xmlns="http://www.ni.com/PlatformFramework" />
+										<CaseStructure Bounds="70 30 450 140" Default="7eb3323a3ce748059c224e17573e27fa" Id="c0252fabd0704689ba571da414eda0af" Selected="7eb3323a3ce748059c224e17573e27fa" UserSelectorBounds="181 0 88 17">
+											<CaseStructure.Case Bounds="5 5 440 130" Id="7eb3323a3ce748059c224e17573e27fa" Pattern="False">
+												<Literal Bounds="256 30 150 15" DataType="@e100ad25e3e94a7eb77ac9c3e45cae82" Id="f9741bfe9a494f569a2bce37e6ae4d82" p13:ControlDefinitionChecksum="Ri30CzSgq05VtZe0dMUObPHC4BIYJlOI8VoSrVrSGTY=_v1" xmlns:p13="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+													<p.Data>3</p.Data>
+													<p13:p.TypeDefinitionTargets>
+														<p13:TypeDefinitionTarget TargetName="WebApp::State.gtype" />
+														<p13:TypeDefinitionTarget TargetName="WebApp::State.gtype::ControlDefinition" />
+													</p13:p.TypeDefinitionTargets>
+													<EnumBehavior />
+												</Literal>
+												<Wire Id="d646cd82d2db4aa8992f05e257442c47" Joints="N(f9741bfe9a494f569a2bce37e6ae4d82:Out)|(406,35) N(b85e062aa045461fabc1114dc6bb1355:7eb3323a3ce748059c224e17573e27fa)|(436,35)" xmlns="http://www.ni.com/PlatformFramework" />
+											</CaseStructure.Case>
+											<CaseStructure.Case Bounds="5 5 440 130" Id="c81e0cc66b5c45f0a874a1b5f899f8df" Pattern="True">
+												<Literal Bounds="265 30 155 15" DataType="@e100ad25e3e94a7eb77ac9c3e45cae82" Id="b9d5f7ba053247a7ad195f1b8fca77f8" Label="238e64dd465141878965d6a788c342a3" p13:ControlDefinitionChecksum="Ri30CzSgq05VtZe0dMUObPHC4BIYJlOI8VoSrVrSGTY=_v1" xmlns:p13="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+													<p.Data>4</p.Data>
+													<p13:p.TypeDefinitionTargets>
+														<p13:TypeDefinitionTarget TargetName="WebApp::State.gtype" />
+														<p13:TypeDefinitionTarget TargetName="WebApp::State.gtype::ControlDefinition" />
+													</p13:p.TypeDefinitionTargets>
+													<EnumBehavior />
+												</Literal>
+												<NodeLabel AttachedTo="b9d5f7ba053247a7ad195f1b8fca77f8" Bounds="265 13 30 14" Id="238e64dd465141878965d6a788c342a3" xmlns="http://www.ni.com/PlatformFramework">
+													<p.Text>State</p.Text>
+												</NodeLabel>
+												<Wire Id="e49f10959f6744a498e70bb558b46ff0" Joints="N(b9d5f7ba053247a7ad195f1b8fca77f8:Out)|(420,35) N(b85e062aa045461fabc1114dc6bb1355:c81e0cc66b5c45f0a874a1b5f899f8df)|(436,35)" xmlns="http://www.ni.com/PlatformFramework" />
+											</CaseStructure.Case>
+											<CaseStructure.Selector Bounds="-4 95 13 10" Docking="Left" Id="bd344e152823443a9889c7f39a8cb460" Terminals="c0252fabd0704689ba571da414eda0af=ad792f2ab164002ac34366b2dd0f0d5, 7eb3323a3ce748059c224e17573e27fa, c81e0cc66b5c45f0a874a1b5f899f8df" />
+											<CaseStructure.Tunnel Bounds="441 35 13 10" Docking="Right" Id="b85e062aa045461fabc1114dc6bb1355" Terminals="c0252fabd0704689ba571da414eda0af=e64c5b4f00314d7c84a5d15ca92373c6, 7eb3323a3ce748059c224e17573e27fa=d646cd82d2db4aa8992f05e257442c47, c81e0cc66b5c45f0a874a1b5f899f8df=e49f10959f6744a498e70bb558b46ff0" />
+										</CaseStructure>
+										<Wire Id="ad792f2ab164002ac34366b2dd0f0d5" Joints="N(bb70bc73a18a4a979d06cd25f0291e91:c13a22af781f45c7ba42aa6c5aab2248)|(4,130) N(bd344e152823443a9889c7f39a8cb460:c0252fabd0704689ba571da414eda0af)|(66,130)" xmlns="http://www.ni.com/PlatformFramework" />
 									</CaseStructure.Case>
-									<CaseStructure.Selector Bounds="-4 45 13 10" Docking="Left" Id="5c21f514b1a84412a7cb11c0ac61b0de" Terminals="58c2cc2b73724dba9e2cc4709a43870d=9acc36283736427ab340fb91bed8dc6c, 3b687aa35d0c4677b4ed1f03f859f660, c13a22af781f45c7ba42aa6c5aab2248" />
-									<CaseStructure.Tunnel Bounds="236 40 13 10" Docking="Right" Id="3a6fe72b49684ab8afe4d5cb248a5abf" Terminals="58c2cc2b73724dba9e2cc4709a43870d=4b96d11f9356436ca418f5ae59ee1bbf, 3b687aa35d0c4677b4ed1f03f859f660=97321136afe943ed96226d1d2302f885, c13a22af781f45c7ba42aa6c5aab2248=e64c5b4f00314d7c84a5d15ca92373c6" />
+									<CaseStructure.Selector Bounds="-4 75 13 10" Docking="Left" Id="5c21f514b1a84412a7cb11c0ac61b0de" Terminals="58c2cc2b73724dba9e2cc4709a43870d=9acc36283736427ab340fb91bed8dc6c, 3b687aa35d0c4677b4ed1f03f859f660, c13a22af781f45c7ba42aa6c5aab2248" />
+									<CaseStructure.Tunnel Bounds="536 70 13 10" Docking="Right" Id="3a6fe72b49684ab8afe4d5cb248a5abf" Terminals="58c2cc2b73724dba9e2cc4709a43870d=4b96d11f9356436ca418f5ae59ee1bbf, 3b687aa35d0c4677b4ed1f03f859f660=97321136afe943ed96226d1d2302f885, c13a22af781f45c7ba42aa6c5aab2248=e64c5b4f00314d7c84a5d15ca92373c6" />
+									<CaseStructure.Tunnel Bounds="-4 130 13 10" Docking="Left" Id="bb70bc73a18a4a979d06cd25f0291e91" Terminals="58c2cc2b73724dba9e2cc4709a43870d=7dcb5bd4f0e14f05bf81ef862203e7f3, 3b687aa35d0c4677b4ed1f03f859f660=1d9619737b344753a9da9700ebaec91d, c13a22af781f45c7ba42aa6c5aab2248=ad792f2ab164002ac34366b2dd0f0d5" />
 								</CaseStructure>
-								<DataAccessor Bounds="595 105 40 15" DataItem="8786c3f1ec534fc9af1c7140bbea8fc6" Id="3b94302a41a24c2cb58bda7a78412257" Label="520ffd21b6aa4010a4ac1783ad20625a" xmlns="http://www.ni.com/MocCommon">
+								<DataAccessor Bounds="270 125 40 15" DataItem="8786c3f1ec534fc9af1c7140bbea8fc6" Id="3b94302a41a24c2cb58bda7a78412257" Label="520ffd21b6aa4010a4ac1783ad20625a" xmlns="http://www.ni.com/MocCommon">
 									<Terminal DataType="@e35b2b85aa7a4dc4b8d067671e7b3f95" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 								</DataAccessor>
-								<NodeLabel AttachedTo="3b94302a41a24c2cb58bda7a78412257" Bounds="553 105 37 14" Id="520ffd21b6aa4010a4ac1783ad20625a" xmlns="http://www.ni.com/PlatformFramework">
+								<NodeLabel AttachedTo="3b94302a41a24c2cb58bda7a78412257" Bounds="228 125 37 14" Id="520ffd21b6aa4010a4ac1783ad20625a" xmlns="http://www.ni.com/PlatformFramework">
 									<p.Text>Device</p.Text>
 								</NodeLabel>
-								<Wire Id="9acc36283736427ab340fb91bed8dc6c" Joints="N(3b94302a41a24c2cb58bda7a78412257:Value)|(635,110) h(60) v(5) N(5c21f514b1a84412a7cb11c0ac61b0de:58c2cc2b73724dba9e2cc4709a43870d)|(696,115)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="9acc36283736427ab340fb91bed8dc6c" Joints="N(3b94302a41a24c2cb58bda7a78412257:Value)|(310,130) N(5c21f514b1a84412a7cb11c0ac61b0de:58c2cc2b73724dba9e2cc4709a43870d)|(391,130)" xmlns="http://www.ni.com/PlatformFramework" />
+								<DataAccessor Bounds="290 180 40 15" DataItem="52512676bb7d47809832bbad5a18a322" Id="b8a3c8cf07f4cffab89de1ef641895a" Label="349dfa4843dd4b73b3a95f7137dcd6ce" xmlns="http://www.ni.com/MocCommon">
+									<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+								</DataAccessor>
+								<NodeLabel AttachedTo="b8a3c8cf07f4cffab89de1ef641895a" Bounds="186 180 99 14" Id="349dfa4843dd4b73b3a95f7137dcd6ce" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>iCombi Pro device</p.Text>
+								</NodeLabel>
+								<Wire Id="7dcb5bd4f0e14f05bf81ef862203e7f3" Joints="N(b8a3c8cf07f4cffab89de1ef641895a:Value)|(330,185) N(bb70bc73a18a4a979d06cd25f0291e91:58c2cc2b73724dba9e2cc4709a43870d)|(391,185)" xmlns="http://www.ni.com/PlatformFramework" />
 							</EventStructure.EventCase>
 							<EventStructure.Tunnel Bounds="-2 453 25 10" Docking="Left" Id="763028281db04164ab6c58e7d55ec1dc" Terminals="29cb3047dc8249469258c40b836cfbc5=443472cc27d74591ac39ea68916c8094, 822a773c5c7b43878432bfe1d570abe7=76812ef3eeb94b8a9654a76f12ffb73a, 8c9d8c99e81c43d4acfc4e3002a7bf16=d23264a805e74c198bcdbe2fd7b6871b, b3d6e1fe2380484cb5187542d2b4c0a3=89823ec6a2ba40deb449ef19f4cf2015, e88aa12874344f96bc4fbd0de410c8f1=ad41ea73ddd1428581a9327eef6d1723, ae5ef009362f4ab6b3ca7171a432761c=20d77c1ffc0647dc9ca2f06a22bbdc80, 765a199673b942aaba519d44d2ab5393, 33c6491b68a74c369e3d4094625d28e8=6e0fccd3fc5a4178a1dd2cf5cb574cbd, 36605edc9eaf47fc99b2396363a39f56=e31f593f1c4d43d3ae4ed56d79ebe6f6, 313e4b83521c4826bdca152aa6cd271e=f58cdec65bf749a6aa03b04017239b63, fb2172a83fd94d99bf6f453d8aa1b48f=831b3d2df78d46b38d9a776610cfa5c0, 74d67bff66d945a2900af9ec0e898480" />
 							<EventStructure.Tunnel Bounds="992 413 25 10" Docking="Right" Id="3726c45a003c40a886b81f79df30a1c0" Terminals="29cb3047dc8249469258c40b836cfbc5=e550d31108a84b039ddc64a2fb8bce9a, 822a773c5c7b43878432bfe1d570abe7=76812ef3eeb94b8a9654a76f12ffb73a, 8c9d8c99e81c43d4acfc4e3002a7bf16=d23264a805e74c198bcdbe2fd7b6871b, b3d6e1fe2380484cb5187542d2b4c0a3=89823ec6a2ba40deb449ef19f4cf2015, e88aa12874344f96bc4fbd0de410c8f1=ad41ea73ddd1428581a9327eef6d1723, ae5ef009362f4ab6b3ca7171a432761c=9248926f2abc43989f83a9b93531fc2c, 765a199673b942aaba519d44d2ab5393, 33c6491b68a74c369e3d4094625d28e8=ea80253667fa42439abb128b9cdb1bf7, 36605edc9eaf47fc99b2396363a39f56=a2430dd743524288a69e9c8ab51019cc, 313e4b83521c4826bdca152aa6cd271e=b7115892e2ec47b9b55863864bc42201, fb2172a83fd94d99bf6f453d8aa1b48f=f48ceb795b414bb1abaec5fe3fae019c, 74d67bff66d945a2900af9ec0e898480" />
@@ -6956,17 +7005,17 @@
 							<p.Text>Changed Component</p.Text>
 						</NodeLabel>
 						<Wire Id="2b18ebe15f1a4228b7febde15c9e36e1" Joints="N(759c233bed9f42bdb948b75742e14095:R1)|(955,485) N(2359220ab74f45ebac416ace4e2618aa:Value)|(998,485)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Literal Bounds="1375 405 25 15" DataType="Boolean" Id="1e1ddec8cdfe447e8b76a33b7d37f74f" xmlns="http://www.ni.com/MocCommon">
+						<Literal Bounds="1360 335 25 15" DataType="Boolean" Id="1e1ddec8cdfe447e8b76a33b7d37f74f" xmlns="http://www.ni.com/MocCommon">
 							<p.Data>True</p.Data>
 							<BooleanBehavior />
 						</Literal>
-						<DataAccessor Bounds="1430 405 40 15" DataItem="31a4f73ea3cb474197695c84cd6f0d98" Id="6d390be770644451967cef78d43160ce" Label="45a816736d4c405e8fe1eefb68b98964" xmlns="http://www.ni.com/MocCommon">
+						<DataAccessor Bounds="1425 330 40 15" DataItem="31a4f73ea3cb474197695c84cd6f0d98" Id="6d390be770644451967cef78d43160ce" Label="45a816736d4c405e8fe1eefb68b98964" xmlns="http://www.ni.com/MocCommon">
 							<Terminal DataType="Boolean" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 						</DataAccessor>
-						<NodeLabel AttachedTo="6d390be770644451967cef78d43160ce" Bounds="1475 405 183 14" Id="45a816736d4c405e8fe1eefb68b98964" xmlns="http://www.ni.com/PlatformFramework">
+						<NodeLabel AttachedTo="6d390be770644451967cef78d43160ce" Bounds="1470 330 183 14" Id="45a816736d4c405e8fe1eefb68b98964" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>add BMK to common information</p.Text>
 						</NodeLabel>
-						<Wire Id="2db03daa051d48d38c7293bd87300d9f" Joints="N(1e1ddec8cdfe447e8b76a33b7d37f74f:Out)|(1400,410) N(6d390be770644451967cef78d43160ce:Value)|(1433,410)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="2db03daa051d48d38c7293bd87300d9f" Joints="N(1e1ddec8cdfe447e8b76a33b7d37f74f:Out)|(1385,340) h(15) B(1) h(20) v(-5) N(6d390be770644451967cef78d43160ce:Value)|(1428,335) B(1) v(-75) N(a431af91fce14a5f919c353b1c6973a7:Value)|(1428,265)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="5bef981c1cb149e783fe409f41022f7f" Joints="N(95332cef07bb432a84cb0f61c6dcc293:5b9af6b13e294cfa85db8e78b3e85f99)|(4,315) h(-4) v(-10) N(6d064f41e84e48ec9aa1ff35c79d50e3:5b9af6b13e294cfa85db8e78b3e85f99)|(3271,305)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Literal Bounds="1950 185 160 15" DataType="@e100ad25e3e94a7eb77ac9c3e45cae82" Id="d6ea0e0ca86b4f238abf4e8abcbc1c19" Label="d6774eef2614faa99ddc87bd4414c89" p7:ControlDefinitionChecksum="Ri30CzSgq05VtZe0dMUObPHC4BIYJlOI8VoSrVrSGTY=_v1" xmlns:p7="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
 							<p.Data>58</p.Data>
@@ -6978,6 +7027,12 @@
 						</Literal>
 						<NodeLabel AttachedTo="d6ea0e0ca86b4f238abf4e8abcbc1c19" Bounds="1950 168 30 14" Id="d6774eef2614faa99ddc87bd4414c89" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>State</p.Text>
+						</NodeLabel>
+						<DataAccessor Bounds="1425 260 40 15" DataItem="52512676bb7d47809832bbad5a18a322" Id="a431af91fce14a5f919c353b1c6973a7" Label="9905ef8b0c7f4b19bd9c5762eb1afe54" xmlns="http://www.ni.com/MocCommon">
+							<Terminal DataType="Boolean" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+						</DataAccessor>
+						<NodeLabel AttachedTo="a431af91fce14a5f919c353b1c6973a7" Bounds="1470 260 99 14" Id="9905ef8b0c7f4b19bd9c5762eb1afe54" xmlns="http://www.ni.com/PlatformFramework">
+							<p.Text>iCombi Pro device</p.Text>
 						</NodeLabel>
 					</CaseStructure.Case>
 					<CaseStructure.Case Bounds="5 5 3275 680" Id="7f9c2a4a527749f08fdf99084a7e1cd5" Pattern="&quot;Component Replacement History iVario&quot;">
@@ -7101,6 +7156,17 @@
 						<NodeLabel AttachedTo="53a4b2d2597b47c28e6b371137e225a1" Bounds="2545 213 30 14" Id="3024596438e84218a1a4f76253b3b94a" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>State</p.Text>
 						</NodeLabel>
+						<DataAccessor Bounds="1410 220 40 15" DataItem="52512676bb7d47809832bbad5a18a322" Id="d6de6ddcf0e94d449aaffb0febcb110d" Label="fc5e8616418245e2a4aa7b835b5e5ec6" xmlns="http://www.ni.com/MocCommon">
+							<Terminal DataType="Boolean" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+						</DataAccessor>
+						<NodeLabel AttachedTo="d6de6ddcf0e94d449aaffb0febcb110d" Bounds="1455 220 99 14" Id="fc5e8616418245e2a4aa7b835b5e5ec6" xmlns="http://www.ni.com/PlatformFramework">
+							<p.Text>iCombi Pro device</p.Text>
+						</NodeLabel>
+						<Literal Bounds="1340 220 25 15" DataType="Boolean" Id="e9235e98a144594a2c87aafaebae89a" xmlns="http://www.ni.com/MocCommon">
+							<p.Data>False</p.Data>
+							<BooleanBehavior />
+						</Literal>
+						<Wire Id="1eb180ace8954f08bd9a12a0c28d24e2" Joints="N(e9235e98a144594a2c87aafaebae89a:Out)|(1365,225) N(d6de6ddcf0e94d449aaffb0febcb110d:Value)|(1413,225)" xmlns="http://www.ni.com/PlatformFramework" />
 					</CaseStructure.Case>
 					<CaseStructure.Case Bounds="5 5 3275 680" Id="6738d903d9844257a69d8d118fb6bc22" Pattern="&quot;Software Version History iVario&quot;">
 						<Wire Id="2f5077cef3964f5ea76b7a4151534bf1" Joints="N(3e671668105d4d658543cc328c275a07:Out)|(2835,235) h(370) v(5) h(61) v(25) N(eb69679a2764b7b98b41dc239959702:6738d903d9844257a69d8d118fb6bc22)|(3271,265)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -11617,11 +11683,9 @@
 			</NodeLabel>
 		</BlockDiagram>
 		<HtmlFrontPanel Height="[float]854" Id="15" LayoutSystem="[LayoutSystem]Absolute" Left="[float]0" MaxWidth="[float]16000" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]1230" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
-			<Label Height="[float]16" Id="991f6382f78f473099572a852e598259" LabelOwner="[UIModel]671ac672b204496780ade852a830a1a7" Left="[float]947" Text="[string]URL Image" Top="[float]65" Visible="[bool]False" Width="[float]58" xmlns="http://www.ni.com/PanelCommon" />
-			<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]28" Id="671ac672b204496780ade852a830a1a7" Label="[UIModel]991f6382f78f473099572a852e598259" Left="[float]947" Source="{DataItemBinding Id=44cdd71a2f6340829096468560ac106c}" Stretch="[SMStretch]Uniform" TabIndex="[int]17" Top="[float]85" Width="[float]121" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Label Height="[float]16" Id="31c434e443784e538212a3c2e87308fe" LabelOwner="[UIModel]1eccb1974fd74225be56e144f0c1c131" Left="[float]3" Text="[string]ivario" Top="[float]104" Visible="[bool]False" Width="[float]29" xmlns="http://www.ni.com/PanelCommon" />
-			<TabControl BaseName="[string]Tab" Height="[float]726" Id="1eccb1974fd74225be56e144f0c1c131" IncludeInCapture="[bool]False" Label="[UIModel]31c434e443784e538212a3c2e87308fe" Left="[float]3" SelectedIndex="{DataItemBinding Id=ef7116d5ae104abab1514d6afcbbfa2f}" TabIndex="[int]15" Top="[float]124" Width="[float]1216" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
-				<TabItem Header="[string]Common Information" Id="f5e45b76447444f0be077b4decc408e8" Left="[float]0" TabIndex="[int]15" Top="[float]0">
+			<TabControl BaseName="[string]Tab" Height="[float]726" Id="1eccb1974fd74225be56e144f0c1c131" IncludeInCapture="[bool]False" Label="[UIModel]31c434e443784e538212a3c2e87308fe" Left="[float]3" SelectedIndex="{DataItemBinding Id=ef7116d5ae104abab1514d6afcbbfa2f}" TabIndex="[int]17" Top="[float]124" Width="[float]1216" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<TabItem Header="[string]Common Information" Id="f5e45b76447444f0be077b4decc408e8" Left="[float]0" TabIndex="[int]17" Top="[float]0">
 					<LayoutPanel Height="[float]701" Id="995ebdab7ca549b6bc383aa2c3f1f4a5" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
 						<LVDataGrid AlternatingRowBackgrounds="[bool]False" BaseName="[string]Data Grid" CanUserSortColumns="[bool]False" ColumnSizeMode="[DataGridColumnSizeMode]StretchSingleColumn" Height="[float]605" Id="31ea1a303a974fefae88fa0859c05f56" IsReadOnly="[bool]True" Label="[UIModel]1082a37b4f3a4c33a8748eaad8e46367" Left="[float]5" MinHeight="[float]100" MinWidth="[float]125" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]60" ShowAddRowsToolBar="[bool]False" TabIndex="[int]0" Top="[float]25" Type="[Type]@d0130d70a3b04d7a998b4bf23e19104f" Value="{DataItemBinding Id=75a02d51951f461dba0f04212b8de843}" Width="[float]776">
 							<LVDataGridColumn ColumnElement="[UIModel]cbc4a4c410254f1e97698675475d6055" ContentFont="a959f391716442eae279f9d25d03ce7" Header="[string]Value" Id="5d7464d3159a40f1a8cf1ef1fbf6a84a" Index="[int]1" IsReadOnly="[bool]True" ValueType="[Type]String" Width="[DataViewerLength]170">
@@ -11675,7 +11739,7 @@
 						</Label>
 					</LayoutPanel>
 				</TabItem>
-				<TabItem Header="[string]Basic Settings" Id="3456525474434090b2722a54110f0503" Left="[float]0" TabIndex="[int]15" Top="[float]0">
+				<TabItem Header="[string]Basic Settings" Id="3456525474434090b2722a54110f0503" Left="[float]0" TabIndex="[int]17" Top="[float]0">
 					<LayoutPanel Height="[float]701" Id="13d8261c76014840849bd701e2bb00b0" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
 						<LVDataGrid AlternatingRowBackgrounds="[bool]False" BaseName="[string]Data Grid" CanUserSortColumns="[bool]False" ColumnSizeMode="[DataGridColumnSizeMode]StretchSingleColumn" Height="[float]600" Id="f33e9cb3778849fd90ddc39be1c553c2" IsReadOnly="[bool]True" Label="[UIModel]7c10ac0f533548b0afe70a6f9bee5e78" Left="[float]14" MinHeight="[float]100" MinWidth="[float]125" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]43" ShowAddRowsToolBar="[bool]False" TabIndex="[int]0" Top="[float]21" Type="[Type]@f4875099e1264b4da42d7f843c1477e6" Value="{DataItemBinding Id=fb12d828ea94d238a2085eb4bf884ac}" Width="[float]1096">
 							<LVDataGridColumn ColumnElement="[UIModel]666351d7d023481d92bf0ebbf01f67c7" ContentFont="567e4678dcef45e0a73cb40367eb2ced" Header="[string]Value" Id="125fda9e3f944344a6473ba6e89cf1ce" Index="[int]1" IsReadOnly="[bool]True" ValueType="[Type]String" Width="[DataViewerLength]160">
@@ -11707,7 +11771,7 @@
 						</Label>
 					</LayoutPanel>
 				</TabItem>
-				<TabItem Header="[string]Diagnostic RT Data Sensors Heating" Id="5e00b74862af4a598ad816fed0df066a" Left="[float]0" TabIndex="[int]15" Top="[float]0">
+				<TabItem Header="[string]Diagnostic RT Data Sensors Heating" Id="5e00b74862af4a598ad816fed0df066a" Left="[float]0" TabIndex="[int]17" Top="[float]0">
 					<LayoutPanel Height="[float]701" Id="c3c7f34563f84a4d81434dbe5c6a0ed7" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
 						<LVDataGrid AlternatingRowBackgrounds="[bool]False" BaseName="[string]Data Grid" CanUserSortColumns="[bool]False" ColumnSizeMode="[DataGridColumnSizeMode]StretchSingleColumn" Height="[float]648" Id="545fea629984d638f9b502b330f871d" IsReadOnly="[bool]True" Label="[UIModel]a02ce0ef8c924232bd618acdea81459f" Left="[float]16" MinHeight="[float]100" MinWidth="[float]125" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]43" ShowAddRowsToolBar="[bool]False" TabIndex="[int]0" Top="[float]36" Type="[Type]@7004f9e3b7ca433b973e7b27d107262c" Value="{DataItemBinding Id=fd3db6ba496247b7a06153ae0cbaf199}" Width="[float]1096">
 							<LVDataGridColumn ColumnElement="[UIModel]93f878f57b3443c091422435b070350d" ContentFont="eb23fdfb879f4b00a0fe6193d7504b9c" Header="[string]Actual" Id="32d9cb62f2844ee1948ffa8ff019fd3f" Index="[int]1" IsReadOnly="[bool]True" ValueType="[Type]String" Width="[DataViewerLength]80">
@@ -11739,7 +11803,7 @@
 						</Label>
 					</LayoutPanel>
 				</TabItem>
-				<TabItem Header="[string]Diagnostic RT Data Sensors Movement" Id="e03da1b08608439a834009558d3b69a1" Left="[float]0" TabIndex="[int]15" Top="[float]0">
+				<TabItem Header="[string]Diagnostic RT Data Sensors Movement" Id="e03da1b08608439a834009558d3b69a1" Left="[float]0" TabIndex="[int]17" Top="[float]0">
 					<LayoutPanel Height="[float]701" Id="d0bfa6a0dcde4f35b491b8d33302bebd" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
 						<LVDataGrid AlternatingRowBackgrounds="[bool]False" BaseName="[string]Data Grid" CanUserSortColumns="[bool]False" ColumnSizeMode="[DataGridColumnSizeMode]StretchSingleColumn" Height="[float]648" Id="6d44eaeaba404657a70379b8f8a5588b" IsReadOnly="[bool]True" Label="[UIModel]209444b891c74943a21e814f193c4da5" Left="[float]16" MinHeight="[float]100" MinWidth="[float]125" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]43" ShowAddRowsToolBar="[bool]False" TabIndex="[int]0" Top="[float]25" Type="[Type]@93edd134f4474a20967633d76f18d053" Value="{DataItemBinding Id=3a856341fa0e4d1e882811f1ff380350}" Width="[float]1080">
 							<LVDataGridColumn ColumnElement="[UIModel]bd4ea90506d4923bf44ee9dd1a401e3" ContentFont="d853c940780e49d09e44a8130210604d" Header="[string]Command" Id="67b2145a1f1c476289d1bdbeb79984ff" Index="[int]1" IsReadOnly="[bool]True" ValueType="[Type]String" Width="[DataViewerLength]100">
@@ -11780,7 +11844,7 @@
 						</Label>
 					</LayoutPanel>
 				</TabItem>
-				<TabItem Header="[string]Diagnostic RT Data Sensors Pressure" Id="111071163da14241b641eb3c53dbbaf9" Left="[float]0" TabIndex="[int]15" Top="[float]0">
+				<TabItem Header="[string]Diagnostic RT Data Sensors Pressure" Id="111071163da14241b641eb3c53dbbaf9" Left="[float]0" TabIndex="[int]17" Top="[float]0">
 					<LayoutPanel Height="[float]701" Id="5be7665d8ab04a349a0ad56749d67217" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
 						<LVDataGrid AlternatingRowBackgrounds="[bool]False" BaseName="[string]Data Grid" CanUserSortColumns="[bool]False" ColumnSizeMode="[DataGridColumnSizeMode]StretchSingleColumn" Height="[float]648" Id="ab223608269646e0a971e299f0a24d88" IsReadOnly="[bool]True" Label="[UIModel]28579974dc3a41c4ad69e89ce3dc218e" Left="[float]15" MinHeight="[float]100" MinWidth="[float]125" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]43" ShowAddRowsToolBar="[bool]False" TabIndex="[int]0" Top="[float]36" Type="[Type]@17bb9caf54ac4c9fbe249beba63848cd" Value="{DataItemBinding Id=9646d5361a784c22a85cbaa86eceb71c}" Width="[float]1096">
 							<LVDataGridColumn ColumnElement="[UIModel]7f93e253a1904af481f8c74c686a2834" ContentFont="a09770ade5734462a665cc54155e8a43" Header="[string]Status" Id="c119984d6af747e99f191edb42052446" Index="[int]1" IsReadOnly="[bool]True" ValueType="[Type]String" Width="[DataViewerLength]100">
@@ -11809,7 +11873,7 @@
 						</Label>
 					</LayoutPanel>
 				</TabItem>
-				<TabItem Header="[string]Diagnostic Service History" Id="8731dfd871d4442ea232d64f434e4687" Left="[float]0" TabIndex="[int]15" Top="[float]0">
+				<TabItem Header="[string]Diagnostic Service History" Id="8731dfd871d4442ea232d64f434e4687" Left="[float]0" TabIndex="[int]17" Top="[float]0">
 					<LayoutPanel Height="[float]701" Id="2e0a8745d5ba46a286bc1d27ec1ef87b" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
 						<LVDataGrid AlternatingRowBackgrounds="[bool]False" BaseName="[string]Data Grid" CanUserSortColumns="[bool]False" ColumnSizeMode="[DataGridColumnSizeMode]StretchSingleColumn" Height="[float]654" Id="c1ea481e96c3462da2165df36f7962e1" IsReadOnly="[bool]True" Label="[UIModel]55ddc8ce0c5c42d388e8e6cbd533ba6f" Left="[float]16" MinHeight="[float]100" MinWidth="[float]125" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]43" ShowAddRowsToolBar="[bool]False" TabIndex="[int]0" Top="[float]38" Type="[Type]@7e62ea2503264456ad6df0a8d7c68e81" Value="{DataItemBinding Id=29467b22f54b4276af1e026a8b95bf72}" Width="[float]1036">
 							<LVDataGridColumn ColumnElement="[UIModel]dd39c4f0f6ec4791973444284c3deb87" ContentFont="f5407f5b55f44b74a0acda648c239c3a" Header="[string]First Time" Id="eec56323e2fd4d7683dc6320c87f1f20" Index="[int]1" IsReadOnly="[bool]True" ValueType="[Type]String" Width="[DataViewerLength]150">
@@ -11848,7 +11912,7 @@
 						<Label Height="[float]15" Id="298043b4355a4182a6ea435bf8ffb76e" LabelOwner="[UIModel]37e42edff93c48e3b3cbd971bca1ddfb" Left="[float]420" Text="[string]Sort table ivario" Top="[float]-11" Visible="[bool]False" Width="[float]75" xmlns="http://www.ni.com/PanelCommon">
 							<FontSetting FontFamily="Segoe UI" FontSize="8" Id="af346c75ffa44f98cdb6b4b36cc490e" xmlns="http://www.ni.com/PlatformFramework" />
 						</Label>
-						<LVHyperlinkControl BaseName="[string]Hyperlink Control" Content="[string]→ Training Manual/Fault Finding" Foreground="[SMColor]#ff00b050" Height="[float]40" Id="65f923d963d84e968f9a94fe7472b8ca" IsUrlSameAsContent="[bool]False" Label="[UIModel]41c4348d34a14e1ea36fea11a40b65de" LabelLinked="[bool]True" Left="[float]576" TabIndex="[int]2" TargetName="[string]_blank" TargetUrl="{DataItemBinding Id=9084a42fde541a38d72bb18744a9759}" Top="[float]2" Width="[float]296">
+						<LVHyperlinkControl BaseName="[string]Hyperlink Control" Content="[string]→ Training Manual/Fault Finding" Foreground="[SMColor]#ffee1c25" Height="[float]40" Id="65f923d963d84e968f9a94fe7472b8ca" IsUrlSameAsContent="[bool]False" Label="[UIModel]41c4348d34a14e1ea36fea11a40b65de" LabelLinked="[bool]True" Left="[float]576" TabIndex="[int]2" TargetName="[string]_blank" TargetUrl="{DataItemBinding Id=9084a42fde541a38d72bb18744a9759}" Top="[float]2" Width="[float]296">
 							<FontSetting FontFamily="Segoe UI" FontSize="14" FontStyle="Bold" Id="5c19a7e8c73c4c1bb0462bb1df56ad53" xmlns="http://www.ni.com/PlatformFramework" />
 						</LVHyperlinkControl>
 						<Label Height="[float]15" Id="41c4348d34a14e1ea36fea11a40b65de" LabelOwner="[UIModel]65f923d963d84e968f9a94fe7472b8ca" Left="[float]576" Text="[string]Engine Link_2" Top="[float]-17" Visible="[bool]False" Width="[float]64" xmlns="http://www.ni.com/PanelCommon">
@@ -11856,7 +11920,7 @@
 						</Label>
 					</LayoutPanel>
 				</TabItem>
-				<TabItem Header="[string]Diagnostic RunningTimes" Id="d80c0bca7df44aac8b9a47fa2a721c05" Left="[float]0" TabIndex="[int]15" Top="[float]0">
+				<TabItem Header="[string]Diagnostic RunningTimes" Id="d80c0bca7df44aac8b9a47fa2a721c05" Left="[float]0" TabIndex="[int]17" Top="[float]0">
 					<LayoutPanel Height="[float]701" Id="4f36d1c568c546f1a0477cd9440c622b" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
 						<LVDataGrid AlternatingRowBackgrounds="[bool]False" BaseName="[string]Data Grid" CanUserSortColumns="[bool]False" ColumnSizeMode="[DataGridColumnSizeMode]StretchSingleColumn" Height="[float]100" Id="c1bf0d11c6304bd8b0a23ef01fc51a4c" IsReadOnly="[bool]True" Label="[UIModel]d0e0aa5f4d924037813b923e5f0d85c3" Left="[float]14" MinHeight="[float]100" MinWidth="[float]125" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]43" ShowAddRowsToolBar="[bool]False" TabIndex="[int]0" Top="[float]36" Type="[Type]@4a58c6094c4f4cd7933f9c43b1ad6564" Value="{DataItemBinding Id=cf4c7503ee6e46b99fe577d4a1ad14a2}" Width="[float]1100">
 							<LVDataGridColumn ColumnElement="[UIModel]d15b26522298491d8c285e1e64839380" ContentFont="4163dc9a5a54425e93a204f25cbdbb8d" Header="[string]Duration" Id="6b013fcd3ae64f20b3045f6211146c0c" Index="[int]2" IsReadOnly="[bool]True" ValueType="[Type]String" Width="[DataViewerLength]120">
@@ -11922,7 +11986,7 @@
 						</Label>
 					</LayoutPanel>
 				</TabItem>
-				<TabItem Header="[string]Software Version History" Id="3c5cacb93d364735b0c87fac635abd56" Left="[float]0" TabIndex="[int]15" Top="[float]0">
+				<TabItem Header="[string]Software Version History" Id="3c5cacb93d364735b0c87fac635abd56" Left="[float]0" TabIndex="[int]17" Top="[float]0">
 					<LayoutPanel Height="[float]701" Id="c495bf370e094d5cb9f9a9a09737157d" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
 						<LVDataGrid AlternatingRowBackgrounds="[bool]False" BaseName="[string]Data Grid" CanUserSortColumns="[bool]False" ColumnSizeMode="[DataGridColumnSizeMode]StretchSingleColumn" Height="[float]648" Id="842d7c82d9d1479da3ac465957e9eb9d" IsReadOnly="[bool]True" Label="[UIModel]2c7ce5368ca44d2aa0ed3b28b10e2aaa" Left="[float]13" MinHeight="[float]100" MinWidth="[float]125" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]41" ShowAddRowsToolBar="[bool]False" TabIndex="[int]0" Top="[float]36" Type="[Type]@967b81a1163242a4a9500b31a877a07d" Value="{DataItemBinding Id=d2c7311ccedf42a8b0b1118187858dd2}" Width="[float]742">
 							<LVDataGridColumn ColumnElement="[UIModel]56d1b1493e464405827598c6cc4040a4" ContentFont="6bc9b8100e3742059ecd99eccb3a3c77" Header="[string]Update Date" Id="8c7f6c5628f44518bf1204cb2145db44" Index="[int]1" IsReadOnly="[bool]True" ValueType="[Type]String" Width="[DataViewerLength]250">
@@ -11951,10 +12015,10 @@
 				<FontSetting FontFamily="Segoe UI" FontSize="8" Id="6c5069404932458ea2e29f99b51f8756" xmlns="http://www.ni.com/PlatformFramework" />
 			</TabControl>
 			<Label Height="[float]16" Id="51557bc3da634c39a242e54fc3beb80b" LabelOwner="[UIModel]6db4de42b184ccbb7b2d56302cc6a08" Left="[float]4" Text="[string]iVario 2" Top="[float]104" Visible="[bool]False" Width="[float]40" xmlns="http://www.ni.com/PanelCommon" />
-			<TabControl BaseName="[string]Tab" Height="[float]726" Id="6db4de42b184ccbb7b2d56302cc6a08" IncludeInCapture="[bool]False" Label="[UIModel]51557bc3da634c39a242e54fc3beb80b" Left="[float]4" SelectedIndex="{DataItemBinding Id=12a72f83b685481999bdca00061c5527}" TabIndex="[int]14" Top="[float]124" Width="[float]1216" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
-				<TabItem Header="[string]System OnOff History" Id="ff215d89d8124b1b8207a9c21fc8fd0d" Left="[float]0" TabIndex="[int]14" Top="[float]0">
+			<TabControl BaseName="[string]Tab" Height="[float]726" Id="6db4de42b184ccbb7b2d56302cc6a08" IncludeInCapture="[bool]False" Label="[UIModel]51557bc3da634c39a242e54fc3beb80b" Left="[float]4" SelectedIndex="{DataItemBinding Id=12a72f83b685481999bdca00061c5527}" TabIndex="[int]15" Top="[float]124" Width="[float]1216" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<TabItem Header="[string]System OnOff History" Id="ff215d89d8124b1b8207a9c21fc8fd0d" Left="[float]0" TabIndex="[int]15" Top="[float]0">
 					<LayoutPanel Height="[float]701" Id="c2f84fd82c3141da9dcbfaf31dd62277" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
-						<LVDataGrid AlternatingRowBackgrounds="[bool]False" BaseName="[string]Data Grid" CanUserSortColumns="[bool]False" ColumnSizeMode="[DataGridColumnSizeMode]StretchSingleColumn" Height="[float]648" Id="c969190f26ff41ca9527da288d146cca" IsReadOnly="[bool]True" Label="[UIModel]da51338390894253be4d89b3eab787be" Left="[float]8" MinHeight="[float]100" MinWidth="[float]125" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]58" ShowAddRowsToolBar="[bool]False" TabIndex="[int]0" Top="[float]23" Type="[Type]@ca1cf2941d534eb1a73348737f0de6f6" Value="{DataItemBinding Id=e43b030aa49a4e03bf85851f24aa0559}" Width="[float]952">
+						<LVDataGrid AlternatingRowBackgrounds="[bool]False" BaseName="[string]Data Grid" CanUserSortColumns="[bool]True" ColumnSizeMode="[DataGridColumnSizeMode]StretchSingleColumn" Height="[float]648" Id="c969190f26ff41ca9527da288d146cca" IsReadOnly="[bool]True" Label="[UIModel]da51338390894253be4d89b3eab787be" Left="[float]8" MinHeight="[float]100" MinWidth="[float]125" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]58" ShowAddRowsToolBar="[bool]False" TabIndex="[int]0" Top="[float]23" Type="[Type]@ca1cf2941d534eb1a73348737f0de6f6" Value="{DataItemBinding Id=e43b030aa49a4e03bf85851f24aa0559}" Width="[float]952">
 							<LVDataGridColumn ColumnElement="[UIModel]b4ffe825f5a940d9936f4d178faaccbe" ContentFont="d69c410d022a4d1581581d2007e83da2" Header="[string]OnOffEvent" Id="f169661b58ba4ceea7bc889e3f6bf65c" Index="[int]1" IsReadOnly="[bool]True" ValueType="[Type]String" Width="[DataViewerLength]300">
 								<FontSetting FontFamily="Segoe UI" FontSize="9" Id="d69c410d022a4d1581581d2007e83da2" xmlns="http://www.ni.com/PlatformFramework" />
 								<StringControl Height="[float]24" Id="b4ffe825f5a940d9936f4d178faaccbe" IsReadOnly="[bool]True" Left="[float]0" Top="[float]0" Width="[float]20">
@@ -11981,7 +12045,7 @@
 						</Label>
 					</LayoutPanel>
 				</TabItem>
-				<TabItem Header="[string]Component Replacement History" Id="f6d99aaad4794e1f922a7991e9eda4d2" Left="[float]0" TabIndex="[int]14" Top="[float]0">
+				<TabItem Header="[string]Component Replacement History" Id="f6d99aaad4794e1f922a7991e9eda4d2" Left="[float]0" TabIndex="[int]15" Top="[float]0">
 					<LayoutPanel Height="[float]701" Id="b0399cbeda8241f19b53cc19bd72dda7" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
 						<LVDataGrid AlternatingRowBackgrounds="[bool]False" BaseName="[string]Data Grid" CanUserSortColumns="[bool]False" ColumnSizeMode="[DataGridColumnSizeMode]StretchSingleColumn" Height="[float]648" Id="6c518387ec9041fdb2be52c8bf7a3869" IsReadOnly="[bool]True" Label="[UIModel]5dba1e0c64b64a8ba6b2a4778021c4fc" Left="[float]7" MinHeight="[float]100" MinWidth="[float]125" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]41" ShowAddRowsToolBar="[bool]False" TabIndex="[int]0" Top="[float]24" Type="[Type]@97cb2f0ea0514eb8900dd23d9a0acf9a" Value="{DataItemBinding Id=53097b3e522048958640d535a7ef2422}" Width="[float]1196">
 							<LVDataGridColumn ColumnElement="[UIModel]8a367d061e324394b4c2282c8e5caf20" ContentFont="4050f6e39474e1ea1e9f42b22876c45" Header="[string]BMK" Id="6157d09af88a4ca7ae2f45ecd7bf1b4b" Index="[int]1" IsReadOnly="[bool]True" ValueType="[Type]String" Width="[DataViewerLength]80">
@@ -12019,7 +12083,7 @@
 						</Label>
 					</LayoutPanel>
 				</TabItem>
-				<TabItem Header="[string]Service Report Content" Id="5e777e853f14a86b39f78f4516e2a27" Left="[float]0" TabIndex="[int]14" Top="[float]0">
+				<TabItem Header="[string]Service Report Content" Id="5e777e853f14a86b39f78f4516e2a27" Left="[float]0" TabIndex="[int]15" Top="[float]0">
 					<LayoutPanel Height="[float]701" Id="246594062807440489338c672493d7a0" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
 						<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]632" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="8f097f0395854fc28195cc8ddf9a9cf0" IsReadOnly="[bool]True" Label="[UIModel]145f1cdf0e274bb58f7329146e0eb233" Left="[float]9" TabIndex="[int]0" Text="{DataItemBinding Id=e1fb4c73237e4fd18b920e172af768fb}" Top="[float]46" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]1096">
 							<FontSetting FontFamily="Segoe UI" FontSize="10" Id="e1070fc4281c4653bd27130e36d374ad" xmlns="http://www.ni.com/PlatformFramework" />
@@ -12030,166 +12094,9 @@
 					</LayoutPanel>
 				</TabItem>
 			</TabControl>
-			<Label Height="[float]16" Id="cb887a060a5149f2aeb0235ead34dcc9" LabelOwner="[UIModel]485c2197f704ebd8477611c2a692d96" Left="[float]3" Text="[string]Page 4" Top="[float]104" Visible="[bool]False" Width="[float]36" xmlns="http://www.ni.com/PanelCommon" />
-			<TabControl BaseName="[string]Tab" Height="[float]726" Id="485c2197f704ebd8477611c2a692d96" IncludeInCapture="[bool]False" Label="[UIModel]cb887a060a5149f2aeb0235ead34dcc9" Left="[float]3" SelectedIndex="{DataItemBinding Id=9f5d047ae56c4b808ced4ad0ed735973}" TabIndex="[int]12" Top="[float]124" Width="[float]1216" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
-				<TabItem Header="[string]Histogram Basis CPU &amp; RAM Load" Id="f3e50fcee8654e24998c5a6a4809979c" Left="[float]0" TabIndex="[int]12" Top="[float]0">
-					<LayoutPanel Height="[float]701" Id="d7bd75368d5c4f1c9e993cb09b369e23" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
-						<Graph DataSource="{DataItemBinding Id=f3829ce404db412c877b566c74d7f4ba}" DataSourceType="[Type]Double[]" Height="[float]296" Id="1d75e26f0e8443c8b985f9b7e279a5ab" IsTabStop="[bool]True" Label="[UIModel]a5a2f7462b1346728d48a8b6a70b5edf" Left="[float]14" MetadataAlwaysOverridesPlotNames="[bool]True" PlotAreaMargin="[SMThickness]0,-1,0,26" SuppressScaleLayout="[bool]True" TabIndex="[int]0" Top="[float]30" Width="[float]457">
-							<Axis Adjuster="[RangeAdjuster]None" Id="5c8916f0492047e4bee612aa83188eb1" Label="[string]Range" MajorDivisions="[UIModel]6c45dbdf01b2440cba24e539ac31b0fb" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 9, System.Double" ValueType="[Type]Double">
-								<RangeLabeledDivisions Id="6c45dbdf01b2440cba24e539ac31b0fb" LabelVisibility="[SMVisibility]Collapsed" Mode="[RangeDivisionsMode]Auto" TickVisibility="[SMVisibility]Visible">
-									<p.LabelPresenter Kind="LVRelativeSeconds" Format="0" />
-								</RangeLabeledDivisions>
-							</Axis>
-							<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" Id="a7887206331c4c74b034c9dc4ee1d1d2" Label="[string]Running Time (Min)" MajorDivisions="[UIModel]57ec98bc168a4ef7bcab2b31517e567b" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 10, System.Double" ValueType="[Type]Double">
-								<RangeLabeledDivisions Id="57ec98bc168a4ef7bcab2b31517e567b">
-									<p.LabelPresenter Kind="LVRelativeSeconds" Format="G6" ShortFormat="0.000E+0" />
-								</RangeLabeledDivisions>
-							</Axis>
-							<Plot HorizontalScale="[UIModel]5c8916f0492047e4bee612aa83188eb1" Id="cc18ded50b084faebea80d54e42d192b" Label="[string]Plot" VerticalScale="[UIModel]a7887206331c4c74b034c9dc4ee1d1d2" Visibility="[SMVisibility]Visible">
-								<PlotRenderer BarBaseline="[FillBaseline]Zero" Id="25aff910d408430991d94a4527079a17" LineStroke="[SMSolidColorBrush]#ff82a3d1" LineThickness="[double]1" PointFill="[SMSolidColorBrush]#ff82a3d1" />
-							</Plot>
-						</Graph>
-						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]60" Id="7b8f5efb67764380aee6aed4f448cf36" Label="[UIModel]2b5fcf56a2c6441b9894affff17c66b3" Left="[float]101" Source="{DataItemBinding Id=cdb7c72bd9534991b4ea7a7a5ec4a2a5}" Stretch="[SMStretch]Uniform" TabIndex="[int]1" Top="[float]258" Width="[float]344" />
-						<Graph DataSource="{DataItemBinding Id=fe25e6f0b924454f8904f4d3f39cfb63}" DataSourceType="[Type]Double[]" Height="[float]296" Id="f006f45c6b5843e794adc8b06062ffcc" IsTabStop="[bool]True" Label="[UIModel]16a3251d2a20461d98e38bce2bfb259d" Left="[float]14" MetadataAlwaysOverridesPlotNames="[bool]True" PlotAreaMargin="[SMThickness]0,-1,0,26" SuppressScaleLayout="[bool]True" TabIndex="[int]2" Top="[float]385" Width="[float]457">
-							<Axis Adjuster="[RangeAdjuster]None" Id="b84bcf61892c4fd5b557c5ccc1ea31aa" Label="[string]Range" MajorDivisions="[UIModel]eacd08fb81b445fdb68010d6ee603478" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 9, System.Double" ValueType="[Type]Double">
-								<RangeLabeledDivisions Id="eacd08fb81b445fdb68010d6ee603478" LabelVisibility="[SMVisibility]Collapsed" Mode="[RangeDivisionsMode]Auto" TickVisibility="[SMVisibility]Visible">
-									<p.LabelPresenter Kind="LVRelativeSeconds" Format="0" />
-								</RangeLabeledDivisions>
-							</Axis>
-							<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" Id="6f7743273d034d589fecba58095710e6" Label="[string]Running Time (Min)" MajorDivisions="[UIModel]6f281e89bb7c42e38b6fd6751188fccb" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 10, System.Double" ValueType="[Type]Double">
-								<RangeLabeledDivisions Id="6f281e89bb7c42e38b6fd6751188fccb">
-									<p.LabelPresenter Kind="LVRelativeSeconds" Format="G6" ShortFormat="0.000E+0" />
-								</RangeLabeledDivisions>
-							</Axis>
-							<Plot HorizontalScale="[UIModel]b84bcf61892c4fd5b557c5ccc1ea31aa" Id="57c46dfc7fa24ca6af6d53f66b2861de" Label="[string]Plot" VerticalScale="[UIModel]6f7743273d034d589fecba58095710e6" Visibility="[SMVisibility]Visible">
-								<PlotRenderer BarBaseline="[FillBaseline]Zero" Id="329ba5442f9a46caa084d0600045aa97" LineStroke="[SMSolidColorBrush]#ff82a3d1" LineThickness="[double]1" PointFill="[SMSolidColorBrush]#ff82a3d1" />
-							</Plot>
-						</Graph>
-						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]60" Id="ba889294ab0845de9250b21ba5829135" Label="[UIModel]90707d74738d4fbc8f4534674c0a8d7d" Left="[float]99" Source="{DataItemBinding Id=b8726c32a19a4dcc8a929c971b3309bb}" Stretch="[SMStretch]Uniform" TabIndex="[int]3" Top="[float]614" Width="[float]346" />
-						<ScaleLegend Graph="[UIModel]1d75e26f0e8443c8b985f9b7e279a5ab" Height="[float]60" Id="31f4a434598e443ca49c8fbf59d7ffb4" Left="[float]470" MinWidth="[float]145" Top="[float]266" Visible="[bool]False" Width="[float]145" />
-						<PlotLegend Graph="[UIModel]1d75e26f0e8443c8b985f9b7e279a5ab" Height="[float]28" Id="59cbd51d7ce467c90530f11d4135417" Left="[float]476" MinWidth="[float]145" Top="[float]34" Width="[float]145" />
-						<CursorLegend Graph="[UIModel]1d75e26f0e8443c8b985f9b7e279a5ab" Height="[float]200" Id="a46b1dc396644530a5bdee22f1c99598" Left="[float]14" MinWidth="[float]320" Top="[float]371" Visible="[bool]False" Width="[float]320" />
-						<GraphTools Graph="[UIModel]1d75e26f0e8443c8b985f9b7e279a5ab" Height="[float]35" Id="8b530760552444f7b84b3d280ac7824a" Left="[float]294" Top="[float]30" Visible="[bool]False" Width="[float]120" />
-						<Label Height="[float]16" Id="a5a2f7462b1346728d48a8b6a70b5edf" LabelOwner="[UIModel]1d75e26f0e8443c8b985f9b7e279a5ab" Left="[float]14" Text="[string]Histogram Basis CPU Load Percent" Top="[float]10" Width="[float]183" xmlns="http://www.ni.com/PanelCommon" />
-						<Label Height="[float]16" Id="2b5fcf56a2c6441b9894affff17c66b3" LabelOwner="[UIModel]7b8f5efb67764380aee6aed4f448cf36" Left="[float]101" Text="[string]Skala Histogram Basis MMI CPU" Top="[float]238" Visible="[bool]False" Width="[float]170" xmlns="http://www.ni.com/PanelCommon" />
-						<ScaleLegend Graph="[UIModel]f006f45c6b5843e794adc8b06062ffcc" Height="[float]60" Id="18996810c8c14141ba76b7d3efad4081" Left="[float]470" MinWidth="[float]145" Top="[float]621" Visible="[bool]False" Width="[float]145" />
-						<PlotLegend Graph="[UIModel]f006f45c6b5843e794adc8b06062ffcc" Height="[float]28" Id="4c81425e9efe428c9c8af192bea21587" Left="[float]476" MinWidth="[float]145" Top="[float]389" Width="[float]145" />
-						<CursorLegend Graph="[UIModel]f006f45c6b5843e794adc8b06062ffcc" Height="[float]200" Id="93bcb9a4c2ea4c5c98db4e212d80026a" Left="[float]14" MinWidth="[float]320" Top="[float]726" Visible="[bool]False" Width="[float]320" />
-						<GraphTools Graph="[UIModel]f006f45c6b5843e794adc8b06062ffcc" Height="[float]35" Id="66aa4aa8bf9f472493aa551d51fe9e27" Left="[float]294" Top="[float]385" Visible="[bool]False" Width="[float]120" />
-						<Label Height="[float]16" Id="16a3251d2a20461d98e38bce2bfb259d" LabelOwner="[UIModel]f006f45c6b5843e794adc8b06062ffcc" Left="[float]14" Text="[string]Histogram Basis RAM Load Percent" Top="[float]365" Width="[float]186" xmlns="http://www.ni.com/PanelCommon" />
-						<Label Height="[float]16" Id="90707d74738d4fbc8f4534674c0a8d7d" LabelOwner="[UIModel]ba889294ab0845de9250b21ba5829135" Left="[float]99" Text="[string]Skala Histogram Basis MMI Load" Top="[float]594" Visible="[bool]False" Width="[float]173" xmlns="http://www.ni.com/PanelCommon" />
-					</LayoutPanel>
-				</TabItem>
-				<TabItem Header="[string]Histogram Magnetron Temperature (iHexagon) " Id="419adaecd0294091bd896619c1dd9d59" Left="[float]0" TabIndex="[int]12" Top="[float]0">
-					<LayoutPanel Height="[float]701" Id="28ec38d699fc4adc9892b16f3b86193c" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
-						<Graph DataSource="{DataItemBinding Id=6f4f9c6cc3c04fb3ac19336239d8cdb1}" DataSourceType="[Type]Double[]" Height="[float]296" Id="8a1e2341e5e74953be6ef9cc3b7b1555" IsTabStop="[bool]True" Label="[UIModel]c45965c8457249318bf522f4e4075744" Left="[float]19" MetadataAlwaysOverridesPlotNames="[bool]True" PlotAreaMargin="[SMThickness]0,-1,0,26" SuppressScaleLayout="[bool]True" TabIndex="[int]0" Top="[float]31" Width="[float]456">
-							<Axis Adjuster="[RangeAdjuster]None" Id="3e93e9a8a6ba4c33ab91850ba01e8241" Label="[string]Range" MajorDivisions="[UIModel]be8f47d300b64f0ab796512dcb50050c" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 15, System.Double" ValueType="[Type]Double">
-								<RangeLabeledDivisions Id="be8f47d300b64f0ab796512dcb50050c" LabelVisibility="[SMVisibility]Collapsed" Mode="[RangeDivisionsMode]Auto" TickVisibility="[SMVisibility]Visible">
-									<p.LabelPresenter Kind="LVRelativeSeconds" Format="0" />
-								</RangeLabeledDivisions>
-							</Axis>
-							<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" Id="b508ddf661324b079591c6befa877538" Label="[string]Running Time (Min)" MajorDivisions="[UIModel]dc0d16843c86408e8c2d8ab8984599c3" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 10, System.Double" ValueType="[Type]Double">
-								<RangeLabeledDivisions Id="dc0d16843c86408e8c2d8ab8984599c3">
-									<p.LabelPresenter Kind="LVRelativeSeconds" Format="G6" ShortFormat="0.000E+0" />
-								</RangeLabeledDivisions>
-							</Axis>
-							<Plot HorizontalScale="[UIModel]3e93e9a8a6ba4c33ab91850ba01e8241" Id="983e2ca48a0a46ef9cd8ab94c9445406" Label="[string]Plot" VerticalScale="[UIModel]b508ddf661324b079591c6befa877538" Visibility="[SMVisibility]Visible">
-								<PlotRenderer BarBaseline="[FillBaseline]Zero" Id="1ef0a5c4a0434d9eae148a50a7b3abab" LineStroke="[SMSolidColorBrush]#ff82a3d1" LineThickness="[double]1" PointFill="[SMSolidColorBrush]#ff82a3d1" />
-							</Plot>
-						</Graph>
-						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]60" Id="5589f6cc36954b64805758868733913d" Label="[UIModel]a8e13f9a5cd348df97be0f6156c193b3" Left="[float]104" Source="{DataItemBinding Id=3f4293848a9943988a601d0ca22bf8c1}" Stretch="[SMStretch]Uniform" TabIndex="[int]1" Top="[float]263" Width="[float]347" />
-						<Graph DataSource="{DataItemBinding Id=47f4123066314f6b968fccb1b995a24d}" DataSourceType="[Type]Double[]" Height="[float]296" Id="6164600a6094d2cb189b03bba3a0113" IsTabStop="[bool]True" Label="[UIModel]43e48b9a179f4e2e8db4c7e0746fbdd5" Left="[float]19" MetadataAlwaysOverridesPlotNames="[bool]True" PlotAreaMargin="[SMThickness]0,-1,0,26" SuppressScaleLayout="[bool]True" TabIndex="[int]2" Top="[float]391" Width="[float]456">
-							<Axis Adjuster="[RangeAdjuster]None" Id="53cf0696d9b44fccb12e61a10114c9db" Label="[string]Range" MajorDivisions="[UIModel]7a37d98cffba402b8e5527df2136d166" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 15, System.Double" ValueType="[Type]Double">
-								<RangeLabeledDivisions Id="7a37d98cffba402b8e5527df2136d166" LabelVisibility="[SMVisibility]Collapsed" Mode="[RangeDivisionsMode]Auto" TickVisibility="[SMVisibility]Visible">
-									<p.LabelPresenter Kind="LVRelativeSeconds" Format="0" />
-								</RangeLabeledDivisions>
-							</Axis>
-							<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" Id="12bba7b846264d028fbb507d000cefd7" Label="[string]Running Time (Min)" MajorDivisions="[UIModel]9d286a0d35374ec795946712f1da3fe1" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 10, System.Double" ValueType="[Type]Double">
-								<RangeLabeledDivisions Id="9d286a0d35374ec795946712f1da3fe1">
-									<p.LabelPresenter Kind="LVRelativeSeconds" Format="G6" ShortFormat="0.000E+0" />
-								</RangeLabeledDivisions>
-							</Axis>
-							<Plot HorizontalScale="[UIModel]53cf0696d9b44fccb12e61a10114c9db" Id="24bcdc7f62b444549d8aaf1aae6fb665" Label="[string]Plot" VerticalScale="[UIModel]12bba7b846264d028fbb507d000cefd7" Visibility="[SMVisibility]Visible">
-								<PlotRenderer BarBaseline="[FillBaseline]Zero" Id="49bd5b335c7f4b888d2f023a8fc26ef0" LineStroke="[SMSolidColorBrush]#ff82a3d1" LineThickness="[double]1" PointFill="[SMSolidColorBrush]#ff82a3d1" />
-							</Plot>
-						</Graph>
-						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]60" Id="e9a627e4594e40fda83b3944d4101803" Label="[UIModel]454603372b8d46ef9ef7c52da63e66b3" Left="[float]93" Source="{DataItemBinding Id=cbe01344d862425690cf94828447dc5b}" Stretch="[SMStretch]Uniform" TabIndex="[int]3" Top="[float]623" Width="[float]359" />
-						<ScaleLegend Graph="[UIModel]8a1e2341e5e74953be6ef9cc3b7b1555" Height="[float]60" Id="e3ee9bc833f04eaab0647f1f66d4b94e" Left="[float]474" MinWidth="[float]145" Top="[float]267" Visible="[bool]False" Width="[float]145" />
-						<PlotLegend Graph="[UIModel]8a1e2341e5e74953be6ef9cc3b7b1555" Height="[float]28" Id="7161c02b82f441b595ced029b043f540" Left="[float]488" MinWidth="[float]145" Top="[float]31" Width="[float]145" />
-						<CursorLegend Graph="[UIModel]8a1e2341e5e74953be6ef9cc3b7b1555" Height="[float]200" Id="aab90ee09a5549678e5fcafa3267d701" Left="[float]19" MinWidth="[float]320" Top="[float]372" Visible="[bool]False" Width="[float]320" />
-						<GraphTools Graph="[UIModel]8a1e2341e5e74953be6ef9cc3b7b1555" Height="[float]35" Id="bb608c80e9634f6d9650785ea6f48d87" Left="[float]298" Top="[float]31" Visible="[bool]False" Width="[float]120" />
-						<Label Height="[float]16" Id="c45965c8457249318bf522f4e4075744" LabelOwner="[UIModel]8a1e2341e5e74953be6ef9cc3b7b1555" Left="[float]19" Text="[string]Histogram Magnetron Top Temperatur profile Celsius" Top="[float]11" Width="[float]281" xmlns="http://www.ni.com/PanelCommon" />
-						<Label Height="[float]16" Id="a8e13f9a5cd348df97be0f6156c193b3" LabelOwner="[UIModel]5589f6cc36954b64805758868733913d" Left="[float]104" Text="[string]skala Magnetron top" Top="[float]243" Visible="[bool]False" Width="[float]110" xmlns="http://www.ni.com/PanelCommon" />
-						<ScaleLegend Graph="[UIModel]6164600a6094d2cb189b03bba3a0113" Height="[float]60" Id="7c49c5d6fe4c47fd9ea408ea042feb5d" Left="[float]474" MinWidth="[float]145" Top="[float]627" Visible="[bool]False" Width="[float]145" />
-						<PlotLegend Graph="[UIModel]6164600a6094d2cb189b03bba3a0113" Height="[float]28" Id="dc42f49a376d48b2a0e96186e28b453a" Left="[float]485" MinWidth="[float]145" Top="[float]391" Width="[float]145" />
-						<CursorLegend Graph="[UIModel]6164600a6094d2cb189b03bba3a0113" Height="[float]200" Id="a11d17c603f42fa9e8764aa74ea7f80" Left="[float]19" MinWidth="[float]320" Top="[float]732" Visible="[bool]False" Width="[float]320" />
-						<GraphTools Graph="[UIModel]6164600a6094d2cb189b03bba3a0113" Height="[float]35" Id="138ff3ec460d47ada59d93e080f100bc" Left="[float]298" Top="[float]391" Visible="[bool]False" Width="[float]120" />
-						<Label Height="[float]16" Id="43e48b9a179f4e2e8db4c7e0746fbdd5" LabelOwner="[UIModel]6164600a6094d2cb189b03bba3a0113" Left="[float]19" Text="[string]Histogram Magnetron bottom Temperature profile Celsius" Top="[float]371" Width="[float]308" xmlns="http://www.ni.com/PanelCommon" />
-						<Label Height="[float]16" Id="454603372b8d46ef9ef7c52da63e66b3" LabelOwner="[UIModel]e9a627e4594e40fda83b3944d4101803" Left="[float]93" Text="[string]skala Magnetron bottom" Top="[float]603" Visible="[bool]False" Width="[float]132" xmlns="http://www.ni.com/PanelCommon" />
-					</LayoutPanel>
-				</TabItem>
-				<TabItem Header="[string]Histogram Power Supply Temperature (iHexagon) " Id="dd4488c95f3248f08b9868dc434ef38f" Left="[float]0" TabIndex="[int]12" Top="[float]0">
-					<LayoutPanel Height="[float]701" Id="291b0da9d8914460a8c0c56ba5245489" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
-						<Label Height="[float]16" Id="53b3b2dcdd054bde9200f59752bbec61" LabelOwner="[UIModel]b3d6850c85824d9eb947187d7af86a13" Left="[float]20" Text="[string]Histogram Power Supply Top Temperature profile Celsius" Top="[float]22" Width="[float]300" xmlns="http://www.ni.com/PanelCommon" />
-						<GraphTools Graph="[UIModel]b3d6850c85824d9eb947187d7af86a13" Height="[float]35" Id="48eb7e0d3a646b68544273cb233ef01" Left="[float]299" Top="[float]42" Visible="[bool]False" Width="[float]120" />
-						<CursorLegend Graph="[UIModel]b3d6850c85824d9eb947187d7af86a13" Height="[float]200" Id="b1895afd8df94fbdb7f2bc1c4018e077" Left="[float]20" MinWidth="[float]320" Top="[float]383" Visible="[bool]False" Width="[float]320" />
-						<PlotLegend Graph="[UIModel]b3d6850c85824d9eb947187d7af86a13" Height="[float]28" Id="743685f823f14ea88b3d22ebdbbf1203" Left="[float]489" MinWidth="[float]145" Top="[float]42" Width="[float]145" />
-						<ScaleLegend Graph="[UIModel]b3d6850c85824d9eb947187d7af86a13" Height="[float]60" Id="de5f6fe0df224840b36ddde3f94a2f98" Left="[float]475" MinWidth="[float]145" Top="[float]278" Visible="[bool]False" Width="[float]145" />
-						<Graph DataSource="{DataItemBinding Id=9aec94bef9594021a2049dac8f1fc3c8}" DataSourceType="[Type]Double[]" Height="[float]296" Id="b3d6850c85824d9eb947187d7af86a13" IsTabStop="[bool]True" Label="[UIModel]53b3b2dcdd054bde9200f59752bbec61" Left="[float]20" MetadataAlwaysOverridesPlotNames="[bool]True" PlotAreaMargin="[SMThickness]0,-1,0,26" SuppressScaleLayout="[bool]True" TabIndex="[int]3" Top="[float]42" Width="[float]456">
-							<Axis Adjuster="[RangeAdjuster]None" Id="e81daac3fd904ab5b4a8c9f5861c9296" Label="[string]Range" MajorDivisions="[UIModel]4cb8e201cd5d4bb7973eddbca43f07eb" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 15, System.Double" ValueType="[Type]Double">
-								<RangeLabeledDivisions Id="4cb8e201cd5d4bb7973eddbca43f07eb" LabelVisibility="[SMVisibility]Collapsed" Mode="[RangeDivisionsMode]Auto" TickVisibility="[SMVisibility]Visible">
-									<p.LabelPresenter Kind="LVRelativeSeconds" Format="0" />
-								</RangeLabeledDivisions>
-							</Axis>
-							<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" Id="ee6dfe09ad14474b96a076ed45aa50c1" Label="[string]Running Time (Min)" MajorDivisions="[UIModel]dfc0fad671ad42b59ab02ddd1d00398c" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 10, System.Double" ValueType="[Type]Double">
-								<RangeLabeledDivisions Id="dfc0fad671ad42b59ab02ddd1d00398c">
-									<p.LabelPresenter Kind="LVRelativeSeconds" Format="G6" ShortFormat="0.000E+0" />
-								</RangeLabeledDivisions>
-							</Axis>
-							<Plot HorizontalScale="[UIModel]e81daac3fd904ab5b4a8c9f5861c9296" Id="b132884d82ac44e1b297857f932a4f52" Label="[string]Plot" VerticalScale="[UIModel]ee6dfe09ad14474b96a076ed45aa50c1" Visibility="[SMVisibility]Visible">
-								<PlotRenderer BarBaseline="[FillBaseline]Zero" Id="ed699b398b174a9297252d9f294232aa" LineStroke="[SMSolidColorBrush]#ff82a3d1" LineThickness="[double]1" PointFill="[SMSolidColorBrush]#ff82a3d1" />
-							</Plot>
-						</Graph>
-						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]60" Id="d7b6f540d8c74a809e4fe508e6d0abdb" Label="[UIModel]5c6b48b2256745769ea2dfb180162a89" Left="[float]105" Source="{DataItemBinding Id=5597b60512b84109966a9061ce37d2e1}" Stretch="[SMStretch]Uniform" TabIndex="[int]0" Top="[float]274" Width="[float]347" />
-						<Graph DataSource="{DataItemBinding Id=7f9977e2a2fb462094a190db219f2f7f}" DataSourceType="[Type]Double[]" Height="[float]296" Id="42f6374d3eff459c9164f70182d52001" IsTabStop="[bool]True" Label="[UIModel]b8a56b0d1dbe4086b8c79213d1f2f43b" Left="[float]20" MetadataAlwaysOverridesPlotNames="[bool]True" PlotAreaMargin="[SMThickness]0,-1,0,26" SuppressScaleLayout="[bool]True" TabIndex="[int]1" Top="[float]384" Width="[float]456">
-							<Axis Adjuster="[RangeAdjuster]None" Id="23472d4dab104124a44172bfafcd5bc4" Label="[string]Range" MajorDivisions="[UIModel]e4deb819ed6c45d1bf5bc0c0f2ff4e1f" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 15, System.Double" ValueType="[Type]Double">
-								<RangeLabeledDivisions Id="e4deb819ed6c45d1bf5bc0c0f2ff4e1f" LabelVisibility="[SMVisibility]Collapsed" Mode="[RangeDivisionsMode]Auto" TickVisibility="[SMVisibility]Visible">
-									<p.LabelPresenter Kind="LVRelativeSeconds" Format="0" />
-								</RangeLabeledDivisions>
-							</Axis>
-							<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" Id="fd545462eb3d48a386ba4f133157af2a" Label="[string]Running Time (Min)" MajorDivisions="[UIModel]a3ba2aafb9824637a3ca0a2ca0218bde" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 10, System.Double" ValueType="[Type]Double">
-								<RangeLabeledDivisions Id="a3ba2aafb9824637a3ca0a2ca0218bde">
-									<p.LabelPresenter Kind="LVRelativeSeconds" Format="G6" ShortFormat="0.000E+0" />
-								</RangeLabeledDivisions>
-							</Axis>
-							<Plot HorizontalScale="[UIModel]23472d4dab104124a44172bfafcd5bc4" Id="3d7347b6688743739194a71ba7758da5" Label="[string]Plot" VerticalScale="[UIModel]fd545462eb3d48a386ba4f133157af2a" Visibility="[SMVisibility]Visible">
-								<PlotRenderer BarBaseline="[FillBaseline]Zero" Id="ce3167f82a094f968c5cd3669d0e6885" LineStroke="[SMSolidColorBrush]#ff82a3d1" LineThickness="[double]1" PointFill="[SMSolidColorBrush]#ff82a3d1" />
-							</Plot>
-						</Graph>
-						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]60" Id="93ec1d8749d6450b9cfa876e330b7a5c" Label="[UIModel]d1fb37cbff2741988ab30fbb987dc7ad" Left="[float]94" Source="{DataItemBinding Id=df307d4d05c4a238a17236985d557a7}" Stretch="[SMStretch]Uniform" TabIndex="[int]3" Top="[float]609" Width="[float]359" />
-						<Label Height="[float]16" Id="5c6b48b2256745769ea2dfb180162a89" LabelOwner="[UIModel]d7b6f540d8c74a809e4fe508e6d0abdb" Left="[float]105" Text="[string]skala Power Supply top" Top="[float]254" Visible="[bool]False" Width="[float]123" xmlns="http://www.ni.com/PanelCommon" />
-						<ScaleLegend Graph="[UIModel]42f6374d3eff459c9164f70182d52001" Height="[float]60" Id="d16a79ed81745679f988949ca18321b" Left="[float]475" MinWidth="[float]145" Top="[float]620" Visible="[bool]False" Width="[float]145" />
-						<PlotLegend Graph="[UIModel]42f6374d3eff459c9164f70182d52001" Height="[float]28" Id="37436f222a0d41d69b59e503b7ca7900" Left="[float]486" MinWidth="[float]145" Top="[float]384" Width="[float]145" />
-						<CursorLegend Graph="[UIModel]42f6374d3eff459c9164f70182d52001" Height="[float]200" Id="b9e2a78c9890438a8eba2153a49b44e3" Left="[float]20" MinWidth="[float]320" Top="[float]725" Visible="[bool]False" Width="[float]320" />
-						<GraphTools Graph="[UIModel]42f6374d3eff459c9164f70182d52001" Height="[float]35" Id="5abafe23c49d41039d7835d7a1509e66" Left="[float]299" Top="[float]384" Visible="[bool]False" Width="[float]120" />
-						<Label Height="[float]16" Id="b8a56b0d1dbe4086b8c79213d1f2f43b" LabelOwner="[UIModel]42f6374d3eff459c9164f70182d52001" Left="[float]20" Text="[string]Histogram Power Supply bottom Temperature profile Celsius" Top="[float]364" Width="[float]321" xmlns="http://www.ni.com/PanelCommon" />
-						<Label Height="[float]16" Id="d1fb37cbff2741988ab30fbb987dc7ad" LabelOwner="[UIModel]93ec1d8749d6450b9cfa876e330b7a5c" Left="[float]94" Text="[string]skala histogram Power Supply bottom" Top="[float]589" Visible="[bool]False" Width="[float]201" xmlns="http://www.ni.com/PanelCommon" />
-					</LayoutPanel>
-				</TabItem>
-				<TabItem Header="[string]Service report XML File Content" Id="b0578494f6144c72950acc03d9e72032" Left="[float]0" TabIndex="[int]12" Top="[float]0">
-					<LayoutPanel Height="[float]701" Id="6ef224e790a849b8a77409157056b6a5" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
-						<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]632" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="331bb3ff388b497b874f58987c759ad6" IsReadOnly="[bool]True" Label="[UIModel]ce76247d3b0340c4bbf073438bb6baf3" Left="[float]16" TabIndex="[int]0" Text="{DataItemBinding Id=8005a30342614c6f99f7aa3765aa5ac0}" Top="[float]29" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]1096">
-							<FontSetting FontFamily="Segoe UI" FontSize="10" Id="30743032851346b6a66c0b0394cc8043" xmlns="http://www.ni.com/PlatformFramework" />
-						</StringControl>
-						<Label Height="[float]18" Id="ce76247d3b0340c4bbf073438bb6baf3" LabelOwner="[UIModel]331bb3ff388b497b874f58987c759ad6" Left="[float]16" Text="[string]Service report XML File Content:" Top="[float]7" Width="[float]189" xmlns="http://www.ni.com/PanelCommon">
-							<FontSetting FontFamily="Segoe UI" FontSize="10" FontStyle="Underline" Id="8c488b46dd6043f3ba08320b7be8522f" xmlns="http://www.ni.com/PlatformFramework" />
-						</Label>
-					</LayoutPanel>
-				</TabItem>
-			</TabControl>
 			<Label Height="[float]16" Id="b5ac59ad0f244877a9409d3ac84e4db3" LabelOwner="[UIModel]c267fbfb708c494cb551d7384dae95b1" Left="[float]3" Text="[string]Page 3" Top="[float]104" Visible="[bool]False" Width="[float]36" xmlns="http://www.ni.com/PanelCommon" />
-			<TabControl BaseName="[string]Tab" Height="[float]726" Id="c267fbfb708c494cb551d7384dae95b1" IncludeInCapture="[bool]False" Label="[UIModel]b5ac59ad0f244877a9409d3ac84e4db3" Left="[float]3" SelectedIndex="{DataItemBinding Id=2ace7ed6d44f418db410237f88baf46f}" TabIndex="[int]11" Top="[float]124" Width="[float]1216" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
-				<TabItem Header="[string]Histogram Fan1 Temp.&amp;Voltages" Id="fc64e8d9eb8d42f798a0d0fde9b9942a" Left="[float]0" TabIndex="[int]11" Top="[float]0">
+			<TabControl BaseName="[string]Tab" Height="[float]726" Id="c267fbfb708c494cb551d7384dae95b1" IncludeInCapture="[bool]False" Label="[UIModel]b5ac59ad0f244877a9409d3ac84e4db3" Left="[float]3" SelectedIndex="{DataItemBinding Id=2ace7ed6d44f418db410237f88baf46f}" TabIndex="[int]14" Top="[float]124" Width="[float]1216" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<TabItem Header="[string]Histogram Fan1 Temp.&amp;Voltages" Id="fc64e8d9eb8d42f798a0d0fde9b9942a" Left="[float]0" TabIndex="[int]14" Top="[float]0">
 					<LayoutPanel Height="[float]701" Id="b99ddfa646e6468da66461e712d07b86" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
 						<Graph DataSource="{DataItemBinding Id=c18de7f37f8f45c99793a29880b60137}" DataSourceType="[Type]Double[]" Height="[float]296" Id="7e0493d92e4c416aad8e92b85f69b144" IsTabStop="[bool]True" Label="[UIModel]c3c120457f5f456793a6c05e1420300b" Left="[float]15" MetadataAlwaysOverridesPlotNames="[bool]True" PlotAreaMargin="[SMThickness]0,-1,0,26" SuppressScaleLayout="[bool]True" TabIndex="[int]0" Top="[float]43" Width="[float]440">
 							<Axis Adjuster="[RangeAdjuster]None" Id="7c16a0f9c6774950aa22269c958e3700" Label="[string]Range" MajorDivisions="[UIModel]321e20a5bf74ee2981bbc4480a29ea2" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 7, System.Double" ValueType="[Type]Double">
@@ -12259,7 +12166,7 @@
 						<Label Height="[float]16" Id="4d8f17752954acd94d51e9befdcd34f" LabelOwner="[UIModel]ae47df8167af4eea9cd43ee82eb9ce20" Left="[float]611" Text="[string]Skala Histogram fan1 minVolt" Top="[float]249" Visible="[bool]False" Width="[float]157" xmlns="http://www.ni.com/PanelCommon" />
 					</LayoutPanel>
 				</TabItem>
-				<TabItem Header="[string]Histogram Fan 2 RPM &amp; Power" Id="95f263ab94784738952ca75692a1384b" Left="[float]0" TabIndex="[int]11" Top="[float]0">
+				<TabItem Header="[string]Histogram Fan 2 RPM &amp; Power" Id="95f263ab94784738952ca75692a1384b" Left="[float]0" TabIndex="[int]14" Top="[float]0">
 					<LayoutPanel Height="[float]701" Id="97085da7e10b4594a9e84d31ee566401" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
 						<Graph DataSource="{DataItemBinding Id=4f0f9662d1214210ab9fccc4bd5dc060}" DataSourceType="[Type]Double[]" Height="[float]296" Id="5c1383fd084044a6a1e492fde8808b23" IsTabStop="[bool]True" Label="[UIModel]9ad20595700a4d9ba465fb234af888f4" Left="[float]16" MetadataAlwaysOverridesPlotNames="[bool]True" PlotAreaMargin="[SMThickness]0,0,0,26" SuppressScaleLayout="[bool]True" TabIndex="[int]0" Top="[float]32" Width="[float]436">
 							<Axis Adjuster="[RangeAdjuster]None" Id="e3f0f13547da44ae8303aca1625173c1" Label="[string]Range" MajorDivisions="[UIModel]3e098d80f23a4bf4823c72811ef29a48" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 7, System.Double" ValueType="[Type]Double">
@@ -12307,7 +12214,7 @@
 						<Label Height="[float]16" Id="ff6dd8779c144910bc33d1a1a5be3c29" LabelOwner="[UIModel]9eac897c014c4bfb8df25991c0c3e77c" Left="[float]94" Text="[string]Skala Histogram fan2 power" Top="[float]583" Visible="[bool]False" Width="[float]149" xmlns="http://www.ni.com/PanelCommon" />
 					</LayoutPanel>
 				</TabItem>
-				<TabItem Header="[string]Histogram Fan2 Temp.&amp;Voltages" Id="d15ea5a5ccb64a91928e5413e2534d3d" Left="[float]0" TabIndex="[int]11" Top="[float]0">
+				<TabItem Header="[string]Histogram Fan2 Temp.&amp;Voltages" Id="d15ea5a5ccb64a91928e5413e2534d3d" Left="[float]0" TabIndex="[int]14" Top="[float]0">
 					<LayoutPanel Height="[float]701" Id="8a44ce05335a462b833373b2d500573d" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
 						<Graph DataSource="{DataItemBinding Id=4f6d4d420d13441da7089b4d7042d598}" DataSourceType="[Type]Double[]" Height="[float]296" Id="642880fbf98e442b853456b96d8771a3" IsTabStop="[bool]True" Label="[UIModel]afbc057adc5a4596b7b1298503dfa685" Left="[float]20" MetadataAlwaysOverridesPlotNames="[bool]True" PlotAreaMargin="[SMThickness]0,-1,0,26" SuppressScaleLayout="[bool]True" TabIndex="[int]0" Top="[float]38" Width="[float]440">
 							<Axis Adjuster="[RangeAdjuster]None" Id="3c5a609357a742a38b152ed6e64f40ce" Label="[string]Range" MajorDivisions="[UIModel]39b17c5ea30148cdb78a44949f9d078d" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 7, System.Double" ValueType="[Type]Double">
@@ -12377,7 +12284,7 @@
 						<Label Height="[float]16" Id="7dc7ad360bcc40119628a989e03e2513" LabelOwner="[UIModel]e4e8a8903ffc45ccabb74e7f4c1823ca" Left="[float]95" Text="[string]Skala Histogram fan2 maxVolt" Top="[float]583" Visible="[bool]False" Width="[float]159" xmlns="http://www.ni.com/PanelCommon" />
 					</LayoutPanel>
 				</TabItem>
-				<TabItem Header="[string]Histogram Fan 3 RPM &amp; Power" Id="5b0f972a37c6439fa43555f391b47e33" Left="[float]0" TabIndex="[int]11" Top="[float]0">
+				<TabItem Header="[string]Histogram Fan 3 RPM &amp; Power" Id="5b0f972a37c6439fa43555f391b47e33" Left="[float]0" TabIndex="[int]14" Top="[float]0">
 					<LayoutPanel Height="[float]701" Id="2c97e04d68ee4c57bdd2a59bb3d39dcb" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
 						<Graph DataSource="{DataItemBinding Id=61e802286dc74d8d879dcc227acf9436}" DataSourceType="[Type]Double[]" Height="[float]296" Id="d51ae5b5532147fcbd82834f56b0f385" IsTabStop="[bool]True" Label="[UIModel]b5cd078d066942debe2c4234379f28a4" Left="[float]13" MetadataAlwaysOverridesPlotNames="[bool]True" PlotAreaMargin="[SMThickness]0,0,0,26" SuppressScaleLayout="[bool]True" TabIndex="[int]0" Top="[float]33" Width="[float]436">
 							<Axis Adjuster="[RangeAdjuster]None" Id="4c1ff0fea77241ec83f924e04e60b6a2" Label="[string]Range" MajorDivisions="[UIModel]e855f667cd5b4352bdef916f9010af87" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 7, System.Double" ValueType="[Type]Double">
@@ -12425,7 +12332,7 @@
 						<Label Height="[float]16" Id="a2b537157ec94f99a1ddc383550e80a0" LabelOwner="[UIModel]55f08ccc5c5b47819dc211eca3d84033" Left="[float]91" Text="[string]Skala Histogram fan3 power" Top="[float]584" Visible="[bool]False" Width="[float]149" xmlns="http://www.ni.com/PanelCommon" />
 					</LayoutPanel>
 				</TabItem>
-				<TabItem Header="[string]Histogram Fan3 Temp.&amp;Voltages" Id="f797021c0b574501a72047094d546d4f" Left="[float]0" TabIndex="[int]11" Top="[float]0">
+				<TabItem Header="[string]Histogram Fan3 Temp.&amp;Voltages" Id="f797021c0b574501a72047094d546d4f" Left="[float]0" TabIndex="[int]14" Top="[float]0">
 					<LayoutPanel Height="[float]701" Id="921a78069b984a759694518cae1b4982" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
 						<Graph DataSource="{DataItemBinding Id=56b971ba0004466e8a746714941e63e7}" DataSourceType="[Type]Double[]" Height="[float]296" Id="e00ae5892d2642738bea43a1ebfba14c" IsTabStop="[bool]True" Label="[UIModel]e3013084ecba48d3b5a5d5991d5252b9" Left="[float]16" MetadataAlwaysOverridesPlotNames="[bool]True" PlotAreaMargin="[SMThickness]0,-1,0,26" SuppressScaleLayout="[bool]True" TabIndex="[int]0" Top="[float]42" Width="[float]440">
 							<Axis Adjuster="[RangeAdjuster]None" Id="dec7b2e7c10b4f0fb884754c6353bc52" Label="[string]Range" MajorDivisions="[UIModel]98a581390fde41899c2728defc2186dc" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 7, System.Double" ValueType="[Type]Double">
@@ -12495,7 +12402,7 @@
 						<Label Height="[float]16" Id="9594e098c7704ce4a554325940f22da4" LabelOwner="[UIModel]c1bb4ee4fd2f4c6f9bde2fe5463f99bd" Left="[float]80" Text="[string]Skala Histogram fan3 maxVolt" Top="[float]591" Visible="[bool]False" Width="[float]159" xmlns="http://www.ni.com/PanelCommon" />
 					</LayoutPanel>
 				</TabItem>
-				<TabItem Header="[string]Histogram MMI" Id="dd80fd8fb6a54339ae19e9433e3d01cd" Left="[float]0" TabIndex="[int]11" Top="[float]0">
+				<TabItem Header="[string]Histogram MMI" Id="dd80fd8fb6a54339ae19e9433e3d01cd" Left="[float]0" TabIndex="[int]14" Top="[float]0">
 					<LayoutPanel Height="[float]701" Id="5f63ee5b4e6a4a4faf314b7a6ded79ad" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
 						<Graph DataSource="{DataItemBinding Id=9eecd579644843e1a72bebd41bf1fe53}" DataSourceType="[Type]Double[]" Height="[float]296" Id="ec9fc9bb1e3a4a5f9743ab1bbf447eba" IsTabStop="[bool]True" Label="[UIModel]3a25d58126554714ab838e4f7440d93d" Left="[float]19" MetadataAlwaysOverridesPlotNames="[bool]True" PlotAreaMargin="[SMThickness]0,-1,0,26" SuppressScaleLayout="[bool]True" TabIndex="[int]0" Top="[float]41" Width="[float]446">
 							<Axis Adjuster="[RangeAdjuster]None" Id="3d9d27dd293d429e981a4619ed47c7a6" Label="[string]Range" MajorDivisions="[UIModel]679c81763b1e4e26a623a031f9097f76" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 9, System.Double" ValueType="[Type]Double">
@@ -12543,9 +12450,9 @@
 						<Label Height="[float]16" Id="3c423c59050649ada1836a7fe38afd41" LabelOwner="[UIModel]9e4e797e68a4450dbb7d7d1647117b42" Left="[float]107" Text="[string]Skala Histogram MMI Load" Top="[float]580" Visible="[bool]False" Width="[float]144" xmlns="http://www.ni.com/PanelCommon" />
 					</LayoutPanel>
 				</TabItem>
-				<TabItem Header="[string]System OnOff History" Id="5f3fea66d0544d8878ee07c54a27487" Left="[float]0" TabIndex="[int]11" Top="[float]0">
+				<TabItem Header="[string]System OnOff History" Id="5f3fea66d0544d8878ee07c54a27487" Left="[float]0" TabIndex="[int]14" Top="[float]0">
 					<LayoutPanel Height="[float]701" Id="7a09faf277f54c49b94cef53865a56c5" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
-						<LVDataGrid AlternatingRowBackgrounds="[bool]False" BaseName="[string]Data Grid" CanUserSortColumns="[bool]False" ColumnSizeMode="[DataGridColumnSizeMode]StretchSingleColumn" Height="[float]648" Id="eead79309c3f49c7849a8e82feab2146" IsReadOnly="[bool]True" Label="[UIModel]68350d2079c04ca4a2f73bccd2d17533" Left="[float]7" MinHeight="[float]100" MinWidth="[float]125" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]58" ShowAddRowsToolBar="[bool]False" TabIndex="[int]0" Top="[float]25" Type="[Type]@ca1cf2941d534eb1a73348737f0de6f6" Value="{DataItemBinding Id=f01cda40ba0941ee93e61ae6e05bc909}" Width="[float]952">
+						<LVDataGrid AlternatingRowBackgrounds="[bool]False" BaseName="[string]Data Grid" CanUserSortColumns="[bool]True" ColumnSizeMode="[DataGridColumnSizeMode]StretchSingleColumn" Height="[float]648" Id="eead79309c3f49c7849a8e82feab2146" IsReadOnly="[bool]True" Label="[UIModel]68350d2079c04ca4a2f73bccd2d17533" Left="[float]7" MinHeight="[float]100" MinWidth="[float]125" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]58" ShowAddRowsToolBar="[bool]False" TabIndex="[int]0" Top="[float]25" Type="[Type]@ca1cf2941d534eb1a73348737f0de6f6" Value="{DataItemBinding Id=f01cda40ba0941ee93e61ae6e05bc909}" Width="[float]952">
 							<LVDataGridColumn ColumnElement="[UIModel]307a7060cd7949d98ee26fc1333f922b" ContentFont="9eb5aac4938244768485928e0639a78a" Header="[string]OnOffEvent" Id="bd38709c3ee640ff9f45a75f046b841f" Index="[int]1" IsReadOnly="[bool]True" ValueType="[Type]String" Width="[DataViewerLength]300">
 								<FontSetting FontFamily="Segoe UI" FontSize="9" Id="9eb5aac4938244768485928e0639a78a" xmlns="http://www.ni.com/PlatformFramework" />
 								<StringControl Height="[float]24" Id="307a7060cd7949d98ee26fc1333f922b" IsReadOnly="[bool]True" Left="[float]0" Top="[float]0" Width="[float]20">
@@ -12573,9 +12480,168 @@
 					</LayoutPanel>
 				</TabItem>
 			</TabControl>
+			<Label Height="[float]16" Id="991f6382f78f473099572a852e598259" LabelOwner="[UIModel]671ac672b204496780ade852a830a1a7" Left="[float]947" Text="[string]URL Image" Top="[float]65" Visible="[bool]False" Width="[float]58" xmlns="http://www.ni.com/PanelCommon" />
+			<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]28" Id="671ac672b204496780ade852a830a1a7" Label="[UIModel]991f6382f78f473099572a852e598259" Left="[float]947" Source="{DataItemBinding Id=44cdd71a2f6340829096468560ac106c}" Stretch="[SMStretch]Uniform" TabIndex="[int]13" Top="[float]85" Width="[float]121" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="cb887a060a5149f2aeb0235ead34dcc9" LabelOwner="[UIModel]485c2197f704ebd8477611c2a692d96" Left="[float]3" Text="[string]Page 4" Top="[float]104" Visible="[bool]False" Width="[float]36" xmlns="http://www.ni.com/PanelCommon" />
+			<TabControl BaseName="[string]Tab" Height="[float]726" Id="485c2197f704ebd8477611c2a692d96" IncludeInCapture="[bool]False" Label="[UIModel]cb887a060a5149f2aeb0235ead34dcc9" Left="[float]3" SelectedIndex="{DataItemBinding Id=9f5d047ae56c4b808ced4ad0ed735973}" TabIndex="[int]10" Top="[float]124" Width="[float]1216" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<TabItem Header="[string]Histogram Basis CPU &amp; RAM Load" Id="f3e50fcee8654e24998c5a6a4809979c" Left="[float]0" TabIndex="[int]10" Top="[float]0">
+					<LayoutPanel Height="[float]701" Id="d7bd75368d5c4f1c9e993cb09b369e23" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
+						<Graph DataSource="{DataItemBinding Id=f3829ce404db412c877b566c74d7f4ba}" DataSourceType="[Type]Double[]" Height="[float]296" Id="1d75e26f0e8443c8b985f9b7e279a5ab" IsTabStop="[bool]True" Label="[UIModel]a5a2f7462b1346728d48a8b6a70b5edf" Left="[float]14" MetadataAlwaysOverridesPlotNames="[bool]True" PlotAreaMargin="[SMThickness]0,-1,0,26" SuppressScaleLayout="[bool]True" TabIndex="[int]0" Top="[float]30" Width="[float]457">
+							<Axis Adjuster="[RangeAdjuster]None" Id="5c8916f0492047e4bee612aa83188eb1" Label="[string]Range" MajorDivisions="[UIModel]6c45dbdf01b2440cba24e539ac31b0fb" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 9, System.Double" ValueType="[Type]Double">
+								<RangeLabeledDivisions Id="6c45dbdf01b2440cba24e539ac31b0fb" LabelVisibility="[SMVisibility]Collapsed" Mode="[RangeDivisionsMode]Auto" TickVisibility="[SMVisibility]Visible">
+									<p.LabelPresenter Kind="LVRelativeSeconds" Format="0" />
+								</RangeLabeledDivisions>
+							</Axis>
+							<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" Id="a7887206331c4c74b034c9dc4ee1d1d2" Label="[string]Running Time (Min)" MajorDivisions="[UIModel]57ec98bc168a4ef7bcab2b31517e567b" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 10, System.Double" ValueType="[Type]Double">
+								<RangeLabeledDivisions Id="57ec98bc168a4ef7bcab2b31517e567b">
+									<p.LabelPresenter Kind="LVRelativeSeconds" Format="G6" ShortFormat="0.000E+0" />
+								</RangeLabeledDivisions>
+							</Axis>
+							<Plot HorizontalScale="[UIModel]5c8916f0492047e4bee612aa83188eb1" Id="cc18ded50b084faebea80d54e42d192b" Label="[string]Plot" VerticalScale="[UIModel]a7887206331c4c74b034c9dc4ee1d1d2" Visibility="[SMVisibility]Visible">
+								<PlotRenderer BarBaseline="[FillBaseline]Zero" Id="25aff910d408430991d94a4527079a17" LineStroke="[SMSolidColorBrush]#ff82a3d1" LineThickness="[double]1" PointFill="[SMSolidColorBrush]#ff82a3d1" />
+							</Plot>
+						</Graph>
+						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]60" Id="7b8f5efb67764380aee6aed4f448cf36" Label="[UIModel]2b5fcf56a2c6441b9894affff17c66b3" Left="[float]101" Source="{DataItemBinding Id=cdb7c72bd9534991b4ea7a7a5ec4a2a5}" Stretch="[SMStretch]Uniform" TabIndex="[int]1" Top="[float]258" Width="[float]344" />
+						<Graph DataSource="{DataItemBinding Id=fe25e6f0b924454f8904f4d3f39cfb63}" DataSourceType="[Type]Double[]" Height="[float]296" Id="f006f45c6b5843e794adc8b06062ffcc" IsTabStop="[bool]True" Label="[UIModel]16a3251d2a20461d98e38bce2bfb259d" Left="[float]14" MetadataAlwaysOverridesPlotNames="[bool]True" PlotAreaMargin="[SMThickness]0,-1,0,26" SuppressScaleLayout="[bool]True" TabIndex="[int]2" Top="[float]385" Width="[float]457">
+							<Axis Adjuster="[RangeAdjuster]None" Id="b84bcf61892c4fd5b557c5ccc1ea31aa" Label="[string]Range" MajorDivisions="[UIModel]eacd08fb81b445fdb68010d6ee603478" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 9, System.Double" ValueType="[Type]Double">
+								<RangeLabeledDivisions Id="eacd08fb81b445fdb68010d6ee603478" LabelVisibility="[SMVisibility]Collapsed" Mode="[RangeDivisionsMode]Auto" TickVisibility="[SMVisibility]Visible">
+									<p.LabelPresenter Kind="LVRelativeSeconds" Format="0" />
+								</RangeLabeledDivisions>
+							</Axis>
+							<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" Id="6f7743273d034d589fecba58095710e6" Label="[string]Running Time (Min)" MajorDivisions="[UIModel]6f281e89bb7c42e38b6fd6751188fccb" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 10, System.Double" ValueType="[Type]Double">
+								<RangeLabeledDivisions Id="6f281e89bb7c42e38b6fd6751188fccb">
+									<p.LabelPresenter Kind="LVRelativeSeconds" Format="G6" ShortFormat="0.000E+0" />
+								</RangeLabeledDivisions>
+							</Axis>
+							<Plot HorizontalScale="[UIModel]b84bcf61892c4fd5b557c5ccc1ea31aa" Id="57c46dfc7fa24ca6af6d53f66b2861de" Label="[string]Plot" VerticalScale="[UIModel]6f7743273d034d589fecba58095710e6" Visibility="[SMVisibility]Visible">
+								<PlotRenderer BarBaseline="[FillBaseline]Zero" Id="329ba5442f9a46caa084d0600045aa97" LineStroke="[SMSolidColorBrush]#ff82a3d1" LineThickness="[double]1" PointFill="[SMSolidColorBrush]#ff82a3d1" />
+							</Plot>
+						</Graph>
+						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]60" Id="ba889294ab0845de9250b21ba5829135" Label="[UIModel]90707d74738d4fbc8f4534674c0a8d7d" Left="[float]99" Source="{DataItemBinding Id=b8726c32a19a4dcc8a929c971b3309bb}" Stretch="[SMStretch]Uniform" TabIndex="[int]3" Top="[float]614" Width="[float]346" />
+						<ScaleLegend Graph="[UIModel]1d75e26f0e8443c8b985f9b7e279a5ab" Height="[float]60" Id="31f4a434598e443ca49c8fbf59d7ffb4" Left="[float]470" MinWidth="[float]145" Top="[float]266" Visible="[bool]False" Width="[float]145" />
+						<PlotLegend Graph="[UIModel]1d75e26f0e8443c8b985f9b7e279a5ab" Height="[float]28" Id="59cbd51d7ce467c90530f11d4135417" Left="[float]476" MinWidth="[float]145" Top="[float]34" Width="[float]145" />
+						<CursorLegend Graph="[UIModel]1d75e26f0e8443c8b985f9b7e279a5ab" Height="[float]200" Id="a46b1dc396644530a5bdee22f1c99598" Left="[float]14" MinWidth="[float]320" Top="[float]371" Visible="[bool]False" Width="[float]320" />
+						<GraphTools Graph="[UIModel]1d75e26f0e8443c8b985f9b7e279a5ab" Height="[float]35" Id="8b530760552444f7b84b3d280ac7824a" Left="[float]294" Top="[float]30" Visible="[bool]False" Width="[float]120" />
+						<Label Height="[float]16" Id="a5a2f7462b1346728d48a8b6a70b5edf" LabelOwner="[UIModel]1d75e26f0e8443c8b985f9b7e279a5ab" Left="[float]14" Text="[string]Histogram Basis CPU Load Percent" Top="[float]10" Width="[float]183" xmlns="http://www.ni.com/PanelCommon" />
+						<Label Height="[float]16" Id="2b5fcf56a2c6441b9894affff17c66b3" LabelOwner="[UIModel]7b8f5efb67764380aee6aed4f448cf36" Left="[float]101" Text="[string]Skala Histogram Basis MMI CPU" Top="[float]238" Visible="[bool]False" Width="[float]170" xmlns="http://www.ni.com/PanelCommon" />
+						<ScaleLegend Graph="[UIModel]f006f45c6b5843e794adc8b06062ffcc" Height="[float]60" Id="18996810c8c14141ba76b7d3efad4081" Left="[float]470" MinWidth="[float]145" Top="[float]621" Visible="[bool]False" Width="[float]145" />
+						<PlotLegend Graph="[UIModel]f006f45c6b5843e794adc8b06062ffcc" Height="[float]28" Id="4c81425e9efe428c9c8af192bea21587" Left="[float]476" MinWidth="[float]145" Top="[float]389" Width="[float]145" />
+						<CursorLegend Graph="[UIModel]f006f45c6b5843e794adc8b06062ffcc" Height="[float]200" Id="93bcb9a4c2ea4c5c98db4e212d80026a" Left="[float]14" MinWidth="[float]320" Top="[float]726" Visible="[bool]False" Width="[float]320" />
+						<GraphTools Graph="[UIModel]f006f45c6b5843e794adc8b06062ffcc" Height="[float]35" Id="66aa4aa8bf9f472493aa551d51fe9e27" Left="[float]294" Top="[float]385" Visible="[bool]False" Width="[float]120" />
+						<Label Height="[float]16" Id="16a3251d2a20461d98e38bce2bfb259d" LabelOwner="[UIModel]f006f45c6b5843e794adc8b06062ffcc" Left="[float]14" Text="[string]Histogram Basis RAM Load Percent" Top="[float]365" Width="[float]186" xmlns="http://www.ni.com/PanelCommon" />
+						<Label Height="[float]16" Id="90707d74738d4fbc8f4534674c0a8d7d" LabelOwner="[UIModel]ba889294ab0845de9250b21ba5829135" Left="[float]99" Text="[string]Skala Histogram Basis MMI Load" Top="[float]594" Visible="[bool]False" Width="[float]173" xmlns="http://www.ni.com/PanelCommon" />
+					</LayoutPanel>
+				</TabItem>
+				<TabItem Header="[string]Histogram Magnetron Temperature (iHexagon) " Id="419adaecd0294091bd896619c1dd9d59" Left="[float]0" TabIndex="[int]10" Top="[float]0">
+					<LayoutPanel Height="[float]701" Id="28ec38d699fc4adc9892b16f3b86193c" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
+						<Graph DataSource="{DataItemBinding Id=6f4f9c6cc3c04fb3ac19336239d8cdb1}" DataSourceType="[Type]Double[]" Height="[float]296" Id="8a1e2341e5e74953be6ef9cc3b7b1555" IsTabStop="[bool]True" Label="[UIModel]c45965c8457249318bf522f4e4075744" Left="[float]19" MetadataAlwaysOverridesPlotNames="[bool]True" PlotAreaMargin="[SMThickness]0,-1,0,26" SuppressScaleLayout="[bool]True" TabIndex="[int]0" Top="[float]31" Width="[float]456">
+							<Axis Adjuster="[RangeAdjuster]None" Id="3e93e9a8a6ba4c33ab91850ba01e8241" Label="[string]Range" MajorDivisions="[UIModel]be8f47d300b64f0ab796512dcb50050c" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 15, System.Double" ValueType="[Type]Double">
+								<RangeLabeledDivisions Id="be8f47d300b64f0ab796512dcb50050c" LabelVisibility="[SMVisibility]Collapsed" Mode="[RangeDivisionsMode]Auto" TickVisibility="[SMVisibility]Visible">
+									<p.LabelPresenter Kind="LVRelativeSeconds" Format="0" />
+								</RangeLabeledDivisions>
+							</Axis>
+							<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" Id="b508ddf661324b079591c6befa877538" Label="[string]Running Time (Min)" MajorDivisions="[UIModel]dc0d16843c86408e8c2d8ab8984599c3" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 10, System.Double" ValueType="[Type]Double">
+								<RangeLabeledDivisions Id="dc0d16843c86408e8c2d8ab8984599c3">
+									<p.LabelPresenter Kind="LVRelativeSeconds" Format="G6" ShortFormat="0.000E+0" />
+								</RangeLabeledDivisions>
+							</Axis>
+							<Plot HorizontalScale="[UIModel]3e93e9a8a6ba4c33ab91850ba01e8241" Id="983e2ca48a0a46ef9cd8ab94c9445406" Label="[string]Plot" VerticalScale="[UIModel]b508ddf661324b079591c6befa877538" Visibility="[SMVisibility]Visible">
+								<PlotRenderer BarBaseline="[FillBaseline]Zero" Id="1ef0a5c4a0434d9eae148a50a7b3abab" LineStroke="[SMSolidColorBrush]#ff82a3d1" LineThickness="[double]1" PointFill="[SMSolidColorBrush]#ff82a3d1" />
+							</Plot>
+						</Graph>
+						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]60" Id="5589f6cc36954b64805758868733913d" Label="[UIModel]a8e13f9a5cd348df97be0f6156c193b3" Left="[float]104" Source="{DataItemBinding Id=3f4293848a9943988a601d0ca22bf8c1}" Stretch="[SMStretch]Uniform" TabIndex="[int]1" Top="[float]263" Width="[float]347" />
+						<Graph DataSource="{DataItemBinding Id=47f4123066314f6b968fccb1b995a24d}" DataSourceType="[Type]Double[]" Height="[float]296" Id="6164600a6094d2cb189b03bba3a0113" IsTabStop="[bool]True" Label="[UIModel]43e48b9a179f4e2e8db4c7e0746fbdd5" Left="[float]19" MetadataAlwaysOverridesPlotNames="[bool]True" PlotAreaMargin="[SMThickness]0,-1,0,26" SuppressScaleLayout="[bool]True" TabIndex="[int]2" Top="[float]391" Width="[float]456">
+							<Axis Adjuster="[RangeAdjuster]None" Id="53cf0696d9b44fccb12e61a10114c9db" Label="[string]Range" MajorDivisions="[UIModel]7a37d98cffba402b8e5527df2136d166" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 15, System.Double" ValueType="[Type]Double">
+								<RangeLabeledDivisions Id="7a37d98cffba402b8e5527df2136d166" LabelVisibility="[SMVisibility]Collapsed" Mode="[RangeDivisionsMode]Auto" TickVisibility="[SMVisibility]Visible">
+									<p.LabelPresenter Kind="LVRelativeSeconds" Format="0" />
+								</RangeLabeledDivisions>
+							</Axis>
+							<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" Id="12bba7b846264d028fbb507d000cefd7" Label="[string]Running Time (Min)" MajorDivisions="[UIModel]9d286a0d35374ec795946712f1da3fe1" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 10, System.Double" ValueType="[Type]Double">
+								<RangeLabeledDivisions Id="9d286a0d35374ec795946712f1da3fe1">
+									<p.LabelPresenter Kind="LVRelativeSeconds" Format="G6" ShortFormat="0.000E+0" />
+								</RangeLabeledDivisions>
+							</Axis>
+							<Plot HorizontalScale="[UIModel]53cf0696d9b44fccb12e61a10114c9db" Id="24bcdc7f62b444549d8aaf1aae6fb665" Label="[string]Plot" VerticalScale="[UIModel]12bba7b846264d028fbb507d000cefd7" Visibility="[SMVisibility]Visible">
+								<PlotRenderer BarBaseline="[FillBaseline]Zero" Id="49bd5b335c7f4b888d2f023a8fc26ef0" LineStroke="[SMSolidColorBrush]#ff82a3d1" LineThickness="[double]1" PointFill="[SMSolidColorBrush]#ff82a3d1" />
+							</Plot>
+						</Graph>
+						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]60" Id="e9a627e4594e40fda83b3944d4101803" Label="[UIModel]454603372b8d46ef9ef7c52da63e66b3" Left="[float]93" Source="{DataItemBinding Id=cbe01344d862425690cf94828447dc5b}" Stretch="[SMStretch]Uniform" TabIndex="[int]3" Top="[float]623" Width="[float]359" />
+						<ScaleLegend Graph="[UIModel]8a1e2341e5e74953be6ef9cc3b7b1555" Height="[float]60" Id="e3ee9bc833f04eaab0647f1f66d4b94e" Left="[float]474" MinWidth="[float]145" Top="[float]267" Visible="[bool]False" Width="[float]145" />
+						<PlotLegend Graph="[UIModel]8a1e2341e5e74953be6ef9cc3b7b1555" Height="[float]28" Id="7161c02b82f441b595ced029b043f540" Left="[float]488" MinWidth="[float]145" Top="[float]31" Width="[float]145" />
+						<CursorLegend Graph="[UIModel]8a1e2341e5e74953be6ef9cc3b7b1555" Height="[float]200" Id="aab90ee09a5549678e5fcafa3267d701" Left="[float]19" MinWidth="[float]320" Top="[float]372" Visible="[bool]False" Width="[float]320" />
+						<GraphTools Graph="[UIModel]8a1e2341e5e74953be6ef9cc3b7b1555" Height="[float]35" Id="bb608c80e9634f6d9650785ea6f48d87" Left="[float]298" Top="[float]31" Visible="[bool]False" Width="[float]120" />
+						<Label Height="[float]16" Id="c45965c8457249318bf522f4e4075744" LabelOwner="[UIModel]8a1e2341e5e74953be6ef9cc3b7b1555" Left="[float]19" Text="[string]Histogram Magnetron Top Temperatur profile Celsius" Top="[float]11" Width="[float]281" xmlns="http://www.ni.com/PanelCommon" />
+						<Label Height="[float]16" Id="a8e13f9a5cd348df97be0f6156c193b3" LabelOwner="[UIModel]5589f6cc36954b64805758868733913d" Left="[float]104" Text="[string]skala Magnetron top" Top="[float]243" Visible="[bool]False" Width="[float]110" xmlns="http://www.ni.com/PanelCommon" />
+						<ScaleLegend Graph="[UIModel]6164600a6094d2cb189b03bba3a0113" Height="[float]60" Id="7c49c5d6fe4c47fd9ea408ea042feb5d" Left="[float]474" MinWidth="[float]145" Top="[float]627" Visible="[bool]False" Width="[float]145" />
+						<PlotLegend Graph="[UIModel]6164600a6094d2cb189b03bba3a0113" Height="[float]28" Id="dc42f49a376d48b2a0e96186e28b453a" Left="[float]485" MinWidth="[float]145" Top="[float]391" Width="[float]145" />
+						<CursorLegend Graph="[UIModel]6164600a6094d2cb189b03bba3a0113" Height="[float]200" Id="a11d17c603f42fa9e8764aa74ea7f80" Left="[float]19" MinWidth="[float]320" Top="[float]732" Visible="[bool]False" Width="[float]320" />
+						<GraphTools Graph="[UIModel]6164600a6094d2cb189b03bba3a0113" Height="[float]35" Id="138ff3ec460d47ada59d93e080f100bc" Left="[float]298" Top="[float]391" Visible="[bool]False" Width="[float]120" />
+						<Label Height="[float]16" Id="43e48b9a179f4e2e8db4c7e0746fbdd5" LabelOwner="[UIModel]6164600a6094d2cb189b03bba3a0113" Left="[float]19" Text="[string]Histogram Magnetron bottom Temperature profile Celsius" Top="[float]371" Width="[float]308" xmlns="http://www.ni.com/PanelCommon" />
+						<Label Height="[float]16" Id="454603372b8d46ef9ef7c52da63e66b3" LabelOwner="[UIModel]e9a627e4594e40fda83b3944d4101803" Left="[float]93" Text="[string]skala Magnetron bottom" Top="[float]603" Visible="[bool]False" Width="[float]132" xmlns="http://www.ni.com/PanelCommon" />
+					</LayoutPanel>
+				</TabItem>
+				<TabItem Header="[string]Histogram Power Supply Temperature (iHexagon) " Id="dd4488c95f3248f08b9868dc434ef38f" Left="[float]0" TabIndex="[int]10" Top="[float]0">
+					<LayoutPanel Height="[float]701" Id="291b0da9d8914460a8c0c56ba5245489" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
+						<Label Height="[float]16" Id="53b3b2dcdd054bde9200f59752bbec61" LabelOwner="[UIModel]b3d6850c85824d9eb947187d7af86a13" Left="[float]20" Text="[string]Histogram Power Supply Top Temperature profile Celsius" Top="[float]22" Width="[float]300" xmlns="http://www.ni.com/PanelCommon" />
+						<GraphTools Graph="[UIModel]b3d6850c85824d9eb947187d7af86a13" Height="[float]35" Id="48eb7e0d3a646b68544273cb233ef01" Left="[float]299" Top="[float]42" Visible="[bool]False" Width="[float]120" />
+						<CursorLegend Graph="[UIModel]b3d6850c85824d9eb947187d7af86a13" Height="[float]200" Id="b1895afd8df94fbdb7f2bc1c4018e077" Left="[float]20" MinWidth="[float]320" Top="[float]383" Visible="[bool]False" Width="[float]320" />
+						<PlotLegend Graph="[UIModel]b3d6850c85824d9eb947187d7af86a13" Height="[float]28" Id="743685f823f14ea88b3d22ebdbbf1203" Left="[float]489" MinWidth="[float]145" Top="[float]42" Width="[float]145" />
+						<ScaleLegend Graph="[UIModel]b3d6850c85824d9eb947187d7af86a13" Height="[float]60" Id="de5f6fe0df224840b36ddde3f94a2f98" Left="[float]475" MinWidth="[float]145" Top="[float]278" Visible="[bool]False" Width="[float]145" />
+						<Graph DataSource="{DataItemBinding Id=9aec94bef9594021a2049dac8f1fc3c8}" DataSourceType="[Type]Double[]" Height="[float]296" Id="b3d6850c85824d9eb947187d7af86a13" IsTabStop="[bool]True" Label="[UIModel]53b3b2dcdd054bde9200f59752bbec61" Left="[float]20" MetadataAlwaysOverridesPlotNames="[bool]True" PlotAreaMargin="[SMThickness]0,-1,0,26" SuppressScaleLayout="[bool]True" TabIndex="[int]3" Top="[float]42" Width="[float]456">
+							<Axis Adjuster="[RangeAdjuster]None" Id="e81daac3fd904ab5b4a8c9f5861c9296" Label="[string]Range" MajorDivisions="[UIModel]4cb8e201cd5d4bb7973eddbca43f07eb" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 15, System.Double" ValueType="[Type]Double">
+								<RangeLabeledDivisions Id="4cb8e201cd5d4bb7973eddbca43f07eb" LabelVisibility="[SMVisibility]Collapsed" Mode="[RangeDivisionsMode]Auto" TickVisibility="[SMVisibility]Visible">
+									<p.LabelPresenter Kind="LVRelativeSeconds" Format="0" />
+								</RangeLabeledDivisions>
+							</Axis>
+							<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" Id="ee6dfe09ad14474b96a076ed45aa50c1" Label="[string]Running Time (Min)" MajorDivisions="[UIModel]dfc0fad671ad42b59ab02ddd1d00398c" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 10, System.Double" ValueType="[Type]Double">
+								<RangeLabeledDivisions Id="dfc0fad671ad42b59ab02ddd1d00398c">
+									<p.LabelPresenter Kind="LVRelativeSeconds" Format="G6" ShortFormat="0.000E+0" />
+								</RangeLabeledDivisions>
+							</Axis>
+							<Plot HorizontalScale="[UIModel]e81daac3fd904ab5b4a8c9f5861c9296" Id="b132884d82ac44e1b297857f932a4f52" Label="[string]Plot" VerticalScale="[UIModel]ee6dfe09ad14474b96a076ed45aa50c1" Visibility="[SMVisibility]Visible">
+								<PlotRenderer BarBaseline="[FillBaseline]Zero" Id="ed699b398b174a9297252d9f294232aa" LineStroke="[SMSolidColorBrush]#ff82a3d1" LineThickness="[double]1" PointFill="[SMSolidColorBrush]#ff82a3d1" />
+							</Plot>
+						</Graph>
+						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]60" Id="d7b6f540d8c74a809e4fe508e6d0abdb" Label="[UIModel]5c6b48b2256745769ea2dfb180162a89" Left="[float]105" Source="{DataItemBinding Id=5597b60512b84109966a9061ce37d2e1}" Stretch="[SMStretch]Uniform" TabIndex="[int]0" Top="[float]274" Width="[float]347" />
+						<Graph DataSource="{DataItemBinding Id=7f9977e2a2fb462094a190db219f2f7f}" DataSourceType="[Type]Double[]" Height="[float]296" Id="42f6374d3eff459c9164f70182d52001" IsTabStop="[bool]True" Label="[UIModel]b8a56b0d1dbe4086b8c79213d1f2f43b" Left="[float]20" MetadataAlwaysOverridesPlotNames="[bool]True" PlotAreaMargin="[SMThickness]0,-1,0,26" SuppressScaleLayout="[bool]True" TabIndex="[int]1" Top="[float]384" Width="[float]456">
+							<Axis Adjuster="[RangeAdjuster]None" Id="23472d4dab104124a44172bfafcd5bc4" Label="[string]Range" MajorDivisions="[UIModel]e4deb819ed6c45d1bf5bc0c0f2ff4e1f" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 15, System.Double" ValueType="[Type]Double">
+								<RangeLabeledDivisions Id="e4deb819ed6c45d1bf5bc0c0f2ff4e1f" LabelVisibility="[SMVisibility]Collapsed" Mode="[RangeDivisionsMode]Auto" TickVisibility="[SMVisibility]Visible">
+									<p.LabelPresenter Kind="LVRelativeSeconds" Format="0" />
+								</RangeLabeledDivisions>
+							</Axis>
+							<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" Id="fd545462eb3d48a386ba4f133157af2a" Label="[string]Running Time (Min)" MajorDivisions="[UIModel]a3ba2aafb9824637a3ca0a2ca0218bde" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 10, System.Double" ValueType="[Type]Double">
+								<RangeLabeledDivisions Id="a3ba2aafb9824637a3ca0a2ca0218bde">
+									<p.LabelPresenter Kind="LVRelativeSeconds" Format="G6" ShortFormat="0.000E+0" />
+								</RangeLabeledDivisions>
+							</Axis>
+							<Plot HorizontalScale="[UIModel]23472d4dab104124a44172bfafcd5bc4" Id="3d7347b6688743739194a71ba7758da5" Label="[string]Plot" VerticalScale="[UIModel]fd545462eb3d48a386ba4f133157af2a" Visibility="[SMVisibility]Visible">
+								<PlotRenderer BarBaseline="[FillBaseline]Zero" Id="ce3167f82a094f968c5cd3669d0e6885" LineStroke="[SMSolidColorBrush]#ff82a3d1" LineThickness="[double]1" PointFill="[SMSolidColorBrush]#ff82a3d1" />
+							</Plot>
+						</Graph>
+						<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]60" Id="93ec1d8749d6450b9cfa876e330b7a5c" Label="[UIModel]d1fb37cbff2741988ab30fbb987dc7ad" Left="[float]94" Source="{DataItemBinding Id=df307d4d05c4a238a17236985d557a7}" Stretch="[SMStretch]Uniform" TabIndex="[int]3" Top="[float]609" Width="[float]359" />
+						<Label Height="[float]16" Id="5c6b48b2256745769ea2dfb180162a89" LabelOwner="[UIModel]d7b6f540d8c74a809e4fe508e6d0abdb" Left="[float]105" Text="[string]skala Power Supply top" Top="[float]254" Visible="[bool]False" Width="[float]123" xmlns="http://www.ni.com/PanelCommon" />
+						<ScaleLegend Graph="[UIModel]42f6374d3eff459c9164f70182d52001" Height="[float]60" Id="d16a79ed81745679f988949ca18321b" Left="[float]475" MinWidth="[float]145" Top="[float]620" Visible="[bool]False" Width="[float]145" />
+						<PlotLegend Graph="[UIModel]42f6374d3eff459c9164f70182d52001" Height="[float]28" Id="37436f222a0d41d69b59e503b7ca7900" Left="[float]486" MinWidth="[float]145" Top="[float]384" Width="[float]145" />
+						<CursorLegend Graph="[UIModel]42f6374d3eff459c9164f70182d52001" Height="[float]200" Id="b9e2a78c9890438a8eba2153a49b44e3" Left="[float]20" MinWidth="[float]320" Top="[float]725" Visible="[bool]False" Width="[float]320" />
+						<GraphTools Graph="[UIModel]42f6374d3eff459c9164f70182d52001" Height="[float]35" Id="5abafe23c49d41039d7835d7a1509e66" Left="[float]299" Top="[float]384" Visible="[bool]False" Width="[float]120" />
+						<Label Height="[float]16" Id="b8a56b0d1dbe4086b8c79213d1f2f43b" LabelOwner="[UIModel]42f6374d3eff459c9164f70182d52001" Left="[float]20" Text="[string]Histogram Power Supply bottom Temperature profile Celsius" Top="[float]364" Width="[float]321" xmlns="http://www.ni.com/PanelCommon" />
+						<Label Height="[float]16" Id="d1fb37cbff2741988ab30fbb987dc7ad" LabelOwner="[UIModel]93ec1d8749d6450b9cfa876e330b7a5c" Left="[float]94" Text="[string]skala histogram Power Supply bottom" Top="[float]589" Visible="[bool]False" Width="[float]201" xmlns="http://www.ni.com/PanelCommon" />
+					</LayoutPanel>
+				</TabItem>
+				<TabItem Header="[string]Service report XML File Content" Id="b0578494f6144c72950acc03d9e72032" Left="[float]0" TabIndex="[int]10" Top="[float]0">
+					<LayoutPanel Height="[float]701" Id="6ef224e790a849b8a77409157056b6a5" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
+						<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]632" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="331bb3ff388b497b874f58987c759ad6" IsReadOnly="[bool]True" Label="[UIModel]ce76247d3b0340c4bbf073438bb6baf3" Left="[float]16" TabIndex="[int]0" Text="{DataItemBinding Id=8005a30342614c6f99f7aa3765aa5ac0}" Top="[float]29" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]1096">
+							<FontSetting FontFamily="Segoe UI" FontSize="10" Id="30743032851346b6a66c0b0394cc8043" xmlns="http://www.ni.com/PlatformFramework" />
+						</StringControl>
+						<Label Height="[float]18" Id="ce76247d3b0340c4bbf073438bb6baf3" LabelOwner="[UIModel]331bb3ff388b497b874f58987c759ad6" Left="[float]16" Text="[string]Service report XML File Content:" Top="[float]7" Width="[float]189" xmlns="http://www.ni.com/PanelCommon">
+							<FontSetting FontFamily="Segoe UI" FontSize="10" FontStyle="Underline" Id="8c488b46dd6043f3ba08320b7be8522f" xmlns="http://www.ni.com/PlatformFramework" />
+						</Label>
+					</LayoutPanel>
+				</TabItem>
+			</TabControl>
 			<Label Height="[float]16" Id="94914384e8d445d3a5b7578c5cbce34d" LabelOwner="[UIModel]54c5d766583b42a5832bfa7567f1bf6c" Left="[float]2" Text="[string]Page 2" Top="[float]104" Visible="[bool]False" Width="[float]36" xmlns="http://www.ni.com/PanelCommon" />
-			<TabControl BaseName="[string]Tab" Height="[float]726" Id="54c5d766583b42a5832bfa7567f1bf6c" IncludeInCapture="[bool]False" Label="[UIModel]94914384e8d445d3a5b7578c5cbce34d" Left="[float]2" SelectedIndex="{DataItemBinding Id=f09a7f2c63ae4922b8dabe21665ac129}" TabIndex="[int]10" Top="[float]124" Width="[float]1216" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
-				<TabItem Header="[string]Histogram temperature CPU &amp; IO " Id="45640fbc2afa43cbb8d1efbd92daebf2" Left="[float]0" TabIndex="[int]10" Top="[float]0">
+			<TabControl BaseName="[string]Tab" Height="[float]726" Id="54c5d766583b42a5832bfa7567f1bf6c" IncludeInCapture="[bool]False" Label="[UIModel]94914384e8d445d3a5b7578c5cbce34d" Left="[float]2" SelectedIndex="{DataItemBinding Id=f09a7f2c63ae4922b8dabe21665ac129}" TabIndex="[int]9" Top="[float]124" Width="[float]1216" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<TabItem Header="[string]Histogram temperature CPU &amp; IO " Id="45640fbc2afa43cbb8d1efbd92daebf2" Left="[float]0" TabIndex="[int]9" Top="[float]0">
 					<LayoutPanel Height="[float]701" Id="a3fac4199ac445d9a694d891794a0c96" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
 						<Graph DataSource="{DataItemBinding Id=43944aaccdaa4dd2aef7d07fca2d469f}" DataSourceType="[Type]Double[]" Height="[float]296" Id="66a958a137274fc28f5886000072f6b6" IsTabStop="[bool]True" Label="[UIModel]5454dd6424ff466eacfe36a4684006f3" Left="[float]50" MetadataAlwaysOverridesPlotNames="[bool]True" PlotAreaMargin="[SMThickness]0,-1,0,26" SuppressScaleLayout="[bool]True" TabIndex="[int]0" Top="[float]42" Width="[float]456">
 							<Axis Adjuster="[RangeAdjuster]None" Id="56feec33b30c4a6ba9b112b8d3d24185" Label="[string]Range" MajorDivisions="[UIModel]874dafc8f8044279a6e92f8c39177522" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 15, System.Double" ValueType="[Type]Double">
@@ -12632,7 +12698,7 @@
 						<Label Height="[float]16" Id="8c51daf95d44482d91a03c5949d47e17" LabelOwner="[UIModel]2ab6fe76923b46cc9940c87724d1ad5a" Left="[float]769" Text="[string]Measured_temperature IO °C [Min/Max]:" Top="[float]372" Width="[float]215" xmlns="http://www.ni.com/PanelCommon" />
 					</LayoutPanel>
 				</TabItem>
-				<TabItem Header="[string]Diagnostic RunningTimes Modes" Id="6268d310ea4b4ef095800c0fae745c9b" Left="[float]0" TabIndex="[int]10" Top="[float]0">
+				<TabItem Header="[string]Diagnostic RunningTimes Modes" Id="6268d310ea4b4ef095800c0fae745c9b" Left="[float]0" TabIndex="[int]9" Top="[float]0">
 					<LayoutPanel Height="[float]701" Id="2bfd59656ad54f3daad48e98163c1976" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
 						<LVDataGrid AllowFiltering="[bool]False" AllowGrouping="[bool]False" AllowPaging="[bool]False" AlternatingRowBackgrounds="[bool]False" BaseName="[string]Data Grid" CanUserSortColumns="[bool]False" ColumnSizeMode="[DataGridColumnSizeMode]StretchSingleColumn" Height="[float]652" Id="371eead928af48c49c11bab227921c15" IsReadOnly="[bool]True" Label="[UIModel]d8cac07fd4d84feb817e5b27fe2a47bd" Left="[float]15" MinHeight="[float]100" MinWidth="[float]125" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]43" ShowAddRowsToolBar="[bool]False" TabIndex="[int]0" Top="[float]24" Type="[Type]@4a58c6094c4f4cd7933f9c43b1ad6564" Value="{DataItemBinding Id=fb8cb1fe7f844a6d8236841914c5a384}" Width="[float]1016">
 							<LVDataGridColumn ColumnElement="[UIModel]83010a70569e47afa9b4ee4f6f2043c8" ContentFont="32c76bbaf76740e986e0218ae191b2a8" Header="[string]Duration" Id="dfdfb1a801db4cfdb41a4522366efa1a" Index="[int]2" IsReadOnly="[bool]True" ValueType="[Type]String" Width="[DataViewerLength]120">
@@ -12667,7 +12733,7 @@
 						</Label>
 					</LayoutPanel>
 				</TabItem>
-				<TabItem Header="[string]System Logger" Id="327cfaa29cde4d9997f88957c05d0505" Left="[float]0" TabIndex="[int]10" Top="[float]0">
+				<TabItem Header="[string]System Logger" Id="327cfaa29cde4d9997f88957c05d0505" Left="[float]0" TabIndex="[int]9" Top="[float]0">
 					<LayoutPanel Height="[float]701" Id="22782a80a63c46879dbf40855d218a6c" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
 						<LVDataGrid AlternatingRowBackgrounds="[bool]False" BaseName="[string]Data Grid" CanUserSortColumns="[bool]False" ColumnSizeMode="[DataGridColumnSizeMode]StretchSingleColumn" Height="[float]662" Id="f1c2cfd062a54514be63d840cf28edef" IsReadOnly="[bool]True" Label="[UIModel]4b5575b27eaf4545b480c263d3c7f1c6" Left="[float]10" MinHeight="[float]100" MinWidth="[float]125" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]43" ShowAddRowsToolBar="[bool]False" TabIndex="[int]0" Top="[float]13" Type="[Type]@151c1cfac7314eaa9b75397320f1bfd6" Value="{DataItemBinding Id=a13bf9b1d61f4740b3bf76eb19d601fe}" Width="[float]1016">
 							<LVDataGridColumn ColumnElement="[UIModel]2819b6ddf2994a55868be8574de44d2b" ContentFont="201a1f57d1ca49179dee93b4b75a1519" Header="[string]Value" Id="4aca36b4b81145d691ffae2384aeb015" Index="[int]1" IsReadOnly="[bool]True" ValueType="[Type]String" Width="[DataViewerLength]120">
@@ -12702,7 +12768,7 @@
 						</Label>
 					</LayoutPanel>
 				</TabItem>
-				<TabItem Header="[string]Histogram temperature LEDs" Id="f52a3f3dee4e4341b659a53b787de2ea" Left="[float]0" TabIndex="[int]10" Top="[float]0">
+				<TabItem Header="[string]Histogram temperature LEDs" Id="f52a3f3dee4e4341b659a53b787de2ea" Left="[float]0" TabIndex="[int]9" Top="[float]0">
 					<LayoutPanel Height="[float]701" Id="4a5baec214a1472796747fe6a1a0e589" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
 						<Graph DataSource="{DataItemBinding Id=6f9aee8d07f472aa294d817d10d9928}" DataSourceType="[Type]Double[]" Height="[float]296" Id="ca4ddcdf215242cd8c8676c8182c86c8" IsTabStop="[bool]True" Label="[UIModel]2f5f263e36cf46c4aa6ebb96d2048168" Left="[float]18" MetadataAlwaysOverridesPlotNames="[bool]True" PlotAreaMargin="[SMThickness]0,-1,0,26" SuppressScaleLayout="[bool]True" TabIndex="[int]0" Top="[float]42" Width="[float]456">
 							<Axis Adjuster="[RangeAdjuster]None" Id="21c13eb68cb5452ba057e006f9c3eaf6" Label="[string]Range" MajorDivisions="[UIModel]ed3ccbfeb24595980739be58076f63" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 15, System.Double" ValueType="[Type]Double">
@@ -12750,7 +12816,7 @@
 						<Label Height="[float]16" Id="c4a540318d844f39b9e14f9ff57e420e" LabelOwner="[UIModel]a5a49321d6234afb92e9e8f3fb4077b1" Left="[float]103" Text="[string]Skala Histogram LED handle" Top="[float]595" Visible="[bool]False" Width="[float]149" xmlns="http://www.ni.com/PanelCommon" />
 					</LayoutPanel>
 				</TabItem>
-				<TabItem Header="[string]Histogram temperature pump pcb &amp; Gas box  " Id="d6116209e81d49108f49bbe0505b7dd0" Left="[float]0" TabIndex="[int]10" Top="[float]0">
+				<TabItem Header="[string]Histogram temperature pump pcb &amp; Gas box  " Id="d6116209e81d49108f49bbe0505b7dd0" Left="[float]0" TabIndex="[int]9" Top="[float]0">
 					<LayoutPanel Height="[float]701" Id="86e18d02425747fba0dfcab7d4c97fb0" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
 						<Graph DataSource="{DataItemBinding Id=1d5e65cd69e84812b1cbbf795806ad7b}" DataSourceType="[Type]Double[]" Height="[float]296" Id="c372b243e85841e291b99e3bd6607dad" IsTabStop="[bool]True" Label="[UIModel]acceb40207aa4617af9f347c7e5a1a4b" Left="[float]16" MetadataAlwaysOverridesPlotNames="[bool]True" PlotAreaMargin="[SMThickness]0,-1,0,26" SuppressScaleLayout="[bool]True" TabIndex="[int]0" Top="[float]25" Width="[float]456">
 							<Axis Adjuster="[RangeAdjuster]None" Id="431643e47c994783a1cbc289178bc8c7" Label="[string]Range" MajorDivisions="[UIModel]913d81827e854da6ab2bdb7b316ab52e" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 15, System.Double" ValueType="[Type]Double">
@@ -12798,7 +12864,7 @@
 						<Label Height="[float]16" Id="9be89241a8e842a59ef425d7908b0b79" LabelOwner="[UIModel]63f64eb1c1214c56b2d3bf865fc51a5b" Left="[float]97" Text="[string]Skala Histogram Gas box" Top="[float]578" Visible="[bool]False" Width="[float]132" xmlns="http://www.ni.com/PanelCommon" />
 					</LayoutPanel>
 				</TabItem>
-				<TabItem Header="[string]Histogram Fan 1 RPM &amp; Power" Id="8154e7bef704f658376c8d7d7823fc7" Left="[float]0" TabIndex="[int]10" Top="[float]0">
+				<TabItem Header="[string]Histogram Fan 1 RPM &amp; Power" Id="8154e7bef704f658376c8d7d7823fc7" Left="[float]0" TabIndex="[int]9" Top="[float]0">
 					<LayoutPanel Height="[float]701" Id="4da4d05b5fc94c72911002189296aac9" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
 						<Graph DataSource="{DataItemBinding Id=8e7cdca8ec304066bd15d149bf4758a1}" DataSourceType="[Type]Double[]" Height="[float]296" Id="d388b1189bcf46cca52275f25c6d9702" IsTabStop="[bool]True" Label="[UIModel]de09831129454995b0e046fb12715323" Left="[float]15" MetadataAlwaysOverridesPlotNames="[bool]True" PlotAreaMargin="[SMThickness]0,0,0,26" SuppressScaleLayout="[bool]True" TabIndex="[int]0" Top="[float]37" Width="[float]449">
 							<Axis Adjuster="[RangeAdjuster]None" Id="662ac70e5fac46939f24b9a50d3339c5" Label="[string]Range" MajorDivisions="[UIModel]afd60a82846242bc8a84ff0372665116" MinorTickVisibility="[SMVisibility]Collapsed" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 7, System.Double" ValueType="[Type]Double">
@@ -12846,7 +12912,7 @@
 						<Label Height="[float]16" Id="f27eaa9eb7bc4dd4abd0becce999c379" LabelOwner="[UIModel]e3a267059530425291e86e8d03068fc6" Left="[float]95" Text="[string]Skala Histogram fan power" Top="[float]590" Visible="[bool]False" Width="[float]143" xmlns="http://www.ni.com/PanelCommon" />
 					</LayoutPanel>
 				</TabItem>
-				<TabItem Header="[string]Component Replacement History" Id="ef7bab26aed54194a64bf6789dd82dbb" Left="[float]0" TabIndex="[int]10" Top="[float]0">
+				<TabItem Header="[string]Component Replacement History" Id="ef7bab26aed54194a64bf6789dd82dbb" Left="[float]0" TabIndex="[int]9" Top="[float]0">
 					<LayoutPanel Height="[float]701" Id="3b2fd97ba5144e4eab90c2aceddac41f" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
 						<LVDataGrid AlternatingRowBackgrounds="[bool]False" BaseName="[string]Data Grid" CanUserSortColumns="[bool]False" ColumnSizeMode="[DataGridColumnSizeMode]StretchSingleColumn" Height="[float]648" Id="5954618e9874c8f8c40529ee0ddf548" IsReadOnly="[bool]True" Label="[UIModel]8e5cbcb3c5374c6e8ae9da9825c70b15" Left="[float]4" MinHeight="[float]100" MinWidth="[float]125" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]41" ShowAddRowsToolBar="[bool]False" TabIndex="[int]0" Top="[float]25" Type="[Type]@97cb2f0ea0514eb8900dd23d9a0acf9a" Value="{DataItemBinding Id=db6570c7bb374e8992e02c38c47a68c2}" Width="[float]1196">
 							<LVDataGridColumn ColumnElement="[UIModel]87c0084ce1c14e27b052193fda78c66e" ContentFont="a5f56cfe77704b5d8745d1b0fdf01071" Header="[string]BMK" Id="187e9c42534b413e91df6200c9b61560" Index="[int]1" IsReadOnly="[bool]True" ValueType="[Type]String" Width="[DataViewerLength]80">
@@ -12893,16 +12959,16 @@
 			</Label>
 			<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]68" Id="93a61a330a74b508b3b3fc283636030" Label="[UIModel]728e489d103f4905a7ca88825d4d46e3" Left="[float]1038" Source="{DataItemBinding Id=b4b960c4154c479d85687b8a475c1625}" Stretch="[SMStretch]Uniform" TabIndex="[int]1" Top="[float]7" Width="[float]185" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Label Height="[float]16" Id="728e489d103f4905a7ca88825d4d46e3" LabelOwner="[UIModel]93a61a330a74b508b3b3fc283636030" Left="[float]1038" Text="[string]URL-Grafik" Top="[float]-13" Visible="[bool]False" Width="[float]58" xmlns="http://www.ni.com/PanelCommon" />
-			<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]24" Id="ba37490faed94dffb63e18d678613105" IsTabStop="[bool]True" IsTypeAheadEnabled="[bool]True" Label="[UIModel]ccaf574d20974e95b1625904e8c4a75e" LabelLinked="[bool]True" Left="[float]157" TabIndex="[int]3" Top="[float]8" Value="{DataItemBinding Id=8786c3f1ec534fc9af1c7140bbea8fc6}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]140" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+			<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]24" Id="ba37490faed94dffb63e18d678613105" IsTabStop="[bool]True" IsTypeAheadEnabled="[bool]True" Label="[UIModel]ccaf574d20974e95b1625904e8c4a75e" LabelLinked="[bool]True" Left="[float]157" TabIndex="[int]2" Top="[float]8" Value="{DataItemBinding Id=8786c3f1ec534fc9af1c7140bbea8fc6}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]140" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 				<EnumSelectorInfo DisplayValue="[string]iCombi Pro/iHexagon" DisplayValueOverride="[string]" Id="26" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
 				<EnumSelectorInfo DisplayValue="[string]iVario" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
 			</EnumSelector>
 			<Label Height="[float]16" Id="ccaf574d20974e95b1625904e8c4a75e" LabelOwner="[UIModel]ba37490faed94dffb63e18d678613105" Left="[float]157" Text="[string]Device" Top="[float]-12" Visible="[bool]False" Width="[float]36" xmlns="http://www.ni.com/PanelCommon" />
-			<Button BaseName="[string]Button" ClickMode="[ClickMode]Press" Content="[string](Page contents)" Glyph="[int]61737" Height="[float]40" Id="87ea00748fdb4b658fb95da12f35c48b" IsMomentary="[bool]False" IsTabStop="[bool]True" Label="[UIModel]236c4b389fac44f8bac2392d924404a3" LabelLinked="[bool]True" Left="[float]308" TabIndex="[int]4" Top="[float]8" Value="{DataItemBinding Id=c23d81eb9b94430da829e834d67a5699}" Width="[float]101" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+			<Button BaseName="[string]Button" ClickMode="[ClickMode]Press" Content="[string](Page contents)" Glyph="[int]61737" Height="[float]40" Id="87ea00748fdb4b658fb95da12f35c48b" IsMomentary="[bool]False" IsTabStop="[bool]True" Label="[UIModel]236c4b389fac44f8bac2392d924404a3" LabelLinked="[bool]True" Left="[float]308" TabIndex="[int]3" Top="[float]8" Value="{DataItemBinding Id=c23d81eb9b94430da829e834d67a5699}" Width="[float]101" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 				<HtmlBehavior ClassAttributes="(infos,page,contents)" xmlns="http://www.ni.com/PlatformFramework" />
 			</Button>
 			<Label Height="[float]16" Id="236c4b389fac44f8bac2392d924404a3" LabelOwner="[UIModel]87ea00748fdb4b658fb95da12f35c48b" Left="[float]308" Text="[string]Page content" Top="[float]-12" Visible="[bool]False" Width="[float]70" xmlns="http://www.ni.com/PanelCommon" />
-			<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]24" Id="3588a91028ca483b9e8f8088101c6a51" IsTypeAheadEnabled="[bool]True" Label="[UIModel]c33756d7c51541149040a7fb63cdcd25" Left="[float]516" TabIndex="[int]5" Top="[float]8" Value="{DataItemBinding Id=a9f9165ed2c04aee8a4c6e8404c30707}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]100" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+			<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]24" Id="3588a91028ca483b9e8f8088101c6a51" IsTypeAheadEnabled="[bool]True" Label="[UIModel]c33756d7c51541149040a7fb63cdcd25" Left="[float]516" TabIndex="[int]4" Top="[float]8" Value="{DataItemBinding Id=a9f9165ed2c04aee8a4c6e8404c30707}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]100" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 				<EnumSelectorInfo DisplayValue="[string]All data" DisplayValueOverride="[string]" Id="26" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
 				<EnumSelectorInfo DisplayValue="[string]Relevant data" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
 				<FontSetting FontFamily="Segoe UI" FontSize="9" Id="70ee172588fa486a86a77248da1ab290" xmlns="http://www.ni.com/PlatformFramework" />
@@ -12911,13 +12977,13 @@
 			<Label Height="[float]15" Id="c33756d7c51541149040a7fb63cdcd25" LabelOwner="[UIModel]3588a91028ca483b9e8f8088101c6a51" Left="[float]516" Text="[string]Error_Selektor" Top="[float]-11" Visible="[bool]False" Width="[float]66" xmlns="http://www.ni.com/PanelCommon">
 				<FontSetting FontFamily="Segoe UI" FontSize="8" Id="91533e1e2984caba9a18eda5c269e1d" xmlns="http://www.ni.com/PlatformFramework" />
 			</Label>
-			<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]105" HorizontalScrollBarVisibility="[ScrollBarVisibility]Auto" Id="9e1f7efd9bf43648b91b84be3cad15b" IsReadOnly="[bool]True" Label="[UIModel]694d19b3d70043a996b06136e9d24635" Left="[float]644" TabIndex="[int]6" Text="{DataItemBinding Id=8d5a44ae02834b9196100ff4e7c19e61}" Top="[float]8" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]264" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]105" HorizontalScrollBarVisibility="[ScrollBarVisibility]Auto" Id="9e1f7efd9bf43648b91b84be3cad15b" IsReadOnly="[bool]True" Label="[UIModel]694d19b3d70043a996b06136e9d24635" Left="[float]644" TabIndex="[int]5" Text="{DataItemBinding Id=8d5a44ae02834b9196100ff4e7c19e61}" Top="[float]8" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]264" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Label Height="[float]16" Id="694d19b3d70043a996b06136e9d24635" LabelOwner="[UIModel]9e1f7efd9bf43648b91b84be3cad15b" Left="[float]644" Text="[string]Tabs with errors" Top="[float]-12" Visible="[bool]False" Width="[float]84" xmlns="http://www.ni.com/PanelCommon" />
-			<Button BaseName="[string]Button" ClickMode="[ClickMode]Release" Content="[string]Next page" ContentVisibility="[Visibility]Visible" FalseBackground="[SMSolidColorBrush]#00ffffff" Glyph="[int]61537" Height="[float]28" Id="c0631f8d7d064886b0bdffb9cce9b573" IsMomentary="[bool]True" IsTabStop="[bool]True" Label="[UIModel]9e502f0d9d3046cdac69f387c63f7caa" LabelLinked="[bool]True" Left="[float]1119" TabIndex="[int]7" Top="[float]85" TrueBackground="[SMSolidColorBrush]#00ffffff" Value="{DataItemBinding Id=33376e94021b47a88c55f35c5e62f517}" Width="[float]100" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Button BaseName="[string]Button" ClickMode="[ClickMode]Release" Content="[string]Next page" ContentVisibility="[Visibility]Visible" FalseBackground="[SMSolidColorBrush]#00ffffff" Glyph="[int]61537" Height="[float]28" Id="c0631f8d7d064886b0bdffb9cce9b573" IsMomentary="[bool]True" IsTabStop="[bool]True" Label="[UIModel]9e502f0d9d3046cdac69f387c63f7caa" LabelLinked="[bool]True" Left="[float]1119" TabIndex="[int]6" Top="[float]85" TrueBackground="[SMSolidColorBrush]#00ffffff" Value="{DataItemBinding Id=33376e94021b47a88c55f35c5e62f517}" Width="[float]100" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Label Height="[float]16" Id="9e502f0d9d3046cdac69f387c63f7caa" LabelAlignment="[PartAlignment]TopCenter" LabelOwner="[UIModel]c0631f8d7d064886b0bdffb9cce9b573" Left="[float]1142" Text="[string]Next page" Top="[float]65" Visible="[bool]False" Width="[float]55" xmlns="http://www.ni.com/PanelCommon" />
-			<Button BaseName="[string]Button" ClickMode="[ClickMode]Release" Content="[string]Previous page" ContentVisibility="[Visibility]Visible" FalseBackground="[SMSolidColorBrush]#00ffffff" Glyph="[int]61536" Height="[float]28" Id="94b2a07803d04e4e8cac04b243ec3721" IsMomentary="[bool]True" IsTabStop="[bool]True" Label="[UIModel]b7f83882899640a58d3066571429639c" LabelLinked="[bool]True" Left="[float]3" TabIndex="[int]8" Top="[float]85" TrueBackground="[SMSolidColorBrush]#00ffffff" Value="{DataItemBinding Id=faa201464cf45588126d1660ec95cfa}" Width="[float]100" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Button BaseName="[string]Button" ClickMode="[ClickMode]Release" Content="[string]Previous page" ContentVisibility="[Visibility]Visible" FalseBackground="[SMSolidColorBrush]#00ffffff" Glyph="[int]61536" Height="[float]28" Id="94b2a07803d04e4e8cac04b243ec3721" IsMomentary="[bool]True" IsTabStop="[bool]True" Label="[UIModel]b7f83882899640a58d3066571429639c" LabelLinked="[bool]True" Left="[float]3" TabIndex="[int]7" Top="[float]85" TrueBackground="[SMSolidColorBrush]#00ffffff" Value="{DataItemBinding Id=faa201464cf45588126d1660ec95cfa}" Width="[float]100" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Label Height="[float]16" Id="b7f83882899640a58d3066571429639c" LabelAlignment="[PartAlignment]TopCenter" LabelOwner="[UIModel]94b2a07803d04e4e8cac04b243ec3721" Left="[float]16" Text="[string]Previous page" Top="[float]65" Visible="[bool]False" Width="[float]75" xmlns="http://www.ni.com/PanelCommon" />
-			<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]24" Id="b5a9f34b340649d1a3c1897686a7af69" IsTypeAheadEnabled="[bool]True" Label="[UIModel]42ce9cf90e5447159a8f67aea4cb6ca4" Left="[float]424" TabIndex="[int]9" Top="[float]8" Value="{DataItemBinding Id=8df61343ed62451092d89d7ce32087a3}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+			<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]24" Id="b5a9f34b340649d1a3c1897686a7af69" IsTypeAheadEnabled="[bool]True" Label="[UIModel]42ce9cf90e5447159a8f67aea4cb6ca4" Left="[float]424" TabIndex="[int]8" Top="[float]8" Value="{DataItemBinding Id=8df61343ed62451092d89d7ce32087a3}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 				<EnumSelectorInfo DisplayValue="[string]Page 1" DisplayValueOverride="[string]" Id="26" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
 				<EnumSelectorInfo DisplayValue="[string]Page 2" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
 				<FontSetting FontFamily="Segoe UI" FontSize="9" Id="845e2ba91764e52b144b587ccd1b448" xmlns="http://www.ni.com/PlatformFramework" />
@@ -12925,8 +12991,8 @@
 			<Label Height="[float]15" Id="42ce9cf90e5447159a8f67aea4cb6ca4" LabelOwner="[UIModel]b5a9f34b340649d1a3c1897686a7af69" Left="[float]424" Text="[string]Page selector iVario" Top="[float]-11" Visible="[bool]False" Width="[float]92" xmlns="http://www.ni.com/PanelCommon">
 				<FontSetting FontFamily="Segoe UI" FontSize="8" Id="852ea7c3565846ccb65938c3203cd1dc" xmlns="http://www.ni.com/PlatformFramework" />
 			</Label>
-			<TabControl BaseName="[string]Registerkarte" Height="[float]726" Id="4fb06c2589f94e72bcff6b5d2e34c1e8" IncludeInCapture="[bool]False" Label="[UIModel]af5d570167684561968b7e19c121a963" Left="[float]3" SelectedIndex="{DataItemBinding Id=3cab836278b54541be6bc5be40d06d3a}" TabIndex="[int]13" TabSelectorVisibility="[SMVisibility]Visible" TabStripPlacement="[Dock]Top" Top="[float]124" Width="[float]1216" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
-				<TabItem Header="[string]Common Information" Id="ec883d785be94e109ea570406c899ba5" Left="[float]0" TabIndex="[int]13" Top="[float]0">
+			<TabControl BaseName="[string]Registerkarte" Height="[float]726" Id="4fb06c2589f94e72bcff6b5d2e34c1e8" IncludeInCapture="[bool]False" Label="[UIModel]af5d570167684561968b7e19c121a963" Left="[float]3" SelectedIndex="{DataItemBinding Id=3cab836278b54541be6bc5be40d06d3a}" TabIndex="[int]11" TabSelectorVisibility="[SMVisibility]Visible" TabStripPlacement="[Dock]Top" Top="[float]124" Width="[float]1216" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<TabItem Header="[string]Common Information" Id="ec883d785be94e109ea570406c899ba5" Left="[float]0" TabIndex="[int]11" Top="[float]0">
 					<LayoutPanel Height="[float]701" Id="3fafd436e69541adb8c0c813a8de740f" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
 						<Label Height="[float]18" Id="64f2fa81f1384023b46d6f2957ae6722" LabelOwner="[UIModel]81f99226b9804549803fdb9555ccabf9" Left="[float]828" Text="[string]Device:" Top="[float]23" Width="[float]42" xmlns="http://www.ni.com/PanelCommon">
 							<FontSetting FontFamily="Segoe UI" FontSize="10" Id="bf47118f005f4d3fa55dbce686b269a3" xmlns="http://www.ni.com/PlatformFramework" />
@@ -12978,7 +13044,7 @@
 						</Label>
 					</LayoutPanel>
 				</TabItem>
-				<TabItem Header="[string]Basic Settings  " Id="53b0daf593fe4586a7878fb8870a8fe8" Left="[float]0" TabIndex="[int]13" Top="[float]0">
+				<TabItem Header="[string]Basic Settings  " Id="53b0daf593fe4586a7878fb8870a8fe8" Left="[float]0" TabIndex="[int]11" Top="[float]0">
 					<LayoutPanel Height="[float]701" Id="aff2cd3064da4cc5a9b8a99a4425c4a2" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
 						<LVDataGrid AlternatingRowBackgrounds="[bool]False" BaseName="[string]Data Grid" CanUserSortColumns="[bool]False" ColumnSizeMode="[DataGridColumnSizeMode]StretchSingleColumn" Height="[float]680" Id="3ed20d60365b4809a1fcb9e58b093f7a" IsReadOnly="[bool]True" Label="[UIModel]defef8f20bc24ea1b22a907c098ff08d" Left="[float]13" MinHeight="[float]100" MinWidth="[float]125" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]41" ShowAddRowsToolBar="[bool]False" TabIndex="[int]0" Top="[float]10" Type="[Type]@f4875099e1264b4da42d7f843c1477e6" Value="{DataItemBinding Id=f5e4b0fb15a64cd389926f61fb7c6b71}" Width="[float]1096">
 							<LVDataGridColumn ColumnElement="[UIModel]7732acbee26e47ff928eb4989e6a698e" ContentFont="b9e54e1230e4427183d1d482b133ffb5" Header="[string]Value" Id="c4a46e442f36489295b247bca5ca63ed" Index="[int]1" IsReadOnly="[bool]True" ValueType="[Type]String" Width="[DataViewerLength]140">
@@ -13010,7 +13076,7 @@
 						</Label>
 					</LayoutPanel>
 				</TabItem>
-				<TabItem Header="[string]Diagnostic Real Time Data Sensors  " Id="41812d6e539f40df8aa932d7062a4563" Left="[float]0" TabIndex="[int]13" Top="[float]0">
+				<TabItem Header="[string]Diagnostic Real Time Data Sensors  " Id="41812d6e539f40df8aa932d7062a4563" Left="[float]0" TabIndex="[int]11" Top="[float]0">
 					<LayoutPanel Height="[float]701" Id="bde1340b397848d0be0097869969b81a" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
 						<LVDataGrid AlternatingRowBackgrounds="[bool]True" BaseName="[string]Data Grid" CanUserSortColumns="[bool]False" ColumnSizeMode="[DataGridColumnSizeMode]StretchSingleColumn" Height="[float]664" Id="6ca32e792e614354a87860b94fb9cd51" IsReadOnly="[bool]True" Label="[UIModel]4f7bbca081da487786064e175d75f84f" Left="[float]3" MinHeight="[float]100" MinWidth="[float]125" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]41" ShowAddRowsToolBar="[bool]False" TabIndex="[int]0" Top="[float]27" Type="[Type]@1ee600e3d19c48d7aa9e73da1199be90" Value="{DataItemBinding Id=913d47efdde34b9c8b2c51a43018204e}" Width="[float]1112">
 							<LVDataGridColumn ColumnElement="[UIModel]b700787a97fc4fe59660be53e238b7e8" ContentFont="929c197b75304913842e43e371ca82dc" Header="[string]Actual" Id="9cad018f04c74309bc72ef79ae926d8c" Index="[int]1" IsReadOnly="[bool]True" ValueType="[Type]String" Width="[DataViewerLength]59">
@@ -13051,7 +13117,7 @@
 						</Label>
 					</LayoutPanel>
 				</TabItem>
-				<TabItem Header="[string]Diagnostic RT Calibration" Id="4f27083cb4cc4691a0675b4efa8db5f1" Left="[float]0" TabIndex="[int]13" Top="[float]0">
+				<TabItem Header="[string]Diagnostic RT Calibration" Id="4f27083cb4cc4691a0675b4efa8db5f1" Left="[float]0" TabIndex="[int]11" Top="[float]0">
 					<LayoutPanel Height="[float]701" Id="7a47e077e1a34d70b629cf902ae19cc1" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
 						<LVDataGrid AlternatingRowBackgrounds="[bool]False" BaseName="[string]Data Grid" CanUserSortColumns="[bool]False" ColumnSizeMode="[DataGridColumnSizeMode]StretchSingleColumn" Height="[float]664" Id="3f4fd638ade4458ea570527f285c8044" IsReadOnly="[bool]True" Label="[UIModel]8f11a6d34ae74d53bc992c9598d8412e" Left="[float]13" MinHeight="[float]100" MinWidth="[float]125" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]41" ShowAddRowsToolBar="[bool]False" TabIndex="[int]0" Top="[float]24" Type="[Type]@529e6300c5094211aca04ea027d4784e" Value="{DataItemBinding Id=2e0a208d33a64cadb27f4505e9ecef85}" Width="[float]1080">
 							<LVDataGridColumn ColumnElement="[UIModel]211220a3881a45bfb6bbbb0a8a00bed2" ContentFont="de8c316a8ccb43f28e2e190c7c87bc16" Header="[string]Combi" Id="92435eb732874406a8fe9b6ef93f0719" Index="[int]1" IsReadOnly="[bool]True" ValueType="[Type]String" Width="[DataViewerLength]100">
@@ -13093,7 +13159,7 @@
 						</Label>
 					</LayoutPanel>
 				</TabItem>
-				<TabItem Header="[string]Diagnostic Water iCS Switch " Id="e2e9e8f7e84247788d1be6764a1424d5" Left="[float]0" TabIndex="[int]13" Top="[float]0">
+				<TabItem Header="[string]Diagnostic Water iCS Switch " Id="e2e9e8f7e84247788d1be6764a1424d5" Left="[float]0" TabIndex="[int]11" Top="[float]0">
 					<LayoutPanel Height="[float]701" Id="689ed005098a4ed19df9bfa53a82d26b" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
 						<LVDataGrid AlternatingRowBackgrounds="[bool]False" BaseName="[string]Data Grid" CanUserSortColumns="[bool]False" ColumnSizeMode="[DataGridColumnSizeMode]StretchSingleColumn" Height="[float]664" Id="db6e5541835f47e78429e47b75eede18" IsReadOnly="[bool]True" Label="[UIModel]b70c2307870435083f1d4cd77531155" Left="[float]17" MinHeight="[float]100" MinWidth="[float]125" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]41" ShowAddRowsToolBar="[bool]False" TabIndex="[int]0" Top="[float]18" Type="[Type]@17bb9caf54ac4c9fbe249beba63848cd" Value="{DataItemBinding Id=d2a3713b46574bd48c9e94986163d67a}" Width="[float]1096">
 							<LVDataGridColumn ColumnElement="[UIModel]f91eeb311db94514aa3ccc2033bcbe29" ContentFont="a902d72331a844088b484d1970d418e4" Header="[string]Status" Id="2307271a04c140178506fd39cee24830" Index="[int]1" IsReadOnly="[bool]True" ValueType="[Type]String" Width="[DataViewerLength]120">
@@ -13125,7 +13191,7 @@
 						</Label>
 					</LayoutPanel>
 				</TabItem>
-				<TabItem Header="[string]Diagnostic Service History" Id="320a2339b4384394aeed3135747b2a0c" Left="[float]0" TabIndex="[int]13" Top="[float]0">
+				<TabItem Header="[string]Diagnostic Service History" Id="320a2339b4384394aeed3135747b2a0c" Left="[float]0" TabIndex="[int]11" Top="[float]0">
 					<LayoutPanel Height="[float]701" Id="209e9a40abbc4a1c945ede88548430b5" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
 						<LVDataGrid AlternatingRowBackgrounds="[bool]False" BaseName="[string]Data Grid" CanUserSortColumns="[bool]False" ColumnSizeMode="[DataGridColumnSizeMode]StretchSingleColumn" Height="[float]628" Id="e4f5c97f19fb451899be7fa940890284" IsReadOnly="[bool]True" Label="[UIModel]3543d17b4f7d4caaa9f6ea2b4fb6a6af" Left="[float]15" MinHeight="[float]100" MinWidth="[float]125" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]41" ShowAddRowsToolBar="[bool]False" TabIndex="[int]0" Top="[float]52" Type="[Type]@7e62ea2503264456ad6df0a8d7c68e81" Value="{DataItemBinding Id=91fb7e5edef44167b1df56eca06fd06a}" Width="[float]1096">
 							<LVDataGridColumn ColumnElement="[UIModel]232b79ba532441929593c1c357ca734a" ContentFont="bf33fdb988294d69a660f9dd1290b99c" Header="[string]First Time" Id="247d88c4b2d14619909b6fb66857ce18" Index="[int]1" IsReadOnly="[bool]True" ValueType="[Type]String" Width="[DataViewerLength]150">
@@ -13164,13 +13230,13 @@
 						<Label Height="[float]15" Id="b0738f3909124623a780301c828f1eba" LabelOwner="[UIModel]dd3502d313804b0582e677d66d55d6e6" Left="[float]417" Text="[string]Sort table iCombi" Top="[float]-10" Visible="[bool]False" Width="[float]83" xmlns="http://www.ni.com/PanelCommon">
 							<FontSetting FontFamily="Segoe UI" FontSize="8" Id="aece822104f64a3a87199663699159a8" xmlns="http://www.ni.com/PlatformFramework" />
 						</Label>
-						<LVHyperlinkControl BaseName="[string]Hyperlink Control" Content="[string]→ Training Manual/Fault Finding" Foreground="[SMColor]#ff00b050" Height="[float]24" Id="451b53ed39041fe9e6b160dd4fce261" IsUrlSameAsContent="[bool]False" Label="[UIModel]82044f5df2af412998387b67936c986f" LabelLinked="[bool]True" Left="[float]544" TabIndex="[int]2" TargetName="[string]_blank" TargetUrl="{DataItemBinding Id=fd4a911ab8c749d9bd3782002e73af62}" Top="[float]11" Width="[float]296">
+						<LVHyperlinkControl BaseName="[string]Hyperlink Control" Content="[string]→ Training Manual/Fault Finding" Foreground="[SMColor]#ffee1c25" Height="[float]24" Id="451b53ed39041fe9e6b160dd4fce261" IsUrlSameAsContent="[bool]False" Label="[UIModel]82044f5df2af412998387b67936c986f" LabelLinked="[bool]True" Left="[float]544" TabIndex="[int]2" TargetName="[string]_blank" TargetUrl="{DataItemBinding Id=fd4a911ab8c749d9bd3782002e73af62}" Top="[float]11" Width="[float]296">
 							<FontSetting FontFamily="Segoe UI" FontSize="14" FontStyle="Bold" Id="6d73549e108c482c8c77bb4d3ec66900" xmlns="http://www.ni.com/PlatformFramework" />
 						</LVHyperlinkControl>
 						<Label Height="[float]16" Id="82044f5df2af412998387b67936c986f" LabelOwner="[UIModel]451b53ed39041fe9e6b160dd4fce261" Left="[float]544" Text="[string]Engine Link" Top="[float]-9" Visible="[bool]False" Width="[float]61" xmlns="http://www.ni.com/PanelCommon" />
 					</LayoutPanel>
 				</TabItem>
-				<TabItem Header="[string]Diagnostic RunningTimes Components" Id="b6b11b190277425896b535f173f952a2" Left="[float]0" TabIndex="[int]13" Top="[float]0">
+				<TabItem Header="[string]Diagnostic RunningTimes Components" Id="b6b11b190277425896b535f173f952a2" Left="[float]0" TabIndex="[int]11" Top="[float]0">
 					<LayoutPanel Height="[float]701" Id="4be2368613fe4e1f932d57a59c203007" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
 						<LVDataGrid AlternatingRowBackgrounds="[bool]False" BaseName="[string]Data Grid" CanUserSortColumns="[bool]False" ColumnSizeMode="[DataGridColumnSizeMode]StretchSingleColumn" Height="[float]469" Id="ef5f7a77bb344983838c79c6acf62308" IsReadOnly="[bool]True" Label="[UIModel]6656cacfdae94da99a53906f0bda88bc" Left="[float]15" MinHeight="[float]100" MinWidth="[float]125" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]41" ShowAddRowsToolBar="[bool]False" TabIndex="[int]0" Top="[float]216" Type="[Type]@4a58c6094c4f4cd7933f9c43b1ad6564" Value="{DataItemBinding Id=5963297ba44846888ef001ce3b5179eb}" Width="[float]1096">
 							<LVDataGridColumn ColumnElement="[UIModel]3fe3e973d2e34d648e1a0d1f63098bfd" ContentFont="6638e86463f24119b9195889ef0583c3" Header="[string]Duration" Id="640368184bfa485ba6d3bf96ef1a4594" Index="[int]2" IsReadOnly="[bool]True" ValueType="[Type]String" Width="[DataViewerLength]100">
@@ -13236,7 +13302,7 @@
 						</Label>
 					</LayoutPanel>
 				</TabItem>
-				<TabItem Header="[string]Software Version History" Id="34863ba7974846608b6c6598a4fd57b9" Left="[float]0" TabIndex="[int]13" Top="[float]0">
+				<TabItem Header="[string]Software Version History" Id="34863ba7974846608b6c6598a4fd57b9" Left="[float]0" TabIndex="[int]11" Top="[float]0">
 					<LayoutPanel Height="[float]701" Id="7ae45ec13e0c40fbb823a72a3917294b" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1214">
 						<LVDataGrid AlternatingRowBackgrounds="[bool]False" BaseName="[string]Data Grid" CanUserSortColumns="[bool]False" ColumnSizeMode="[DataGridColumnSizeMode]StretchSingleColumn" Height="[float]648" Id="e215a30e1f64a879d3cbad586b23a4f" IsReadOnly="[bool]True" Label="[UIModel]ce3de0a705b148ab80c1daf967ba16f6" Left="[float]7" MinHeight="[float]100" MinWidth="[float]125" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]41" ShowAddRowsToolBar="[bool]False" TabIndex="[int]0" Top="[float]24" Type="[Type]@967b81a1163242a4a9500b31a877a07d" Value="{DataItemBinding Id=13f935d3842149119425f52677d1107b}" Width="[float]856">
 							<LVDataGridColumn ColumnElement="[UIModel]8889b2c68da74ac7903cabd0375170fe" ContentFont="7d73ebf1169340a9b5f1661c96c50aea" Header="[string]Update Date" Id="4698100d04514237bf5cad4949b987c7" Index="[int]1" IsReadOnly="[bool]True" ValueType="[Type]String" Width="[DataViewerLength]300">
@@ -13267,7 +13333,7 @@
 			<Label Height="[float]4" Id="af5d570167684561968b7e19c121a963" LabelOwner="[UIModel]4fb06c2589f94e72bcff6b5d2e34c1e8" Left="[float]3" Text="[string]Page 1" Top="[float]116" Visible="[bool]False" Width="[float]8" xmlns="http://www.ni.com/PanelCommon">
 				<FontSetting FontFamily="Segoe UI" FontSize="2" Id="24401e8f5b324512b6163145b2cb4d5f" xmlns="http://www.ni.com/PlatformFramework" />
 			</Label>
-			<LVHyperlinkControl BaseName="[string]Hyperlink Control" Content="[string]📖 How to use it" Foreground="[SMColor]#ff00a64f" Height="[float]22" Id="e91bf06a92ac46f7bb6ad63978c779d6" IsUrlSameAsContent="[bool]False" Label="[UIModel]12c23d94d736438d8fb0bd23866dacee" Left="[float]948" TabIndex="[int]16" TargetName="[string]_self" TargetUrl="{DataItemBinding Id=1fd1e82b6ba1431cb6b588acfaaf67cc}" Top="[float]87" Width="[float]121" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+			<LVHyperlinkControl BaseName="[string]Hyperlink Control" Content="[string]📖 How to use it" Foreground="[SMColor]#ffee1c25" Height="[float]22" Id="e91bf06a92ac46f7bb6ad63978c779d6" IsUrlSameAsContent="[bool]False" Label="[UIModel]12c23d94d736438d8fb0bd23866dacee" Left="[float]948" TabIndex="[int]12" TargetName="[string]_self" TargetUrl="{DataItemBinding Id=1fd1e82b6ba1431cb6b588acfaaf67cc}" Top="[float]87" Width="[float]121" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 				<FontSetting FontFamily="Segoe UI" FontSize="12" FontStyle="Bold" Id="ccdd3b2c080433c94a00d4c8927be19" xmlns="http://www.ni.com/PlatformFramework" />
 			</LVHyperlinkControl>
 			<Label Height="[float]16" Id="12c23d94d736438d8fb0bd23866dacee" LabelOwner="[UIModel]e91bf06a92ac46f7bb6ad63978c779d6" Left="[float]948" Text="[string]Battery Link_2" Top="[float]67" Visible="[bool]False" Width="[float]74" xmlns="http://www.ni.com/PanelCommon" />
@@ -13707,6 +13773,9 @@
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="44cdd71a2f6340829096468560ac106c" Name="URL Image" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>""</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="52512676bb7d47809832bbad5a18a322" Name="iCombi Pro device" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
 		</DataItem>
 	</VirtualInstrument>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
@@ -16193,7 +16262,7 @@
 		<p.TypeReference TypeId="3adc2e2088e849daac115a3081d4a56d">
 			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Search and Replace Pattern.gvi" ReturnType="Void" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@8e9fd4e289ce4c30b7d1d23ffcb8f608">
+					<Attributed AttributedType="@f6353861de3f4f0fa49ef5397179a04b">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]string" />
 						</AttributeValues>
@@ -16234,7 +16303,7 @@
 		<p.TypeReference TypeId="ab257663898b4c39a13a87bec1ebfb34">
 			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Trim Whitespace.gvi" ReturnType="Void" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@8e9fd4e289ce4c30b7d1d23ffcb8f608">
+					<Attributed AttributedType="@f6353861de3f4f0fa49ef5397179a04b">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]string" />
 						</AttributeValues>
@@ -16590,7 +16659,7 @@
 		<p.TypeReference TypeId="1fbe2b0dd3cb493bbdbb71b959d9d7f3">
 			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="Double[]" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="8e9fd4e289ce4c30b7d1d23ffcb8f608">
+		<p.TypeReference TypeId="f6353861de3f4f0fa49ef5397179a04b">
 			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="String" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="dd44ebd90c1040318a8e8e60527fab21">

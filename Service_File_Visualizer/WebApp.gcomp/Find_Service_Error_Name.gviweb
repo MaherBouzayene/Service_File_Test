@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="4B87AFB5FFEA7197BECA01F529975549BA9DDD5B4CAB99501E8A7764179EDBB1BB6090195B37DDB497A6B6E60955A757296827E537B692E0E5A8D4297371440E" Timestamp="1DCE118356B4E5C" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="2D4AB85BCFE64E035E818D0D98B2580D2A46A45BB9157D477A2E2FEA93AF51B90600D457FB3B1001C2472F95A5AEA70F7109ACC64D5C87396024210A3FDE9F2C" Timestamp="1DCF7487785C7C4" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -65,7 +65,7 @@
 			</Cluster>
 		</FrontPanelUnplacedItems>
 		<BlockDiagram Id="c8f39ba42b7f47eea703b61bea34c236">
-			<CaseStructure Bounds="670 50 790 135" DataType="String" Default="d4bf42abde304968af8ca23d0f97fdc6" Id="d086ace8905e413a8b9cbfb2980c4860" Selected="cbf597192cb34aac92912c2f0a3e1168" UserSelectorBounds="312 0 167 17">
+			<CaseStructure Bounds="670 50 790 135" DataType="String" Default="d4bf42abde304968af8ca23d0f97fdc6" Id="d086ace8905e413a8b9cbfb2980c4860" Selected="7445eec108d346f2a6121acfbc1c5fe3" UserSelectorBounds="312 0 167 17">
 				<CaseStructure.Case Bounds="5 5 780 125" Id="d4bf42abde304968af8ca23d0f97fdc6" Pattern="&quot;False&quot;, Default">
 					<Wire Id="5e5a1d43cce47608ceec522a00c0621" Joints="N(691fa6b02d4f4ac8971aca3d8aeef262:d4bf42abde304968af8ca23d0f97fdc6)|(4,35) h(11) v(-15) N(7b8289b5a5ce4d1998fc740e306f0b6c:d4bf42abde304968af8ca23d0f97fdc6)|(776,20)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Literal Bounds="715 30 40 15" DataType="String" Id="c0e38d8dbbf24e6789f71bf1b274ce05" xmlns="http://www.ni.com/MocCommon">
@@ -501,7 +501,7 @@
 				<CaseStructure.Case Bounds="5 5 780 125" Id="b46368012a254e38a2fb3fe09bd2b673" Pattern="&quot;Service_34&quot;">
 					<Wire Id="8b79246f7c3e4fa081c61534a96124a2" Joints="N(691fa6b02d4f4ac8971aca3d8aeef262:b46368012a254e38a2fb3fe09bd2b673)|(4,35) h(11) v(-15) N(7b8289b5a5ce4d1998fc740e306f0b6c:b46368012a254e38a2fb3fe09bd2b673)|(776,20)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Literal Bounds="335 30 355 15" DataType="String" Id="dca05bd436f4a9faf8b6e076482c835" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>Gas blower speed failure.</p.Data>
+						<p.Data>Bus signal missing!</p.Data>
 						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
 					</Literal>
 					<Wire Id="cb9cc99ab26f4ceaa92d35204206decc" Joints="N(dca05bd436f4a9faf8b6e076482c835:Out)|(690,35) N(23237c696fe241af99f0fb28a3a68b1f:b46368012a254e38a2fb3fe09bd2b673)|(776,35)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -509,7 +509,7 @@
 				<CaseStructure.Case Bounds="5 5 780 125" Id="8d70ac171c4d4cc192e18a5cf3f35766" Pattern="&quot;Service_34_1&quot;">
 					<Wire Id="8ddb99faaf774d799cd6b341ac971015" Joints="N(691fa6b02d4f4ac8971aca3d8aeef262:8d70ac171c4d4cc192e18a5cf3f35766)|(4,35) h(11) v(-15) N(7b8289b5a5ce4d1998fc740e306f0b6c:8d70ac171c4d4cc192e18a5cf3f35766)|(776,20)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Literal Bounds="335 30 355 15" DataType="String" Id="4a10f21d1c864a3aabbd1456bbb63d76" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>Internal data communication defective (fan motor).</p.Data>
+						<p.Data>Internal data communication defective (Motor top).</p.Data>
 						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
 					</Literal>
 					<Wire Id="96426ee05b7e448ead955e94519d3f83" Joints="N(4a10f21d1c864a3aabbd1456bbb63d76:Out)|(690,35) N(23237c696fe241af99f0fb28a3a68b1f:8d70ac171c4d4cc192e18a5cf3f35766)|(776,35)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -517,7 +517,7 @@
 				<CaseStructure.Case Bounds="5 5 780 125" Id="b605c19ec51142cc9a743e475b1f65e2" Pattern="&quot;Service_34_2&quot;">
 					<Wire Id="526150f044c94a718b31d6d0deed66d8" Joints="N(691fa6b02d4f4ac8971aca3d8aeef262:b605c19ec51142cc9a743e475b1f65e2)|(4,35) h(11) v(-15) N(7b8289b5a5ce4d1998fc740e306f0b6c:b605c19ec51142cc9a743e475b1f65e2)|(776,20)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Literal Bounds="335 30 355 15" DataType="String" Id="2eac31695a424f208ff998923bf0bb0f" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>Internal data communication defective (fan motor).</p.Data>
+						<p.Data>Internal data communication defective (Motor centre).</p.Data>
 						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
 					</Literal>
 					<Wire Id="564898c59c6d4d9f845636941dd25246" Joints="N(2eac31695a424f208ff998923bf0bb0f:Out)|(690,35) N(23237c696fe241af99f0fb28a3a68b1f:b605c19ec51142cc9a743e475b1f65e2)|(776,35)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -525,7 +525,7 @@
 				<CaseStructure.Case Bounds="5 5 780 125" Id="7445eec108d346f2a6121acfbc1c5fe3" Pattern="&quot;Service_34_4&quot;">
 					<Wire Id="fd1a4b9f8c964befa92885aac804fcca" Joints="N(691fa6b02d4f4ac8971aca3d8aeef262:7445eec108d346f2a6121acfbc1c5fe3)|(4,35) h(11) v(-15) N(7b8289b5a5ce4d1998fc740e306f0b6c:7445eec108d346f2a6121acfbc1c5fe3)|(776,20)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Literal Bounds="335 30 355 15" DataType="String" Id="f7c9afbe32254e1899f2a6b33cedac0a" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>Internal data communication defective (fan motor).</p.Data>
+						<p.Data>Internal data communication defective (Motor bottom).</p.Data>
 						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
 					</Literal>
 					<Wire Id="28229b1be26f4dec9d553cd414c1e238" Joints="N(f7c9afbe32254e1899f2a6b33cedac0a:Out)|(690,35) N(23237c696fe241af99f0fb28a3a68b1f:7445eec108d346f2a6121acfbc1c5fe3)|(776,35)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -621,7 +621,7 @@
 				<CaseStructure.Case Bounds="5 5 780 125" Id="ce96b7a650e94f7ba02783c0bfe14c96" Pattern="&quot;Service_35_6&quot;">
 					<Wire Id="e91dc110cb914486a95e7b31b4a780fc" Joints="N(691fa6b02d4f4ac8971aca3d8aeef262:ce96b7a650e94f7ba02783c0bfe14c96)|(4,35) h(11) v(-15) N(7b8289b5a5ce4d1998fc740e306f0b6c:ce96b7a650e94f7ba02783c0bfe14c96)|(776,20)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Literal Bounds="335 30 355 15" DataType="String" Id="cc5ee677bddd42f99e3f733401245ab9" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>Gas blower speed failure.</p.Data>
+						<p.Data>Dirt in filter (immediate replacement).</p.Data>
 						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
 					</Literal>
 					<Wire Id="22afb94279124a89afcdfad2b58fa178" Joints="N(cc5ee677bddd42f99e3f733401245ab9:Out)|(690,35) N(23237c696fe241af99f0fb28a3a68b1f:ce96b7a650e94f7ba02783c0bfe14c96)|(776,35)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -1093,7 +1093,7 @@
 				<CaseStructure.Case Bounds="5 5 780 125" Id="4751dee426ea418f91cbeb0a55f0e5eb" Pattern="&quot;Service_77_1&quot;">
 					<Wire Id="7ddf13dbe1334ab5b3eb30ef502e87b4" Joints="N(691fa6b02d4f4ac8971aca3d8aeef262:4751dee426ea418f91cbeb0a55f0e5eb)|(4,35) h(11) v(-15) N(7b8289b5a5ce4d1998fc740e306f0b6c:4751dee426ea418f91cbeb0a55f0e5eb)|(776,20)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Literal Bounds="335 30 355 15" DataType="String" Id="2bb32f2388c64a18bfe166984c7ced2d" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>Gas blower speed failure.</p.Data>
+						<p.Data>Safety chain interrupted.</p.Data>
 						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
 					</Literal>
 					<Wire Id="bc9bad4df2ac4083a8e77571e66efcee" Joints="N(2bb32f2388c64a18bfe166984c7ced2d:Out)|(690,35) N(23237c696fe241af99f0fb28a3a68b1f:4751dee426ea418f91cbeb0a55f0e5eb)|(776,35)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -1101,7 +1101,7 @@
 				<CaseStructure.Case Bounds="5 5 780 125" Id="abc8e4c89134ee899f1604faec4d62f" Pattern="&quot;Service_77_2&quot;">
 					<Wire Id="f20e216113c94d498fd396b81494ed10" Joints="N(691fa6b02d4f4ac8971aca3d8aeef262:abc8e4c89134ee899f1604faec4d62f)|(4,35) h(11) v(-15) N(7b8289b5a5ce4d1998fc740e306f0b6c:abc8e4c89134ee899f1604faec4d62f)|(776,20)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Literal Bounds="335 30 355 15" DataType="String" Id="eb00a2f96d094ef3b8e021848846d32c" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>Gas blower speed failure.</p.Data>
+						<p.Data>High voltage below limit.</p.Data>
 						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
 					</Literal>
 					<Wire Id="4230861149ed45c6aa190174682232cb" Joints="N(eb00a2f96d094ef3b8e021848846d32c:Out)|(690,35) N(23237c696fe241af99f0fb28a3a68b1f:abc8e4c89134ee899f1604faec4d62f)|(776,35)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -1109,7 +1109,7 @@
 				<CaseStructure.Case Bounds="5 5 780 125" Id="a572a2ada274700a6b506a6a42099c7" Pattern="&quot;Service_77_3&quot;">
 					<Wire Id="c0b17a5e12614e0bb90d3ceade28c1ed" Joints="N(691fa6b02d4f4ac8971aca3d8aeef262:a572a2ada274700a6b506a6a42099c7)|(4,35) h(11) v(-15) N(7b8289b5a5ce4d1998fc740e306f0b6c:a572a2ada274700a6b506a6a42099c7)|(776,20)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Literal Bounds="335 30 355 15" DataType="String" Id="fff85ae53abe40bbbd3176f07153a57c" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>Gas blower speed failure.</p.Data>
+						<p.Data>Heating voltage below limit.</p.Data>
 						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
 					</Literal>
 					<Wire Id="9c85743cab04c78b328ec85d46306c5" Joints="N(fff85ae53abe40bbbd3176f07153a57c:Out)|(690,35) N(23237c696fe241af99f0fb28a3a68b1f:a572a2ada274700a6b506a6a42099c7)|(776,35)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -1117,7 +1117,7 @@
 				<CaseStructure.Case Bounds="5 5 780 125" Id="f4553460bbc845cfae9dec77a30df9d0" Pattern="&quot;Service_77_4&quot;">
 					<Wire Id="22da669074cd454295f4b5c2b0358812" Joints="N(691fa6b02d4f4ac8971aca3d8aeef262:f4553460bbc845cfae9dec77a30df9d0)|(4,35) h(11) v(-15) N(7b8289b5a5ce4d1998fc740e306f0b6c:f4553460bbc845cfae9dec77a30df9d0)|(776,20)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Literal Bounds="335 30 355 15" DataType="String" Id="a93fbe9abced485caf67c74e92a12283" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>Gas blower speed failure.</p.Data>
+						<p.Data>High voltage above limit.</p.Data>
 						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
 					</Literal>
 					<Wire Id="a435c06747ad49038aa20ec071271d37" Joints="N(a93fbe9abced485caf67c74e92a12283:Out)|(690,35) N(23237c696fe241af99f0fb28a3a68b1f:f4553460bbc845cfae9dec77a30df9d0)|(776,35)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -1125,7 +1125,7 @@
 				<CaseStructure.Case Bounds="5 5 780 125" Id="1452580830ca4c239373e62444e41529" Pattern="&quot;Service_77_5&quot;">
 					<Wire Id="b5cf88e04a704cc69c52b31c59c9a506" Joints="N(691fa6b02d4f4ac8971aca3d8aeef262:1452580830ca4c239373e62444e41529)|(4,35) h(11) v(-15) N(7b8289b5a5ce4d1998fc740e306f0b6c:1452580830ca4c239373e62444e41529)|(776,20)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Literal Bounds="335 30 355 15" DataType="String" Id="5e6599f26bd14693a489e7766221aeda" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>Gas blower speed failure.</p.Data>
+						<p.Data>Heating voltage above limit.</p.Data>
 						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
 					</Literal>
 					<Wire Id="d6cea57bdbc143c3bfb2b4f8bafbfd47" Joints="N(5e6599f26bd14693a489e7766221aeda:Out)|(690,35) N(23237c696fe241af99f0fb28a3a68b1f:1452580830ca4c239373e62444e41529)|(776,35)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -1133,7 +1133,7 @@
 				<CaseStructure.Case Bounds="5 5 780 125" Id="8518a6f8122c4f6e9ea160ba49befc15" Pattern="&quot;Service_77_6&quot;">
 					<Wire Id="25042f91d7d0455baa88f2fd993fbe0f" Joints="N(691fa6b02d4f4ac8971aca3d8aeef262:8518a6f8122c4f6e9ea160ba49befc15)|(4,35) h(11) v(-15) N(7b8289b5a5ce4d1998fc740e306f0b6c:8518a6f8122c4f6e9ea160ba49befc15)|(776,20)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Literal Bounds="335 30 355 15" DataType="String" Id="5221971064384f7d8b3945808e8cdff0" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>Gas blower speed failure.</p.Data>
+						<p.Data>Magnetron mallfunction.</p.Data>
 						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
 					</Literal>
 					<Wire Id="89ffa9d514a84376986b118202dfc72c" Joints="N(5221971064384f7d8b3945808e8cdff0:Out)|(690,35) N(23237c696fe241af99f0fb28a3a68b1f:8518a6f8122c4f6e9ea160ba49befc15)|(776,35)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -1141,7 +1141,7 @@
 				<CaseStructure.Case Bounds="5 5 780 125" Id="1b7c240fb1e54e75b66738c06033fb59" Pattern="&quot;Service_77_7&quot;">
 					<Wire Id="36f54c5778d4987b4da98a4a895a57f" Joints="N(691fa6b02d4f4ac8971aca3d8aeef262:1b7c240fb1e54e75b66738c06033fb59)|(4,35) h(11) v(-15) N(7b8289b5a5ce4d1998fc740e306f0b6c:1b7c240fb1e54e75b66738c06033fb59)|(776,20)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Literal Bounds="335 30 355 15" DataType="String" Id="a0cb3c5b7c8544a8b90162877dc346b5" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>Gas blower speed failure.</p.Data>
+						<p.Data>Core probe overtemperature.</p.Data>
 						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
 					</Literal>
 					<Wire Id="eccf07578449452f8392dd8960f530f0" Joints="N(a0cb3c5b7c8544a8b90162877dc346b5:Out)|(690,35) N(23237c696fe241af99f0fb28a3a68b1f:1b7c240fb1e54e75b66738c06033fb59)|(776,35)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -1149,7 +1149,7 @@
 				<CaseStructure.Case Bounds="5 5 780 125" Id="fc5834dceedb42699dedef9788c85fca" Pattern="&quot;Service_77_8&quot;">
 					<Wire Id="198ea91a92ed45f3a87b936a1ec1eb14" Joints="N(691fa6b02d4f4ac8971aca3d8aeef262:fc5834dceedb42699dedef9788c85fca)|(4,35) h(11) v(-15) N(7b8289b5a5ce4d1998fc740e306f0b6c:fc5834dceedb42699dedef9788c85fca)|(776,20)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Literal Bounds="335 30 355 15" DataType="String" Id="d96f25202e6a4596b5df35d15a0c7509" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>Gas blower speed failure.</p.Data>
+						<p.Data>F32 temperature sensor magnetron top.</p.Data>
 						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
 					</Literal>
 					<Wire Id="c7de2bc9040f4f598186b224817c8a86" Joints="N(d96f25202e6a4596b5df35d15a0c7509:Out)|(690,35) N(23237c696fe241af99f0fb28a3a68b1f:fc5834dceedb42699dedef9788c85fca)|(776,35)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -1157,7 +1157,7 @@
 				<CaseStructure.Case Bounds="5 5 780 125" Id="bfc11a30513841e0b4c4522c7e839652" Pattern="&quot;Service_77_11&quot;">
 					<Wire Id="b3113828c58f4b729796ad42a4c544da" Joints="N(691fa6b02d4f4ac8971aca3d8aeef262:bfc11a30513841e0b4c4522c7e839652)|(4,35) h(11) v(-15) N(7b8289b5a5ce4d1998fc740e306f0b6c:bfc11a30513841e0b4c4522c7e839652)|(776,20)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Literal Bounds="335 30 355 15" DataType="String" Id="4fdad24bbe894eec8b58b7b857d6b2e7" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>Gas blower speed failure.</p.Data>
+						<p.Data>Safety chain interrupted.</p.Data>
 						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
 					</Literal>
 					<Wire Id="3ef5410f19b2434baa9e6d0196f36ab8" Joints="N(4fdad24bbe894eec8b58b7b857d6b2e7:Out)|(690,35) N(23237c696fe241af99f0fb28a3a68b1f:bfc11a30513841e0b4c4522c7e839652)|(776,35)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -1165,7 +1165,7 @@
 				<CaseStructure.Case Bounds="5 5 780 125" Id="bc96470cbac5414d914d9e27b5daff32" Pattern="&quot;Service_77_12&quot;">
 					<Wire Id="bc85ccac8bc44a7d844063e7417cbd18" Joints="N(691fa6b02d4f4ac8971aca3d8aeef262:bc96470cbac5414d914d9e27b5daff32)|(4,35) h(11) v(-15) N(7b8289b5a5ce4d1998fc740e306f0b6c:bc96470cbac5414d914d9e27b5daff32)|(776,20)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Literal Bounds="335 30 355 15" DataType="String" Id="62d13d456abe49d0a4be3587f4f43f57" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>Gas blower speed failure.</p.Data>
+						<p.Data>High voltage below limit.</p.Data>
 						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
 					</Literal>
 					<Wire Id="fc24051ab09a4078ae15ffd328ba60f3" Joints="N(62d13d456abe49d0a4be3587f4f43f57:Out)|(690,35) N(23237c696fe241af99f0fb28a3a68b1f:bc96470cbac5414d914d9e27b5daff32)|(776,35)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -1173,23 +1173,23 @@
 				<CaseStructure.Case Bounds="5 5 780 125" Id="5353065651cc42928de192f401509051" Pattern="&quot;Service_77_13&quot;">
 					<Wire Id="24eeaa9338f54ae4a06ca6370ea3db3c" Joints="N(691fa6b02d4f4ac8971aca3d8aeef262:5353065651cc42928de192f401509051)|(4,35) h(11) v(-15) N(7b8289b5a5ce4d1998fc740e306f0b6c:5353065651cc42928de192f401509051)|(776,20)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Literal Bounds="335 30 355 15" DataType="String" Id="971a7b46fa4f4c138cba01117d121f07" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>Gas blower speed failure.</p.Data>
+						<p.Data>Heating voltage below limit.</p.Data>
 						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
 					</Literal>
 					<Wire Id="cd94865c68234e83b71a66e05e6c073e" Joints="N(971a7b46fa4f4c138cba01117d121f07:Out)|(690,35) N(23237c696fe241af99f0fb28a3a68b1f:5353065651cc42928de192f401509051)|(776,35)" xmlns="http://www.ni.com/PlatformFramework" />
 				</CaseStructure.Case>
 				<CaseStructure.Case Bounds="5 5 780 125" Id="c4838399c59b48998acc17e703ee9b32" Pattern="&quot;Service_77_14&quot;">
 					<Wire Id="fdcfc4a4277441e9b6415d23f2a539f1" Joints="N(691fa6b02d4f4ac8971aca3d8aeef262:c4838399c59b48998acc17e703ee9b32)|(4,35) h(11) v(-15) N(7b8289b5a5ce4d1998fc740e306f0b6c:c4838399c59b48998acc17e703ee9b32)|(776,20)" xmlns="http://www.ni.com/PlatformFramework" />
-					<Literal Bounds="335 30 355 15" DataType="String" Id="9179ef2db84740a490f28d245350e11d" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>Gas blower speed failure.</p.Data>
+					<Literal Bounds="280 30 355 15" DataType="String" Id="9179ef2db84740a490f28d245350e11d" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>High voltage above limit value.</p.Data>
 						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
 					</Literal>
-					<Wire Id="e731cf062a87403ebdace957b0c559a2" Joints="N(9179ef2db84740a490f28d245350e11d:Out)|(690,35) N(23237c696fe241af99f0fb28a3a68b1f:c4838399c59b48998acc17e703ee9b32)|(776,35)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="e731cf062a87403ebdace957b0c559a2" Joints="N(9179ef2db84740a490f28d245350e11d:Out)|(635,35) N(23237c696fe241af99f0fb28a3a68b1f:c4838399c59b48998acc17e703ee9b32)|(776,35)" xmlns="http://www.ni.com/PlatformFramework" />
 				</CaseStructure.Case>
 				<CaseStructure.Case Bounds="5 5 780 125" Id="6be32470887e4b4f97b7b4f1aac70e2d" Pattern="&quot;Service_77_15&quot;">
 					<Wire Id="d6f16bda9e424c9480909c1901f0c20a" Joints="N(691fa6b02d4f4ac8971aca3d8aeef262:6be32470887e4b4f97b7b4f1aac70e2d)|(4,35) h(11) v(-15) N(7b8289b5a5ce4d1998fc740e306f0b6c:6be32470887e4b4f97b7b4f1aac70e2d)|(776,20)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Literal Bounds="335 30 355 15" DataType="String" Id="54cd6a5d52c846f78d8fa6ba6ddde176" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>Gas blower speed failure.</p.Data>
+						<p.Data>Heating voltage above limit value.</p.Data>
 						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
 					</Literal>
 					<Wire Id="82e63c58c34f4315849a72d67771e8bc" Joints="N(54cd6a5d52c846f78d8fa6ba6ddde176:Out)|(690,35) N(23237c696fe241af99f0fb28a3a68b1f:6be32470887e4b4f97b7b4f1aac70e2d)|(776,35)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -1197,7 +1197,7 @@
 				<CaseStructure.Case Bounds="5 5 780 125" Id="f4baa35759cf4e64a51dd3863d33c802" Pattern="&quot;Service_77_16&quot;">
 					<Wire Id="f84708296a944e7c8b17fdc2f86847f1" Joints="N(691fa6b02d4f4ac8971aca3d8aeef262:f4baa35759cf4e64a51dd3863d33c802)|(4,35) h(11) v(-15) N(7b8289b5a5ce4d1998fc740e306f0b6c:f4baa35759cf4e64a51dd3863d33c802)|(776,20)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Literal Bounds="335 30 355 15" DataType="String" Id="66af8fccbc0492292713681cc9650ac" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>Gas blower speed failure.</p.Data>
+						<p.Data>-</p.Data>
 						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
 					</Literal>
 					<Wire Id="bdabe94d880e44b9ac864bec37c7adc0" Joints="N(66af8fccbc0492292713681cc9650ac:Out)|(690,35) N(23237c696fe241af99f0fb28a3a68b1f:f4baa35759cf4e64a51dd3863d33c802)|(776,35)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -1205,7 +1205,7 @@
 				<CaseStructure.Case Bounds="5 5 780 125" Id="a489f8ad42d14bdfa9f0ce4bba8313af" Pattern="&quot;Service_77_18&quot;">
 					<Wire Id="729b29199d1a4849829fda1fc8d1a6cf" Joints="N(691fa6b02d4f4ac8971aca3d8aeef262:a489f8ad42d14bdfa9f0ce4bba8313af)|(4,35) h(11) v(-15) N(7b8289b5a5ce4d1998fc740e306f0b6c:a489f8ad42d14bdfa9f0ce4bba8313af)|(776,20)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Literal Bounds="335 30 355 15" DataType="String" Id="7d27f3d3e4be45a5a4a19902fc0ec96d" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>Gas blower speed failure.</p.Data>
+						<p.Data>F33 temperature sensor magnetron bottom.</p.Data>
 						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
 					</Literal>
 					<Wire Id="4449b89e715e4683ad94c563b5c2518a" Joints="N(7d27f3d3e4be45a5a4a19902fc0ec96d:Out)|(690,35) N(23237c696fe241af99f0fb28a3a68b1f:a489f8ad42d14bdfa9f0ce4bba8313af)|(776,35)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -1213,7 +1213,7 @@
 				<CaseStructure.Case Bounds="5 5 780 125" Id="37c3eb02b778478997c04aa886a081f0" Pattern="&quot;Service_77_111&quot;">
 					<Wire Id="8211b411f6ac418b8a6dd4efade030db" Joints="N(691fa6b02d4f4ac8971aca3d8aeef262:37c3eb02b778478997c04aa886a081f0)|(4,35) h(11) v(-15) N(7b8289b5a5ce4d1998fc740e306f0b6c:37c3eb02b778478997c04aa886a081f0)|(776,20)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Literal Bounds="335 30 355 15" DataType="String" Id="e8043eb849134b838811cf39747c688d" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>Gas blower speed failure.</p.Data>
+						<p.Data>Error cooking cabinet door/locking hook.</p.Data>
 						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
 					</Literal>
 					<Wire Id="6167c8b1180e457ba74b3b7b187c515b" Joints="N(e8043eb849134b838811cf39747c688d:Out)|(690,35) N(23237c696fe241af99f0fb28a3a68b1f:37c3eb02b778478997c04aa886a081f0)|(776,35)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -1326,6 +1326,9 @@
 			</MethodCall>
 			<Wire Id="7d7f323ed4ad4071a55a4c44ac9bad72" Joints="N(23237c696fe241af99f0fb28a3a68b1f:d086ace8905e413a8b9cbfb2980c4860)|(1464,90) N(afbccaa9493e40b188e67906c20cf853:L0)|(1585,90)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="41d77186681b4abdb96e63d4e20f05e4" Joints="N(afbccaa9493e40b188e67906c20cf853:R0)|(1625,90) N(707d41665dd845fb8c60a73f71a20c19:Value)|(1648,90)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Comment Bounds="935 -175 160 15" Id="d2b9cb27f07145f0b30accbc3b2fae87" xmlns="http://www.ni.com/MocCommon">
+				<p.Text>Gas blower speed failure.</p.Text>
+			</Comment>
 		</BlockDiagram>
 		<HtmlFrontPanel Height="[float]768" HtmlPanel="[bool]False" Id="cba5274b2eef40c4b71a62840e638c6b" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]1024" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" />
 		<DataItem AdaptToDiagramType="True" CallDirection="Input" CallIndex="0" DataType="String" Id="760ff5f7e0840789ff724d77377d25b" Name="Service Error ID" xmlns="http://www.ni.com/MocCommon">
@@ -1390,7 +1393,7 @@
 		<p.TypeReference TypeId="ab257663898b4c39a13a87bec1ebfb34">
 			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Trim Whitespace.gvi" ReturnType="Void" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@8e9fd4e289ce4c30b7d1d23ffcb8f608">
+					<Attributed AttributedType="@f6353861de3f4f0fa49ef5397179a04b">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]string" />
 						</AttributeValues>
@@ -1411,7 +1414,7 @@
 		<p.TypeReference TypeId="d36e8499bcee4bd3b5b9a4d988e9e4d7">
 			<Typedef TypedefName="whitespace.gtype" UnderlyingType="Int32" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="8e9fd4e289ce4c30b7d1d23ffcb8f608">
+		<p.TypeReference TypeId="f6353861de3f4f0fa49ef5397179a04b">
 			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="String" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="b62001063b384b7496a2afca85aad7d5">
