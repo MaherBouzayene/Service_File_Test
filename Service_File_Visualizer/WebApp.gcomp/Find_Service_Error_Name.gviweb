@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="2D4AB85BCFE64E035E818D0D98B2580D2A46A45BB9157D477A2E2FEA93AF51B90600D457FB3B1001C2472F95A5AEA70F7109ACC64D5C87396024210A3FDE9F2C" Timestamp="1DCF7487785C7C4" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="77F84E93A22891996D22BC0FF74AAEF86FE42900496ABAA532D5443D0A4660A73FFF01635F2CDA4E52AEAD060BC98CBC4B41DD0EF1046EB38786469C986B32C9" Timestamp="1DCF74B1F484E63" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -65,7 +65,7 @@
 			</Cluster>
 		</FrontPanelUnplacedItems>
 		<BlockDiagram Id="c8f39ba42b7f47eea703b61bea34c236">
-			<CaseStructure Bounds="670 50 790 135" DataType="String" Default="d4bf42abde304968af8ca23d0f97fdc6" Id="d086ace8905e413a8b9cbfb2980c4860" Selected="7445eec108d346f2a6121acfbc1c5fe3" UserSelectorBounds="312 0 167 17">
+			<CaseStructure Bounds="670 50 790 135" DataType="String" Default="d4bf42abde304968af8ca23d0f97fdc6" Id="d086ace8905e413a8b9cbfb2980c4860" Selected="37c3eb02b778478997c04aa886a081f0" UserSelectorBounds="312 0 167 17">
 				<CaseStructure.Case Bounds="5 5 780 125" Id="d4bf42abde304968af8ca23d0f97fdc6" Pattern="&quot;False&quot;, Default">
 					<Wire Id="5e5a1d43cce47608ceec522a00c0621" Joints="N(691fa6b02d4f4ac8971aca3d8aeef262:d4bf42abde304968af8ca23d0f97fdc6)|(4,35) h(11) v(-15) N(7b8289b5a5ce4d1998fc740e306f0b6c:d4bf42abde304968af8ca23d0f97fdc6)|(776,20)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Literal Bounds="715 30 40 15" DataType="String" Id="c0e38d8dbbf24e6789f71bf1b274ce05" xmlns="http://www.ni.com/MocCommon">
@@ -1212,11 +1212,11 @@
 				</CaseStructure.Case>
 				<CaseStructure.Case Bounds="5 5 780 125" Id="37c3eb02b778478997c04aa886a081f0" Pattern="&quot;Service_77_111&quot;">
 					<Wire Id="8211b411f6ac418b8a6dd4efade030db" Joints="N(691fa6b02d4f4ac8971aca3d8aeef262:37c3eb02b778478997c04aa886a081f0)|(4,35) h(11) v(-15) N(7b8289b5a5ce4d1998fc740e306f0b6c:37c3eb02b778478997c04aa886a081f0)|(776,20)" xmlns="http://www.ni.com/PlatformFramework" />
-					<Literal Bounds="335 30 355 15" DataType="String" Id="e8043eb849134b838811cf39747c688d" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>Error cooking cabinet door/locking hook.</p.Data>
+					<Literal Bounds="335 30 335 30" DataType="String" Id="e8043eb849134b838811cf39747c688d" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>"Safety chain interrupted.\nError cooking cabinet door/locking hook."</p.Data>
 						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
 					</Literal>
-					<Wire Id="6167c8b1180e457ba74b3b7b187c515b" Joints="N(e8043eb849134b838811cf39747c688d:Out)|(690,35) N(23237c696fe241af99f0fb28a3a68b1f:37c3eb02b778478997c04aa886a081f0)|(776,35)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="6167c8b1180e457ba74b3b7b187c515b" Joints="N(e8043eb849134b838811cf39747c688d:Out)|(670,35) N(23237c696fe241af99f0fb28a3a68b1f:37c3eb02b778478997c04aa886a081f0)|(776,35)" xmlns="http://www.ni.com/PlatformFramework" />
 				</CaseStructure.Case>
 				<CaseStructure.Case Bounds="5 5 780 125" Id="6fa6b43ff33d46599e0e1c02eb23dce5" Pattern="&quot;Service_88&quot;">
 					<Wire Id="c2a4fb3257a845269cee38fe264a9068" Joints="N(691fa6b02d4f4ac8971aca3d8aeef262:6fa6b43ff33d46599e0e1c02eb23dce5)|(4,35) h(11) v(-15) N(7b8289b5a5ce4d1998fc740e306f0b6c:6fa6b43ff33d46599e0e1c02eb23dce5)|(776,20)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -1326,9 +1326,6 @@
 			</MethodCall>
 			<Wire Id="7d7f323ed4ad4071a55a4c44ac9bad72" Joints="N(23237c696fe241af99f0fb28a3a68b1f:d086ace8905e413a8b9cbfb2980c4860)|(1464,90) N(afbccaa9493e40b188e67906c20cf853:L0)|(1585,90)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="41d77186681b4abdb96e63d4e20f05e4" Joints="N(afbccaa9493e40b188e67906c20cf853:R0)|(1625,90) N(707d41665dd845fb8c60a73f71a20c19:Value)|(1648,90)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Comment Bounds="935 -175 160 15" Id="d2b9cb27f07145f0b30accbc3b2fae87" xmlns="http://www.ni.com/MocCommon">
-				<p.Text>Gas blower speed failure.</p.Text>
-			</Comment>
 		</BlockDiagram>
 		<HtmlFrontPanel Height="[float]768" HtmlPanel="[bool]False" Id="cba5274b2eef40c4b71a62840e638c6b" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]1024" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" />
 		<DataItem AdaptToDiagramType="True" CallDirection="Input" CallIndex="0" DataType="String" Id="760ff5f7e0840789ff724d77377d25b" Name="Service Error ID" xmlns="http://www.ni.com/MocCommon">
