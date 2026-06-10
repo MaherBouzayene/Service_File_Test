@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="26391BC43A9B7C9372A578BE8CD4BB6AEF421C44513524A1DE33D5F11DDDB66761D083602B3A6E0A5DBC232EFC285C8AAE65224EA5E0467DDDD56E1C063869FD" Timestamp="1DCE79C671C398A" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="F8F817046D5CB31453EFD8421E898732F0756C4C75C66FC96645CC31D84E84DEC9E2659CD136C116A77992A66ADB330BB877CEE1CA57D8938BFC49716A59D9BC" Timestamp="1DCF80402551E3B" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -216,7 +216,7 @@
 						</PropertyNode>
 						<Wire Id="8cfd2018390d42b09e1f7d16c97adb1f" Joints="N(6ba3b51a9e704303a74c5f6eded9c625:i0)|(6,130) N(1c4b71b8f3664083acb398bfd0a2f8b4:instance in)|(35,130)" xmlns="http://www.ni.com/PlatformFramework" />
 						<CaseStructure Bounds="140 65 530 155" DataType="String" Default="23c127c5cc764402bd385dddbe315b83" Id="a42eb034e4aa4ad891f3abf95eb7991f" Selected="ea532573f51a4aebb8d447d7321fc564" UserSelectorBounds="0 0 530 17">
-							<CaseStructure.Case Bounds="5 5 520 145" Id="ea532573f51a4aebb8d447d7321fc564" Pattern="&quot;[ℹ]  UltraVent is not implemented for this device !&quot;, &quot;[ℹ] Information is not implemented for this device&quot;, &quot;[ℹ] Information is not required for this device&quot;, &quot;[ℹ] Information not required for this device type&quot;">
+							<CaseStructure.Case Bounds="5 5 520 145" Id="ea532573f51a4aebb8d447d7321fc564" Pattern="&quot;[ℹ]   UltraVent is not implemented for this device !&quot;, &quot;[ℹ]  Information is not implemented for this device&quot;, &quot;[ℹ]  UltraVent is not implemented for this device !&quot;, &quot;[ℹ] Information is not implemented for this device&quot;, &quot;[ℹ] Information is not required for this device&quot;, &quot;[ℹ] Information not required for this device type&quot;">
 								<Wire Id="6db7108f0da14ea69f86b3e785c92d13" Joints="N(242b4ed4e5a94abda1cca1169fd992d8:ea532573f51a4aebb8d447d7321fc564)|(4,110) N(3e3b902a5f24431ba297c338f5ba4b19:ea532573f51a4aebb8d447d7321fc564)|(516,110)" xmlns="http://www.ni.com/PlatformFramework" />
 								<Wire Id="2ffed4177ef046b1a6faacb120163d6b" Joints="N(fd3a5e7f57fe4e34870128db273e8ae2:ea532573f51a4aebb8d447d7321fc564)|(4,40) N(fff4a5d607874d3082c2fd0a228c0b3f:ea532573f51a4aebb8d447d7321fc564)|(516,40)" xmlns="http://www.ni.com/PlatformFramework" />
 							</CaseStructure.Case>
